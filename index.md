@@ -7,27 +7,21 @@ layout: homepage
 I am a second-year dual Ph.D. student at [Nanjing University](https://www.nju.edu.cn/) and [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), where I am co-supervised by [Prof. Yuan
 Du](https://iscl.nju.edu.cn/42925/list.htm) and [Prof. Dan
 Wang](https://www4.comp.polyu.edu.hk/~csdwang/). I'm also an intern at [Beijing Academy of Artificial Intelligence, BAAI](https://www.baai.ac.cn/english.html/) under the supervision of [Prof. Shanghang
-Zhang](https://iscl.nju.edu.cn/42925/list.htm) from [Peking University](https://www.pku.edu.cn/). My broad interests lie in Efficient and Generalization Learning towards Open-world Multimodal Systems, especially for applications of autonomous driving and robots.
+Zhang](https://iscl.nju.edu.cn/42925/list.htm) from [Peking University](https://www.pku.edu.cn/). 
 
 I received my M.Phil. from [The Chinese University
-of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en) in 2022, majored in Computer
-Science and Engineering under the supervision of [Prof. Fangxin
-Wang](https://mypage.cuhk.edu.cn/academics/wangfangxin/).
+of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en) in 2023, majored in Computer
+Information and Engineering under the supervision of [Prof. Fangxin
+Wang](https://mypage.cuhk.edu.cn/academics/wangfangxin/). I received the B.Eng. and B.M. degree from the joint program of [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk).
 
 
-
-My research interests broadly lie at the intersection of **systems** and
-**networking** - with a current focus on building efficient memory management
-systems. From 2023 to early 2024, I developed packet-level, Transformer-based
-network performance estimators with scalability and generality, as well as a Rust-powered, process-based
-high-performance
-network simulator.
-Earlier, my work focused on server-driven adaptive realtime video streaming.
+My broad interests lie in **efficient** and **generalization** learning towards open-world **multimodal systems**m, especially for applications of **autonomous driving** and **robotics**.
+Earlier, my work focused on federated learning and neural video delivery.
 
 ## Research Interests
 
-- **Operating Systems:** memory management, cloud computing
-- **Computer Networks:** network simulation, multimeida streaming
+- **Efficient and Generalization:** network architecture, structure sparsification
+- **Multimodal System:** cloud-end collaboration, transmission overhead
 
 {% include_relative _includes/publications.md %}
 
