@@ -4,15 +4,16 @@ layout: homepage
 
 ## Short Bio
 
-I am a second-year Ph.D. student in the [Department of Electrical and
-Computer Engineering](https://www.ece.toronto.edu) at [University of
-Toronto](https://www.utoronto.ca/), where I am co-supervised by [Prof. Angela
-Demke Brown](https://www.cs.toronto.edu/~demke/) and [Prof. Eyal de
-Lara](https://www.cs.toronto.edu/~delara/) as part of the [Computer System & Networks
-Group](https://csng.cs.toronto.edu/index.php). I received my B.Eng. degree with Honours, First Class from [The Chinese University
+I am a second-year dual Ph.D. student at [Nanjing University](https://www.nju.edu.cn/) and [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), where I am co-supervised by [Prof. Yuan
+Du](https://iscl.nju.edu.cn/42925/list.htm) and [Prof. Dan
+Wang](https://www4.comp.polyu.edu.hk/~csdwang/). I'm also an intern at [Beijing Academy of Artificial Intelligence, BAAI](https://www.baai.ac.cn/english.html/) under the supervision of [Prof. Shanghang
+Zhang](https://iscl.nju.edu.cn/42925/list.htm) from [Peking University](https://www.pku.edu.cn/). My broad interests lie in Efficient and Generalization Learning towards Open-world Multimodal Systems, especially for applications of autonomous driving and robots.
+
+I received my M.Phil. from [The Chinese University
 of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en) in 2022, majored in Computer
 Science and Engineering under the supervision of [Prof. Fangxin
 Wang](https://mypage.cuhk.edu.cn/academics/wangfangxin/).
+
 
 
 My research interests broadly lie at the intersection of **systems** and
