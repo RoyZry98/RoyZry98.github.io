@@ -5,12 +5,14 @@
 <h4 style="margin:0 10px 0;">Conference Reviewers</h4>
 
 <ul style="margin:0 0 5px;">
-  <li><a href="https://2024.acmmm.org/"><autocolor>ACM Multimedia 2024</autocolor></a></li>
+  <li><a><autocolor>ACM Multimedia 2024</autocolor></a></li>
+  <li><a><autocolor>IEEE CVPR 2025</autocolor></a></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Journal Reviewers</h4>
 
 <ul style="margin:0 0 5px;">
-  <li><a href="https://www.computer.org/csdl/journal/tm"><autocolor>IEEE Transactions on Mobile Computing (TMC)</autocolor></a></li>
-  <li><a href="https://www.comsoc.org/publications/journals/ieee-tnse"><autocolor>IEEE Transactions on Network Science and Engineering (TNSE)</autocolor></a></li>
+  <li><a><autocolor>IEEE Transactions on Mobile Computing (TMC)</autocolor></a></li>
+  <li><a><autocolor>IEEE Transactions on Computer (TC)</autocolor></a></li>
+  <li><a><autocolor>IEEE Transactions on Neural Network and Learning System (TNNLS)</autocolor></a></li>
 </ul>
