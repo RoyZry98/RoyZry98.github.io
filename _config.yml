@@ -1,11 +1,11 @@
 # Basic Information 
-title: Kai Shen
-position: Ph.D. Student
-affiliation: University of Toronto
-affiliation_link: https://www.utoronto.ca/
+title: Rongyu Zhang
+position: Ph.D. Candidate
+affiliation: Nanjing University
+affiliation_link: https://www.nju.edu.cn/
 # TODO: show the affiliation logo
 affiliation_logo: ./assets/img/uoft.svg 
-email: kai (at) cs.toronto.edu
+email: rongyuzhang (at) smail.nju.edu.cn
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -15,11 +15,11 @@ canonical: https://www.rongyu.hk/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.ca/citations?user=tS91ML8AAAAJ&hl=en
+google_scholar: https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&hl=zh-CN&user=rRcc9eoAAAAJ
 cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/kai6808
-linkedin: https://www.linkedin.com/in/kai-shen-6429a7219/
-# twitter: https://twitter.com/
+github_link: https://github.com/RoyZry98
+# linkedin: https://www.linkedin.com/in/kai-shen-6429a7219/
+twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes,
