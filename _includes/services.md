@@ -15,4 +15,5 @@
   <li><a><autocolor>IEEE Transactions on Mobile Computing (TMC)</autocolor></a></li>
   <li><a><autocolor>IEEE Transactions on Computer (TC)</autocolor></a></li>
   <li><a><autocolor>IEEE Transactions on Neural Network and Learning System (TNNLS)</autocolor></a></li>
+  <li><a><autocolor>IEEE Internet of Things of Journal (IoTJ)</autocolor></a></li>
 </ul>
