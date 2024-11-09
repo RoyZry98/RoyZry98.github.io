@@ -4,7 +4,7 @@ position: Ph.D. Candidate
 affiliation: Nanjing University
 affiliation_link: https://www.nju.edu.cn/
 # TODO: show the affiliation logo
-affiliation_logo: ./assets/img/uoft.svg 
+affiliation_logo: ./assets/img/nju.jpg
 email: rongyuzhang (at) smail.nju.edu.cn
 
 # Search Engine Optimization (SEO)
@@ -26,9 +26,9 @@ twitter: https://twitter.com/
 # respectively. 
 # The favicon is generated from https://favicon.io/favicon-generator/, with
 # circle background, prompt font with 400 italic, and 80 font size.
-avatar: ./assets/img/kai.jpg
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+avatar: ./assets/img/rongyu.png
+favicon: ./assets/img/head.png
+favicon_dark: ./assets/img/head.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
