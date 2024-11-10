@@ -35,11 +35,11 @@ Earlier, my work focused on federated learning and neural video delivery.
 - **Queen Mary University of London**
   - (2017.09-2021.06) B.Eng. in Electrical Engineering and Computer Sciences
 
+{% include_relative _includes/teaching.md %}
+
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
-
-{% include_relative _includes/teaching.md %}
 
 {% include_relative _includes/awards.md %}
 
