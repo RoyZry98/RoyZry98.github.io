@@ -6,7 +6,7 @@ main:
     conference: IEEE Transactions on Mobile Computing <strong>(TMC|CCF-A)</strong>, 2024.
     pdf: https://arxiv.org/pdf/2405.06413
     code: https://github.com/RoyZry98/
-    image: ./assets/img/publications/tmc.png
+    image: ./assets/img/publications/mupfl.png
 
   - title: "VeCAF: Vision-language Collaborative Active Finetuning with Training Objective Awareness"
     authors: <strong>Rongyu Zhang*</strong>, Zefan Cai*, Huanrui Yang*, Zidong Liu, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Baobao Chang, Yuan Du, Li Du, Shanghang Zhang (* Co-First Authors)
