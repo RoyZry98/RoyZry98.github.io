@@ -23,6 +23,18 @@ Earlier, my work focused on federated learning and neural video delivery.
 - **Efficient and Generalization:** network architecture, structure sparsification
 - **Multimodal System:** cloud-end collaboration, transmission overhead
 
+## Education
+- **The Hong Kong Polytechnic University**
+  - (2023.09-Present) Ph.D. in Computing Science 
+- **Nanjing University** 
+  - (2023.09-Present) Ph.D. in Artificial Intelligence 
+- **The Chinese University of Hong Kong, Shenzhen**
+  - (2021.09-2023.06) M.Phil. in Computer and Information Engineering 
+- **Beijing University of Posts and Telecommunications**
+  - (2017.09-2021.06) B.Mang. in E-Commerce Engineering with Law
+- **Queen Mary University of London**
+  - (2017.09-2021.06) B.Eng. in Electrical Engineering and Computer Sciences
+
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
