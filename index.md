@@ -43,4 +43,6 @@ Earlier, my work focused on federated learning and neural video delivery.
 
 {% include_relative _includes/awards.md %}
 
+{% include_relative _includes/calendar.md %}
+
 {% include_relative _includes/contact.md %}
