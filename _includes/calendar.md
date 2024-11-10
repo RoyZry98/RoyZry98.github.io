@@ -1,9 +1,9 @@
 <h2 id="calendar" style="margin: 2px 0px -15px;">Interests</h2>
 
-<div class="interests">
+<div class="publications">
 <ol class="bibliography">
 
-{% for link in site.data.publications.main %}
+{% for link in site.data.interests.main %}
 
 <li>
 <div class="pub-row">
