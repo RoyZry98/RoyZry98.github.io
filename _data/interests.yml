@@ -5,7 +5,7 @@ main:
     image: ./assets/img/qiaoqiao.jpg
 
   - title: "Friends"
-    authors: Here are some of my closest acedemic friends(random order): [Jiaming Liu](https://liujiaming1996.github.io/) (pku), [Chenrui Wu](https://wuchenrui.github.io/) (ZJU&SFU), [Yili Jin](https://yilijin.github.io/) (McGill), [Yulin Luo](https://scholar.google.com/citations?user=SgeV4NkAAAAJ&hl=zh-CN&oi=ao) (PKU), and [Gaole Dai](https://scholar.google.com/) (PKU)
+    authors: Here are some of my closest acedemic friends(random order): [Jiaming Liu](https://liujiaming1996.github.io/) (PKU), [Xiaowei Chi](https://scholar.google.com/citations?hl=zh-CN&user=Vl1X_-sAAAAJ) (HKUST), [Chenrui Wu](https://wuchenrui.github.io/) (ZJU&SFU), [Yili Jin](https://yilijin.github.io/) (McGill), [Yulin Luo](https://scholar.google.com/citations?user=SgeV4NkAAAAJ&hl=zh-CN&oi=ao) (PKU), and [Gaole Dai](https://scholar.google.com/) (PKU)
     image: ./assets/img/friends.png
 
   - title: "Hobbies"
