@@ -14,9 +14,13 @@
          <h5>I have a beautiful girlfriend 👩, Ziqi Qiao, who is also a Ph.D. student at Peking University. We also own an adorable cat 🐱 named QiuQiu. He brings us tremendous fun and happiness.</h5>
     </ul>
 
-    <img src="qiaoqiao.jpg" alt="Image 2" style="width: 240px; height: 170px;">
+		    <!--           <div class="image-container">
+            <img src="self.jpg" alt="Image 1" style="width: 230px; height: 170px;">
+            <img src="qiaoqiao.jpg" alt="Image 2" style="width: 240px; height: 170px;">
+	    <img src="football.png" alt="Image 3" style="width: 170px; height: 170px;"> -->
 
-    <div class="image-container responsive-images" style="display: flex; justify-content: center; width: 100%;">
-            <img src="qiaoqiao.jpg" alt="Image 2" style="max-width: 45%; height: auto;">
-    </div>
+		<div class="image-container responsive-images" style="display: flex; justify-content: center; width: 100%;">
+			  <!-- <img src="self.jpg" alt="Image 1" style="max-width: 45%; height: auto;"> -->
+			    <img src="qiaoqiao.jpg" alt="Image 2" style="max-width: 45%; height: auto;">
+		</div>
 
