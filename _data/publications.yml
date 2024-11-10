@@ -38,7 +38,7 @@ main:
     conference: IEEE Transactions on Mobile Computing <strong>(TMC|CCF-A)</strong>, 2025 (under revision).
     pdf: https://arxiv.org
     code: https://github.com/RoyZry98/RepCaM-Pytorch
-    image: ./assets/img/publications/tmc_rep.png
+    image: ./assets/img/publications/tmc_repcam.png
 
   - title: "BEVUDA++: Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection"
     authors: <strong>Rongyu Zhang</strong>, Jiaming Liu, Xiaoqi Li, Xiaowei Chi, Dan Wang, Li Du, Yuan Du, Shanghang Shang
