@@ -5,7 +5,7 @@
 <div id="news" class="w3-container w3-margin-top-2 w3-cursive">
 	  <div style="height:300px; width:100%; overflow:auto;">
 	    <h4>📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me.</h4>
-	    <p>[11.2024] I was offered "Bank of Jiangsu" scholarship from NJU</p>
+	    <p>[11.2024] I was offered <strong>"Bank of Jiangsu"</strong> scholarship from NJU</p>
 	    <p>[08.2024] I joined the Beijing Academy of Artificial Intelligence, BAAI, supervised by <a class="blue-text" href="https://www.shanghangzhang.com/" target="_blank"><strong>Prof. Shanghang Zhang</strong></a>.</p>
 	    <p>[07.2024] One paper was accepted by <strong>ACM Multimedia</strong> (CCF-A) as first author.</p>
 	    <p>[07.2024] I am offered a dual Ph.D. with the Department of Computing, The Hong Kong Polytechnic University.</p>
