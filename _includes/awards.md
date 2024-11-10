@@ -13,12 +13,6 @@
                  <h5>I am a crazy basketball 🏀 & football ⚽️ fan. I enjoy the games of Kevin Durant 🕷️ and Kyrie Irving 🧑‍🎨. I also wholeheartedly pledge my allegiance to Chelsea Football Club, KTBFFH! 💙</h5>
                   <h5>I have a beautiful girlfriend 👩, Ziqi Qiao, who is also a Ph.D. student at Peking University. We also own an adorable cat 🐱 named QiuQiu. He brings us tremendous fun and happiness.</h5>
                 </ul>
-		    
-		    <!--           <div class="image-container">
-            <img src="self.jpg" alt="Image 1" style="width: 230px; height: 170px;">
-            <img src="qiaoqiao.jpg" alt="Image 2" style="width: 240px; height: 170px;">
-	    <img src="football.png" alt="Image 3" style="width: 170px; height: 170px;"> -->
 
-			    <img src="qiaoqiao.jpg" alt="Image 2" style="max-width: 45%; height: auto;">
 
 
