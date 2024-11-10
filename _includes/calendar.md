@@ -1,4 +1,4 @@
-<h2 id="calendar" style="margin: 2px 0px -15px;">Life</h2>
+<h2 id="calendar" style="margin: 2px 0px -15px;">Miscellaneous</h2>
 
 <div class="publications">
 <ol class="bibliography">
