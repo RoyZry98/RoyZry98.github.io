@@ -4,15 +4,15 @@ layout: homepage
 
 ## Short Bio
 
-I am a second-year dual Ph.D. student at [Nanjing University](https://www.nju.edu.cn/) and [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), where I am co-supervised by [Prof. Yuan
+I am a second-year dual Ph.D. student at Nanjing University and The Hong Kong Polytechnic University, where I am co-supervised by [Prof. Yuan
 Du](https://iscl.nju.edu.cn/42925/list.htm) and [Prof. Dan
-Wang](https://www4.comp.polyu.edu.hk/~csdwang/). I'm also an intern at [Beijing Academy of Artificial Intelligence, BAAI](https://www.baai.ac.cn/english.html/) under the supervision of [Prof. Shanghang
-Zhang](https://iscl.nju.edu.cn/42925/list.htm) from [Peking University](https://www.pku.edu.cn/). 
+Wang](https://www4.comp.polyu.edu.hk/~csdwang/). I'm also an intern at Beijing Academy of Artificial Intelligence, BAAI under the supervision of [Prof. Shanghang
+Zhang](https://iscl.nju.edu.cn/42925/list.htm) from Peking University. 
 
-I received my M.Phil. from [The Chinese University
-of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en) in 2023, majored in Computer
+I received my M.Phil. from The Chinese University
+of Hong Kong, Shenzhen in 2023, majored in Computer
 Information and Engineering under the supervision of [Prof. Fangxin
-Wang](https://mypage.cuhk.edu.cn/academics/wangfangxin/). I received the B.Eng. and B.M. degree from the joint program of [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk).
+Wang](https://mypage.cuhk.edu.cn/academics/wangfangxin/). I received the B.Eng. and B.M. degree from the joint program of Beijing University of Posts and Telecommunications and Queen Mary University of London.
 
 
 My broad interests lie in **efficient** and **generalization** learning towards open-world **multimodal systems**m, especially for applications of **autonomous driving** and **robotics**.
