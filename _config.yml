@@ -1,8 +1,10 @@
 # Basic Information 
 title: Rongyu Zhang
 position: Ph.D. Candidate
-affiliation: Nanjing University and The Hong Kong Polytechnic University
+affiliation: Nanjing University
 affiliation_link: https://www.nju.edu.cn/
+affiliation: The Hong Kong Polytechnic University
+affiliation_link: www.polyu.edu.hk/
 # TODO: show the affiliation logo
 affiliation_logo: ./assets/img/nju.jpg
 email: rongyuzhang (at) smail.nju.edu.cn
