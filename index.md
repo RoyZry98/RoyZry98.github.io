@@ -8,7 +8,7 @@ I am a second-year dual Ph.D. student at Nanjing University and The Hong Kong Po
 Du](https://iscl.nju.edu.cn/42925/list.htm) and [Prof. Dan
 Wang](https://www4.comp.polyu.edu.hk/~csdwang/). I'm also an intern at Beijing Academy of Artificial Intelligence under the supervision of [Prof. Shanghang
 Zhang](https://iscl.nju.edu.cn/42925/list.htm) from Peking University. Previously, I received my M.Phil. from The Chinese University
-of Hong Kong, (Shenzhen) in 2023 majored in Computer
+of Hong Kong, (Shenzhen) in 2023, majored in Computer
 Information and Engineering under the supervision of [Prof. Fangxin
 Wang](https://mypage.cuhk.edu.cn/academics/wangfangxin/).
 
