@@ -2,3 +2,7 @@ main:
   - title: "Qiaoqiao and Qiuqiu"
     authors: I have a beautiful girlfriend, Ziqi Qiao, who is also a Ph.D. student at Peking University. We also own an adorable cat 🐱 named QiuQiu. He brings us tremendous fun and happiness.
     image: ./assets/img/qiaoqiao.jpg
+
+  - title: "Friends"
+    authors: Here are some of my closest acedemic friends(random order): [Jiaming Liu](https://liujiaming1996.github.io/) (pku), [Chenrui Wu](https://wuchenrui.github.io/) (ZJU&SFU), [Yili Jin](https://yilijin.github.io/) (McGill), [Yulin Luo](https://scholar.google.com/citations?user=SgeV4NkAAAAJ&hl=zh-CN&oi=ao) (PKU), and [Gaole Dai](https://scholar.google.com/) (PKU)
+    image: ./assets/img/qiaoqiao.jpg
