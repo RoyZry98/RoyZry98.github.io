@@ -5,7 +5,7 @@ main:
     image: ./assets/img/qiaoqiao.jpg
 
   - title: "Friends"
-    authors: Here are some of my closest acedemic friends
+    authors: Here are some of my closest acedemic friends [Jiaming Liu](https://liujiaming1996.github.io/) from PKU, [Xiaowei Chi](https://scholar.google.com/citations?user=Vl1X_-sAAAAJ&hl=zh-CN) from HKUST, [Chenrui Wu](wuchenrui.github.io) from ZJU&SFU, [Yili Jin](https://yilijin.github.io/) from McGill, [Yulin Luo](https://scholar.google.com/citations?user=SgeV4NkAAAAJ&hl=zh-CN&oi=ao) from PKU, and [Gaole Dai](https://scholar.google.com/) from PKU.
     image: ./assets/img/friends.png
 
   - title: "Hobbies"
