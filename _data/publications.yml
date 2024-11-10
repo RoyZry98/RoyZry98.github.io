@@ -1,44 +1,59 @@
 main:
 
-  - title: "TrimStream: Adaptive Realtime Video Streaming through Intelligent Frame Retrospection in Adverse Network Conditions"
-    authors: Dayou Zhang, Lai Wei, <strong>Kai Shen</strong>, Hao Zhu, Dan Wang, Fangxin Wang
+  - title: "Multi-level Personalized Federated Learning on Heterogeneous and Long-Tailed Data"
+    authors: <strong>Rongyu Zhang</strong>, Yun Chen, Chenrui Wu, Fangxin Wang, Bo Li
     conference_short: TMC'24
     conference: IEEE Transactions on Mobile Computing <strong>(TMC)</strong>, 2024.
-    pdf: https://www.computer.org/csdl/journal/tm/5555/01/10530178/1WUz4CrGSgE
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/publications/tmc24.png
+    pdf: https://arxiv.org/pdf/2405.06413
+    code: https://github.com/RoyZry98/
+    image: ./assets/img/publications/tmc.png
 
-  - title: "DSJA: Distributed Server-Driven Joint Route Scheduling and Streaming Adaptation for Multi-Party Realtime Video Streaming"
-    authors: Dayou Zhang, Hao Zhu, <strong>Kai Shen</strong>, Dan Wang, Fangxin Wang
-    conference_short: TMC'23
-    conference: IEEE Transactions on Mobile Computing <strong>(TMC)</strong>, 2023.
-    pdf: https://ieeexplore.ieee.org/document/10354029
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/publications/tmc23.png
+  - title: "VeCAF: Vision-language Collaborative Active Finetuning with Training Objective Awareness"
+    authors: <strong>Rongyu Zhang*</strong>, Zefan Cai*, Huanrui Yang*, Zidong Liu, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Baobao Chang, Yuan Du, Li Du, Shanghang Zhang (* Co-First Authors)
+    conference_short: MM'24
+    conference: ACM International Conference on Multimedia <strong>(MM)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2401.07853
+    code: https://github.com/RoyZry98/VeCAF-Pytorch
+    image: ./assets/img/publications/mm.png
     
-  - title: "Learning-Based Network Performance Estimators: The Next Frontier for Network Simulation"
-    authors: <strong>Kai Shen</strong>, Baochun Li
-    conference_short: IEEE Network'23
-    conference: IEEE Network, Special Issue on Interplay between Machine Learning and Networking Systems <strong>(IEEE Network)</strong>, 2023.
-    pdf: ./assets/files/publications/ieeenetwork23.pdf
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/publications/ieeenetwork23.png
+  - title: "Efficient Deweather Mixture-of-Experts with Uncertainty-aware Feature-wise Linear Modulation"
+    authors: <strong>Rongyu Zhang</strong>, Yulin Luo, Jiaming Liu, Huanrui Yang, Zhen Dong, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Yuan Du, Shanghang Zhang
+    conference_short: AAAI'24
+    conference: Proceedings of the AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2024.
+    pdf: https://ojs.aaai.org/index.php/AAAI/article/download/29622/31055
+    code: https://github.com/RoyZry98/MoFME-Pytorch
+    image: ./assets/img/publications/aaai.png
 
-  - title: "SJA: Server-driven Joint Adaptation of Loss and Bitrate for Multi-Party Realtime Video Streaming"
-    authors: <strong>Kai Shen</strong>, Dayou Zhang, Zi Zhu, Lei Zhang, Fangxin Wang, Dan Wang
-    conference_short: INFOCOM'23
-    conference: IEEE International Conference on Computer Communications <strong>(INFOCOM)</strong>, 2023.
-    pdf: ./assets/files/publications/infocom23.pdf
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/publications/infocom23.png
+  - title: "Unimodal Training-Multimodal Prediction: Cross-modal Federated Learning with Hierarchical Aggregation"
+    authors: <strong>Rongyu Zhang</strong>, Xiaowei Chi, Wenyi Zhang, Guiliang Liu, Dan Wang, Fangxin Wang
+    conference_short: TMC'24
+    conference: IEEE Transactions on Mobile Computing <strong>(TMC)</strong>, 2024 (under revision).
+    pdf: https://arxiv.org/pdf/2303.15486
+    code: https://github.com/RoyZry98
+    image: ./assets/img/publications/tmc_utmp.png
 
-  - title: "Towards Joint Loss and Bitrate Adaption in Realtime Video Streaming"
-    authors: Dayou Zhang*, <strong>Kai Shen*</strong>, Fangxin Wang, Dan Wang, Jiangchuan Liu (* Co-First Authors)
-    conference_short: ICME'22
-    conference: IEEE International Conference on Multimedia and Expo <strong>(ICME)</strong>, 2022.
-    pdf: ./assets/files/publications/icme22.pdf
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/publications/icme22.png
+  - title: "RepCaM++: Exploring Transparent Visual Prompt with Inference-time Re-parameterization for Neural Video Delivery"
+    authors: <strong>Rongyu Zhang</strong>, Xize Duan, Jiaming Liu, Li Du, Yuan Du, Dan Wang, Shanghang Shang, Fangxin Wang
+    conference_short: TMC'24
+    conference: IEEE Transactions on Mobile Computing <strong>(TMC)</strong>, 2024 (under revision).
+    pdf: https://arxiv.org
+    code: https://github.com/RoyZry98/RepCaM
+    image: ./assets/img/publications/tmc_rep.png
+
+  - title: "BEVUDA++: Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection"
+    authors: <strong>Rongyu Zhang</strong>, Jiaming Liu, Xiaoqi Li, Xiaowei Chi, Dan Wang, Li Du, Yuan Du, Shanghang Shang
+    conference_short: TCSVT'24
+    conference: IEEE Transactions on Curcuit System and Video Technology <strong>(TCSVT)</strong>, 2024 (under revision).
+    pdf: https://arxiv.org
+    code: https://github.com/RoyZry98
+    image: ./assets/img/publications/tcsvt.png
+
+  # - title: "Towards Joint Loss and Bitrate Adaption in Realtime Video Streaming"
+  #   authors: Dayou Zhang*, <strong>Rongyu Zhang*</strong>, Fangxin Wang, Dan Wang, Jiangchuan Liu (* Co-First Authors)
+  #   conference_short: ICME'22
+  #   conference: IEEE International Conference on Multimedia and Expo <strong>(ICME)</strong>, 2022.
+  #   pdf: ./assets/files/publications/icme.pdf
+  #   image: ./assets/img/publications/icme.png
   
   # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
   #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
