@@ -1,0 +1,8 @@
+main:
+  - title: "Spatio-temporal Heterogeneous Federated Learning for Time Series Classification with Multi-view Orthogonal Training"
+    authors: <strong>Chenrui Wu</strong>, Haishuai Wang, Xiang Zhang, Zhen Fang, Jiajun Bu
+    conference_short: MM'24
+    conference: ACM International Conference on Multimedia <strong>(MM)</strong>, 2024.
+    pdf: https://dl.acm.org/doi/abs/10.1145/3664647.3680733
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/publications/mm24.png
