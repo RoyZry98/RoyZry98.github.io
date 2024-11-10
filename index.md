@@ -39,6 +39,4 @@ My broad interests lie in **efficient** and **generalization** learning towards 
 
 {% include_relative _includes/awards.md %}
 
-{% include_relative _includes/calendar.md %}
-
 {% include_relative _includes/contact.md %}
