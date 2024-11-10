@@ -27,7 +27,7 @@ Earlier, my work focused on federated learning and neural video delivery.
 - **The Hong Kong Polytechnic University**
   - (2023.09-Present) Ph.D. in Computing Science 
 - **Nanjing University** 
-  - (2023.09-Present) Ph.D. in Artificial Intelligence 
+  - (2023.09-Present) Ph.D. in Electrical Science and Technology 
 - **The Chinese University of Hong Kong, Shenzhen**
   - (2021.09-2023.06) M.Phil. in Computer and Information Engineering 
 - **Beijing University of Posts and Telecommunications**
