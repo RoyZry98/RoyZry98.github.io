@@ -7,5 +7,3 @@
   <li>Jiangsu Province Graduate Research and Practical Innovation Project, NJU, 2023-2024</li>
   <li>The 2nd place of the SHIFT Challenge 2023 - Continuous Test-time Adaptation for Semantic Segmentation in the challenges of VCL Workshop, ICCV, 2023</li>
 </ul>
-
-<br>
