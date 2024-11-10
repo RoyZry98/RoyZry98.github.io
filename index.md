@@ -5,13 +5,13 @@ layout: homepage
 ## Short Bio
 
 I am a second-year dual Ph.D. student at Nanjing University and The Hong Kong Polytechnic University, where I am co-supervised by [Prof. Yuan
-Du](https://iscl.nju.edu.cn/42925/list.htm) and [Prof. Dan Wang](https://www4.comp.polyu.edu.hk/~csdwang/). I'm also an intern at Beijing Academy of Artificial Intelligence under the supervision of [Prof. Shanghang Zhang](https://iscl.nju.edu.cn/42925/list.htm) from Peking University. Previously, I received my M.Phil. from The Chinese University
-of Hong Kong, (Shenzhen) in 2023, majored in Computer
+Du](https://iscl.nju.edu.cn/42925/list.htm) and [Prof. Dan Wang](https://www4.comp.polyu.edu.hk/~csdwang/). I'm also an intern at Beijing Academy of Artificial Intelligence under the supervision of [Prof. Shanghang Zhang](https://iscl.nju.edu.cn/42925/list.htm) from Peking University. Previously, I received my M.Phil. degree from The Chinese University
+of Hong Kong, (Shenzhen), in 2023, majored in Computer
 Information and Engineering under the supervision of [Prof. Fangxin
 Wang](https://mypage.cuhk.edu.cn/academics/wangfangxin/).
 
 
-My broad interests lie in **efficient** and **generalization** learning towards open-world **multimodal systems**m, especially for applications of autonomous driving and robotics. Earlier, my work focused on **federated learning** and **neural video delivery**.
+My broad interests lie in **efficient** and **generalization** learning towards open-world **multimodal systems**, especially for applications of autonomous driving and robotics. Earlier, my work focused on **federated learning** and **neural video delivery**.
 
 ## Research Interests
 
