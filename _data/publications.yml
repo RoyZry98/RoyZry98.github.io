@@ -3,7 +3,7 @@ main:
   - title: "Multi-level Personalized Federated Learning on Heterogeneous and Long-Tailed Data"
     authors: <strong>Rongyu Zhang</strong>, Yun Chen, Chenrui Wu, Fangxin Wang, Bo Li
     conference_short: TMC'24
-    conference: IEEE Transactions on Mobile Computing <strong>(TMC|CCF-A)</strong>, 2024.
+    conference: IEEE Transactions on Mobile Computing <strong>(TMC|<span style="color: red;">CCF-A)</span></strong>, 2024.
     pdf: https://arxiv.org/pdf/2405.06413
     code: https://github.com/RoyZry98/
     image: ./assets/img/publications/mupfl.png
