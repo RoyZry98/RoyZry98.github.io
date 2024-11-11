@@ -15,6 +15,8 @@
 <ul style="margin:0 0 5px;">
   <li><a><autocolor>ACM Multimedia 2024</autocolor></a></li>
   <li><a><autocolor>IEEE CVPR 2025</autocolor></a></li>
+  <li><a><autocolor>IEEE ICASSP 2024, 2025</autocolor></a></li>
+  <li><a><autocolor>ECCV 2024</autocolor></a></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Journal Reviewers</h4>
@@ -22,6 +24,6 @@
 <ul style="margin:0 0 5px;">
   <li><a><autocolor>IEEE Transactions on Mobile Computing (TMC)</autocolor></a></li>
   <li><a><autocolor>IEEE Transactions on Computer (TC)</autocolor></a></li>
-  <li><a><autocolor>IEEE Transactions on Neural Network and Learning System (TNNLS)</autocolor></a></li>
+  <li><a><autocolor>IEEE Transactions on Neural Network and Learning Systems (TNNLS)</autocolor></a></li>
   <li><a><autocolor>IEEE Internet of Things of Journal (IoTJ)</autocolor></a></li>
 </ul>
