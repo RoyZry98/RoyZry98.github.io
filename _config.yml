@@ -1,7 +1,7 @@
 # Basic Information 
 title: Rongyu Zhang
 position: Ph.D. Candidate
-affiliation: NJU and PolyU
+affiliation: NJU & PolyU
 affiliation_link: https://www.nju.edu.cn/
 # TODO: show the affiliation logo
 affiliation_logo: ./assets/img/nju.jpg
@@ -27,8 +27,8 @@ twitter: https://twitter.com/
 # The favicon is generated from https://favicon.io/favicon-generator/, with
 # circle background, prompt font with 400 italic, and 80 font size.
 avatar: ./assets/img/rongyu.png
-favicon: ./assets/img/head.png
-favicon_dark: ./assets/img/head.png
+favicon: ./assets/img/icon.png
+favicon_dark: ./assets/img/icon.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
