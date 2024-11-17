@@ -9,7 +9,7 @@ main:
     image: ./assets/img/publications/moase.png
 
   - title: "Implicit Neural Image Field for Biological Microscopy Image Compression"
-    authors: Gaole Dai*, Cheng-Ching Tseng*, Qingpo Wuwu*, <strong>Rongyu Zhang*</strong>, Shaokang Wan*, Ming Lu, Tiejun Huang, Yu Zhou, Ali Ata Tuz, Matthias Gunzer, Jianxu Chen, Shanghang Zhang (* Co-First Authors)
+    authors: Gaole Dai, <strong>Rongyu Zhang*</strong>, Cheng-Ching Tseng*, Qingpo Wuwu*, Shaokang Wan*, Ming Lu, Tiejun Huang, Yu Zhou, Ali Ata Tuz, Matthias Gunzer, Jianxu Chen, Shanghang Zhang (* Co-First Authors)
     conference_short: Arxiv'24
     conference: Arxiv, 2024.
     pdf: http://arxiv.org/abs/2405.19012
