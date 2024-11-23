@@ -1,6 +1,6 @@
 main:
 
-  - title: "Qiaoqiao and Qiuqiu"
+  - title: "Family"
     authors: I have a beautiful girlfriend, Ziqi Qiao, who is also a Ph.D. student at Peking University. We also own an adorable cat 🐱 named QiuQiu. He brings us tremendous fun and happiness.
     image: ./assets/img/qiaoqiao.jpg
 
@@ -10,5 +10,5 @@ main:
     image: ./assets/img/friends.png
 
   - title: "Hobbies"
-    authors: I am a crazy basketball 🏀 & football ⚽️ fan. I enjoy the games of Kevin Durant and Kyrie Irving. I also wholeheartedly pledge my allegiance to Chelsea Football Club, KTBFFH! 💙
+    authors: I am a crazy basketball 🏀 & football ⚽️ fan. I enjoy the games of Kevin Durant 🕷️ and Kyrie Irving 🧙. I also wholeheartedly pledge my allegiance to Chelsea Football Club, KTBFFH! 💙
     image: ./assets/img/sport.jpg
