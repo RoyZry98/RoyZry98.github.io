@@ -30,11 +30,11 @@ My broad interests lie in **efficient** and **generalization** learning towards 
 {% include_relative _includes/publications.md %}
 
 ## Employment
-- <img src="assets/img/baai.png" style="width: 30px;height: auto;display: inline-block;vertical-align: middle"> **Beijing Academy of Artificial Intelligence**
+- <img src="assets/img/baai.png" style="width: 40px;height: auto;display: inline-block;vertical-align: middle"> **Beijing Academy of Artificial Intelligence**
   - (2024.08-Present) Research Intern, supervised by [Prof. Shanghang Zhang](https://www.shanghangzhang.com/) 
-- <img src="assets/img/oppo.png" style="width: 30px;height: auto;display: inline-block;vertical-align: middle"> **OPPO Research Institute** 
+- <img src="assets/img/oppo.png" style="width: 40px;height: auto;display: inline-block;vertical-align: middle"> **OPPO Research Institute** 
   - (2022.09-2023.03) Research Intern, supervised by [Dr. Yandong Guo](https://scholar.google.com/citations?user=fWDoWsQAAAAJ&hl=zh-CN) 
-- <img src="assets/img/lenovo.png" style="width: 30px;height: auto;display: inline-block;vertical-align: middle"> **LENOVO Research Institute**
+- <img src="assets/img/lenovo.png" style="width: 40px;height: auto;display: inline-block;vertical-align: middle"> **LENOVO Research Institute**
   - (2020.11-2021.05) Research Intern, supervised by [Prof. Jiangtao Gong](https://scholar.google.com/citations?user=AktmI14AAAAJ&hl=zh-CN&oi=ao)
 
 {% include_relative _includes/services.md %}
