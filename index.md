@@ -14,6 +14,8 @@ My broad interests lie in **efficient** and **generalization** learning towards 
 - **Multimodal System:** cloud-end collaboration, transmission overhead
 
 ## Education
+- <img src="assets/img/pku.png" style="width: 30px;height: auto;display: inline-block;vertical-align: middle"> **Peking University**
+  - (2024.01-Present) Visiting Ph.D. student
 - <img src="assets/img/polyu.png" style="width: 30px;height: auto;display: inline-block;vertical-align: middle"> **The Hong Kong Polytechnic University**
   - (2023.09-Present) Ph.D. in Computing Science 
 - <img src="assets/img/nju.png" style="width: 30px;height: auto;display: inline-block;vertical-align: middle"> **Nanjing University** 
