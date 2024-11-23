@@ -16,10 +16,10 @@ My broad interests lie in **efficient** and **generalization** learning towards 
 ## Education
 - <img src="assets/img/pku_.png" style="width: 30px;height: auto;display: inline-block;vertical-align: middle"> **Peking University**
   - (2024.01-Present) Visiting Ph.D. student
-- <img src="assets/img/polyu_.png" style="width: 30px;height: auto;display: inline-block;vertical-align: middle"> **The Hong Kong Polytechnic University**
-  - (2023.09-Present) Ph.D. in Computing Science 
 - <img src="assets/img/nju_.png" style="width: 30px;height: auto;display: inline-block;vertical-align: middle"> **Nanjing University** 
   - (2023.09-Present) Ph.D. in Electrical Science and Technology 
+- <img src="assets/img/polyu_.png" style="width: 30px;height: auto;display: inline-block;vertical-align: middle"> **The Hong Kong Polytechnic University**
+  - (2023.09-Present) Ph.D. in Computing Science 
 - <img src="assets/img/cuhk_.png" style="width: 30px;height: auto;display: inline-block;vertical-align: middle"> **The Chinese University of Hong Kong, Shenzhen**
   - (2021.09-2023.03) M.Phil. in Computer and Information Engineering 
 - <img src="assets/img/bupt_.png" style="width: 30px;height: auto;display: inline-block;vertical-align: middle"> **Beijing University of Posts and Telecommunications**
