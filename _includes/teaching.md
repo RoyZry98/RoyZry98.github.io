@@ -5,7 +5,7 @@
 <div id="news" class="w3-container w3-margin-top-2 w3-cursive">
 	  <div style="height:300px; width:100%; overflow:auto;">
 	    <h4>📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me.</h4>
-	    <p>[11.2024] 🏆 I was named <strong>"Outstanding Ph.D. Candidate"</strong> from NJU.</p>
+	    <p>[12.2024] 🏆 I was named <strong>"Outstanding Ph.D. Candidate"</strong> by NJU.</p>
 	    <p>[11.2024] 💰 I was offered <strong>"Bank of Jiangsu"</strong> Scholarship from NJU.</p>
 	    <p>[09.2024] 💻 The Panasonic Corporation is integrating the VeCAF (MM'24) into its actual business operations.</p>
 	    <p>[08.2024] 💼 I joined the Beijing Academy of Artificial Intelligence supervised by <a class="blue-text" href="https://www.shanghangzhang.com/" target="_blank"><strong>Prof. Shanghang Zhang</strong></a>.</p>
