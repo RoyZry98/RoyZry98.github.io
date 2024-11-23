@@ -9,6 +9,7 @@
 <h2 style="margin: 50px 0px 10px;">Awards</h2>
 
 <ul style="margin:0 0 5px;">
+  <li>Hong Kong Post-Graduate Scholarship with 18,840¥/year, PolyU, 2025-2027</li>
   <li>Outstanding Ph.D. Candidate with 2,000¥/year, NJU, 2025-2027</li>
   <li>"Bank of Jiangsu" Scholarship with 5,000¥, NJU, 2023-2024</li>
   <li>The 2nd place of the SHIFT Challenge 2023 - Continuous Test-time Adaptation for Semantic Segmentation in the challenges of VCL Workshop with 2,000$, ICCV, 2023</li>
