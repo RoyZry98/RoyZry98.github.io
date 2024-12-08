@@ -6,7 +6,7 @@ main:
 
   - title: "Friends"
     authors: Here are some of my closest acedemic friends.
-    conference: Jiaming Liu, Yulin Luo, Gaole Dai from PKU; Xiaowei Chi from HKUST; Chenrui Wu from ZJU&SFU; Yili Jin from McGill.
+    conference: <a href='https://liujiaming1996.github.io/'>Jiaming Liu</a>, Yulin Luo, Gaole Dai from PKU; Xiaowei Chi from HKUST; Chenrui Wu from ZJU&SFU; Yili Jin from McGill.
     image: ./assets/img/friends.png
 
   - title: "Hobbies"
