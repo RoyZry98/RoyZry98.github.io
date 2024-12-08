@@ -1,12 +1,12 @@
 main:
 
   - title: "Family"
-    authors: I have a beautiful girlfriend, Ziqi Qiao, who is also a Ph.D. student at Peking University. We also own an adorable cat 🐱 named QiuQiu. He brings us tremendous fun and happiness.
+    authors: I have a beautiful girlfriend, <a href='https://scholar.google.com/citations?user=G_BypiwAAAAJ&hl=zh-CN&oi=ao'>Ziqi Qiao</a>, who is also a Ph.D. student at Peking University. We also own an adorable cat 🐱 named QiuQiu. He brings us tremendous fun and happiness.
     image: ./assets/img/qiaoqiao.jpg
 
   - title: "Friends"
-    authors: Here are some of my closest acedemic friends.
-    conference: <a href='https://liujiaming1996.github.io/'>Jiaming Liu</a>, Yulin Luo, Gaole Dai from PKU; Xiaowei Chi from HKUST; Chenrui Wu from ZJU&SFU; Yili Jin from McGill.
+    authors: Here are some of my closest academic friends.
+    conference: <a href='https://liujiaming1996.github.io/'>Jiaming Liu</a>, <a href='https://scholar.google.com/citations?user=SgeV4NkAAAAJ&hl=zh-CN&oi=ao'>Yulin Luo</a>, Gaole Dai from PKU; <a href='https://scholar.google.com/citations?hl=zh-CN&user=Vl1X_-sAAAAJ'>Xiaowei Chi</a> from HKUST; <a href='https://wuchenrui.github.io/'>Chenrui Wu</a> from ZJU&SFU; <a href='https://yilijin.github.io/'>Yili Jin</a> from McGill.
     image: ./assets/img/friends.png
 
   - title: "Hobbies"
