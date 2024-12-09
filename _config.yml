@@ -1,5 +1,5 @@
 # Basic Information 
-title: Rongyu (Roy) Zhang
+title: Rongyu Zhang
 position: Ph.D. Candidate
 affiliation: NJU & PolyU
 affiliation_link: https://www.nju.edu.cn/
@@ -40,7 +40,7 @@ auto_dark_mode: true
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
+font: "Sans Serif" # or "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
