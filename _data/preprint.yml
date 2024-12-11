@@ -40,14 +40,6 @@ main:
     code: https://github.com/RoyZry98/FactorLLM-Pytorch
     image: ./assets/img/publications/factor.png
 
-  - title: "PAT: Pruning-Aware Tuning for Large Language Models"
-    authors: Yijiang Liu, Huanrui Yang, Youxin Chen, <strong>Rongyu Zhang</strong>, Miao Wang, Yuan Du, Li Du (* Co-First Authors)
-    conference_short: Arxiv'24
-    conference: Arxiv, 2024.
-    pdf: https://arxiv.org/pdf/2408.14721
-    code: https://github.com/RoyZry98/PAT-Pytorch
-    image: ./assets/img/publications/pat.png
-
   - title: "EVA: An Embodied World Model for Future Video Anticipation"
     authors: Xiaowei Chi*, Hengyuan Zhang*, Chun-Kai Fan*, Xingqun Qi, <strong>Rongyu Zhang</strong>, Anthony Chen, Chi-Min Chan, Wenhan Luo, Wei Xue, Shanghang Zhang, Yike Guo (* Co-First Authors)
     conference_short: Arxiv'24
