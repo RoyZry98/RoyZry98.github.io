@@ -1,7 +1,7 @@
 main:
 
   - title: "PAT: Pruning-Aware Tuning for Large Language Models"
-    authors: Yijiang Liu, Huanrui Yang, Youxin Chen, <strong>Rongyu Zhang</strong>, Miao Wang, Yuan Du, Li Du (* Co-First Authors)
+    authors: Yijiang Liu, Huanrui Yang, Youxin Chen, <strong>Rongyu Zhang</strong>, Miao Wang, Yuan Du, Li Du
     conference_short: AAAI'25
     conference: Proceedings of the AAAI Conference on Artificial Intelligence <strong>(AAAI|CCF-A)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2408.14721
@@ -41,7 +41,7 @@ main:
     image: ./assets/img/publications/nossdav.png
 
   - title: "Cloud-Device Collaborative Adaptation to Continual Changing Environments in the Real-world"
-    authors: Yulu Gan, Mingjie Pan, <strong>Rongyu Zhang</strong>, Zijian Ling, Lingran Zhao, Jiaming Liu, Shanghang Zhang (* Co-First Authors)
+    authors: Yulu Gan, Mingjie Pan, <strong>Rongyu Zhang</strong>, Zijian Ling, Lingran Zhao, Jiaming Liu, Shanghang Zhang
     conference_short: CVPR'23
     conference: IEEE Conference on Computer Vision and Pattern Recognition <strong>(CVPR|CCF-A)</strong>, 2023.
     pdf: https://openaccess.thecvf.com/content/CVPR2023/papers/Pan_Cloud-Device_Collaborative_Adaptation_to_Continual_Changing_Environments_in_the_Real-World_CVPR_2023_paper.pdf
@@ -56,7 +56,7 @@ main:
     code: https://github.com/RoyZry98/BEVSAN-Pytorch
     image: ./assets/img/publications/cvpr_bevsan.png
 
-  - title: "FedAB: Truthful Federated Learning with Auction-based Combinatorial Multi-armed Bandi"
+  - title: "FedAB: Truthful Federated Learning with Auction-based Combinatorial Multi-armed Bandit"
     authors: Chenrui Wu, Yifei Zhu, <strong>Rongyu Zhang</strong>, Yun Chen, Fangxin Wang, Shuguang Cui
     conference_short: IoTJ'23
     conference: IEEE Internet of Things Journal <strong>(IoTJ|CAS-Q1)</strong>, 2023.
