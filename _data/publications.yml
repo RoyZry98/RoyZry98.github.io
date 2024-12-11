@@ -3,7 +3,7 @@ main:
   - title: "PAT: Pruning-Aware Tuning for Large Language Models"
     authors: Yijiang Liu, Huanrui Yang, Youxin Chen, <strong>Rongyu Zhang</strong>, Miao Wang, Yuan Du, Li Du (* Co-First Authors)
     conference_short: AAAI'25
-    conference: Arxiv, 2024.
+    conference: Proceedings of the AAAI Conference on Artificial Intelligence <strong>(AAAI|CCF-A)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2408.14721
     code: https://github.com/RoyZry98/PAT-Pytorch
     image: ./assets/img/publications/pat.png
