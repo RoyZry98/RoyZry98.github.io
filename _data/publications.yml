@@ -1,5 +1,21 @@
 main:
 
+  - title: "PAT: Pruning-Aware Tuning for Large Language Models"
+    authors: Yijiang Liu, Huanrui Yang, Youxin Chen, <strong>Rongyu Zhang</strong>, Miao Wang, Yuan Du, Li Du (* Co-First Authors)
+    conference_short: AAAI'25
+    conference: Arxiv, 2024.
+    pdf: https://arxiv.org/pdf/2408.14721
+    code: https://github.com/RoyZry98/PAT-Pytorch
+    image: ./assets/img/publications/pat.png
+
+  - title: "BEVUDA: Multi-geometric Space Alignments for Domain Adaptive BEV 3D Object Detection"
+    authors: Jiaming Liu*, <strong>Rongyu Zhang*</strong>, Xiaowei Chi, Xiaoqi Li, Ming Lu, Yandong Guo, Shanghang Zhang (* Co-First Authors)
+    conference_short: ICRA'24
+    conference: IEEE International Conference on Robotics and Automation <strong>(ICRA|CCF-B)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2211.17126
+    code: https://github.com/RoyZry98/
+    image: ./assets/img/publications/icra.png
+    
   - title: "Optimizing Efficient Personalized Federated Learning with Hypernetworks at Edge"
     authors: <strong>Rongyu Zhang</strong>, Yun Chen, Chenrui Wu, Fangxin Wang, Jiangchuan Liu
     conference_short: Network'23
@@ -23,14 +39,6 @@ main:
     pdf: https://dl.acm.org/doi/pdf/10.1145/3592473.3592567
     code: https://github.com/RoyZry98/RepCaM-Pytorch
     image: ./assets/img/publications/nossdav.png
-
-  - title: "BEVUDA: Multi-geometric Space Alignments for Domain Adaptive BEV 3D Object Detection"
-    authors: Jiaming Liu*, <strong>Rongyu Zhang*</strong>, Xiaowei Chi, Xiaoqi Li, Ming Lu, Yandong Guo, Shanghang Zhang (* Co-First Authors)
-    conference_short: ICRA'24
-    conference: IEEE International Conference on Robotics and Automation <strong>(ICRA|CCF-B)</strong>, 2024.
-    pdf: https://arxiv.org/pdf/2211.17126
-    code: https://github.com/RoyZry98/
-    image: ./assets/img/publications/icra.png
 
   - title: "Cloud-Device Collaborative Adaptation to Continual Changing Environments in the Real-world"
     authors: Yulu Gan, Mingjie Pan, <strong>Rongyu Zhang</strong>, Zijian Ling, Lingran Zhao, Jiaming Liu, Shanghang Zhang (* Co-First Authors)
