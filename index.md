@@ -33,7 +33,7 @@ My broad interests lie in **efficient** and **generalization** learning towards 
 
 ## Employment
 - <img src="assets/img/bytedance_.png" style="width: 40px;height: auto;display: inline-block;vertical-align: middle"> **ByteDance**
-  - (2024.12-Present) Research Intern, supervised by [Dr. Ming Lu](https://www.shanghangzhang.com/) 
+  - (2025.01-Present) Research Intern, supervised by [Dr. Ming Lu](https://www.shanghangzhang.com/) 
 - <img src="assets/img/baai_.png" style="width: 40px;height: auto;display: inline-block;vertical-align: middle"> **Beijing Academy of Artificial Intelligence**
   - (2024.08-Present) Research Intern, supervised by [Prof. Shanghang Zhang](https://www.shanghangzhang.com/) 
 - <img src="assets/img/oppo.png" style="width: 40px;height: auto;display: inline-block;vertical-align: middle"> **OPPO Research Institute** 
