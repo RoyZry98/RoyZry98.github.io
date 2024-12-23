@@ -7,14 +7,6 @@ main:
     pdf: https://arxiv.org
     code: https://github.com/RoyZry98
     image: ./assets/img/publications/tcsvt.png
-    
-  - title: "Multi-level Personalized Federated Learning on Heterogeneous and Long-Tailed Data"
-    authors: <strong>Rongyu Zhang</strong>, Yun Chen, Chenrui Wu, Fangxin Wang, Bo Li
-    conference_short: TMC'24
-    conference: IEEE Transactions on Mobile Computing <strong>(TMC|CCF-A)</strong>, 2024.
-    pdf: https://arxiv.org/pdf/2405.06413
-    code: https://github.com/RoyZry98/
-    image: ./assets/img/publications/mupfl.png
 
   - title: "VeCAF: Vision-language Collaborative Active Finetuning with Training Objective Awareness"
     authors: <strong>Rongyu Zhang*</strong>, Zefan Cai*, Huanrui Yang*, Zidong Liu, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Baobao Chang, Yuan Du, Li Du, Shanghang Zhang (* Co-First Authors)
@@ -23,6 +15,14 @@ main:
     pdf: https://arxiv.org/pdf/2401.07853
     code: https://github.com/RoyZry98/VeCAF-Pytorch
     image: ./assets/img/publications/mm.png
+
+  - title: "Multi-level Personalized Federated Learning on Heterogeneous and Long-Tailed Data"
+    authors: <strong>Rongyu Zhang</strong>, Yun Chen, Chenrui Wu, Fangxin Wang, Bo Li
+    conference_short: TMC'24
+    conference: IEEE Transactions on Mobile Computing <strong>(TMC|CCF-A)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2405.06413
+    code: https://github.com/RoyZry98/
+    image: ./assets/img/publications/mupfl.png
     
   - title: "Efficient Deweather Mixture-of-Experts with Uncertainty-aware Feature-wise Linear Modulation"
     authors: <strong>Rongyu Zhang</strong>, Yulin Luo, Jiaming Liu, Huanrui Yang, Zhen Dong, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Yuan Du, Shanghang Zhang
