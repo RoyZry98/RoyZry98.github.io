@@ -1,5 +1,13 @@
 main:
 
+  - title: "BEVUDA++: Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection"
+    authors: <strong>Rongyu Zhang</strong>, Jiaming Liu, Xiaoqi Li, Xiaowei Chi, Dan Wang, Li Du, Yuan Du, Shanghang Shang
+    conference_short: TCSVT'25
+    conference: IEEE Transactions on Curcuits Systems and Video Technology <strong>(TCSVT|CAS-Q1)</strong>, 2025.
+    pdf: https://arxiv.org
+    code: https://github.com/RoyZry98
+    image: ./assets/img/publications/tcsvt.png
+    
   - title: "Multi-level Personalized Federated Learning on Heterogeneous and Long-Tailed Data"
     authors: <strong>Rongyu Zhang</strong>, Yun Chen, Chenrui Wu, Fangxin Wang, Bo Li
     conference_short: TMC'24
@@ -40,10 +48,3 @@ main:
     code: https://github.com/RoyZry98/RepCaM-Pytorch
     image: ./assets/img/publications/tmc_repcam.png
 
-  - title: "BEVUDA++: Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection"
-    authors: <strong>Rongyu Zhang</strong>, Jiaming Liu, Xiaoqi Li, Xiaowei Chi, Dan Wang, Li Du, Yuan Du, Shanghang Shang
-    conference_short: TCSVT'25
-    conference: IEEE Transactions on Curcuits Systems and Video Technology <strong>(TCSVT|CAS-Q1)</strong>, 2025 (under revision).
-    pdf: https://arxiv.org
-    code: https://github.com/RoyZry98
-    image: ./assets/img/publications/tcsvt.png
