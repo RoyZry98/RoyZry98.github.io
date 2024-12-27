@@ -4,7 +4,7 @@ layout: homepage
 
 ## Short Bio
 
-I am a second-year dual Ph.D. candidate at Nanjing University and The Hong Kong Polytechnic University, where I am co-supervised by [Prof. Yuan Du](https://iscl.nju.edu.cn/42925/list.htm) and [Prof. Dan Wang](https://www4.comp.polyu.edu.hk/~csdwang/). I'm now a visiting student at Peking University under the supervision of [Prof. Shanghang Zhang](https://iscl.nju.edu.cn/42925/list.htm). Previously, I received my M.Phil. degree from The Chinese University of Hong Kong, Shenzhen, supervised by [Prof. Fangxin Wang](https://mypage.cuhk.edu.cn/academics/wangfangxin/). I am recently selected for the First China Association for Science and Technology “**Young Elite Scientist Sponsorship Program (Ph.D.)**”, 2024-2026.
+I am a second-year dual Ph.D. candidate at Nanjing University and The Hong Kong Polytechnic University, where I am co-supervised by [Prof. Yuan Du](https://iscl.nju.edu.cn/42925/list.htm) and [Prof. Dan Wang](https://www4.comp.polyu.edu.hk/~csdwang/). I'm now a visiting student at Peking University under the supervision of [Prof. Shanghang Zhang](https://iscl.nju.edu.cn/42925/list.htm). Previously, I received my M.Phil. degree from The Chinese University of Hong Kong, Shenzhen, supervised by [Prof. Fangxin Wang](https://mypage.cuhk.edu.cn/academics/wangfangxin/). I am recently selected for the First China Association for Science and Technology “**Young Elite Scientist Sponsorship Program (Ph.D.)**”, 2025-2027.
 
 ## Research Interests
 
