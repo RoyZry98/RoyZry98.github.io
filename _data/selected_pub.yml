@@ -3,8 +3,8 @@ main:
   - title: "BEVUDA++: Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection"
     authors: <strong>Rongyu Zhang</strong>, Jiaming Liu, Xiaoqi Li, Xiaowei Chi, Dan Wang, Li Du, Yuan Du, Shanghang Shang
     conference_short: TCSVT'25
-    conference: IEEE Transactions on Curcuits Systems and Video Technology <strong>(TCSVT|CAS-Q1)</strong>, 2025.
-    pdf: https://arxiv.org
+    conference: IEEE Transactions on Curcuits and Systems for Video Technology <strong>(TCSVT|CAS-Q1)</strong>, 2025.
+    pdf: https://ieeexplore.ieee.org/document/10816404
     code: https://github.com/RoyZry98
     image: ./assets/img/publications/tcsvt.png
 
