@@ -5,7 +5,7 @@
 <div id="news" class="w3-container w3-margin-top-2 w3-cursive">
 	  <div style="height:300px; width:100%; overflow:auto;">
 	    <h4>📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me.</h4>
-	    <p>[01.2025] 📚 I am selected as the First "China Association for Science and Technology Young Talent Support Project for PhD Students".</p>
+	    <p>[01.2025] 📚 I am selected for the First China Association for Science and Technology “Young Elite Scientist Sponsorship Program (Ph.D.)”, 2024-2026.</p>
 	    <p>[01.2025] 💼 I will join the ByteDance as an intern focusing on the research of large vision-language models.</p>
 	    <p>[12.2024] 🎉 One paper <strong>BEVUDA++</strong> was accepted by <strong>Transaction on Curcuits Systems and Video Technology</strong> (CAS-Q1) as first author.</p>
 	    <p>[12.2024] 🎉 One paper <strong>PAT</strong> was accepted by <strong>AAAI 2025</strong> (CCF-A).</p>
