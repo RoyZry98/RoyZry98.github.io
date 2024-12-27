@@ -3,7 +3,7 @@
 <h2 style="margin: 50px 0px 10px;">Projects</h2>
 
 <ul style="margin:0 0 5px;">
-  <li>The First “China Association for Science and Technology Young Talent Support Project for PhD Students” (3000) with 40,000¥, NJU, 2024</li>
+  <li>The First “Young Elite Scientist Sponsorship Program (Ph.D.)” with 40,000¥, China Association for Science and Technology (CAST), 2024-2026.</li>
   <li>Jiangsu Province Graduate Research and Practical Innovation Project “Mixture-of-Activation-Sparsity-Experts for Continuous Test-time Adaptation” with 15,000¥, NJU, 2023-2024</li>
 </ul>
 
