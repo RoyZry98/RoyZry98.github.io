@@ -668,6 +668,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
 - IEEE Transactions on Computers (TC)
 - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 - IEEE Internet of Things Journal (IoTJ)
+- IEEE Transactions on Communications (TCOM)
 - IEEE Network Magazine (Network)
 
 #### Conference reviewer
