@@ -437,6 +437,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li category="Efficiency">
         <venue>NCS'24</venue><pt>Implicit Neural Image Field for Biological Microscopy Image Compression</pt><br>
         <g>Gaole Dai, </g><b>Rongyu Zhang*</b><g>, Cheng-Ching Tseng*, Qingpo Wuwu*, Shaokang Wan*, Ming Lu, Tiejun Huang, Yu Zhou, Ali Ata Tuz, Matthias Gunzer, Jianxu Chen, Shanghang Zhang</g> <br />
+		Nature Computational Science<br />
         <p>
 		<img src="https://img.shields.io/badge/CAS-Q1-red">
             <a href="http://arxiv.org/abs/2405.19012" class="button-59">PDF</a>
