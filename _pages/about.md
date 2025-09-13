@@ -448,6 +448,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li first_authored=true category="Generalization">
         <venue>TMC'25</venue><pt>Unimodal Training-Multimodal Prediction: Cross-modal Federated Learning with Hierarchical Aggregation</pt><br>
         <b>Rongyu Zhang</b><g>, Xiaowei Chi, Wenyi Zhang, Guiliang Liu, Dan Wang, Fangxin Wang</g> <br />
+		IEEE Transactions on Mobile Computing<br />
         <p>
 	    <img src="https://img.shields.io/badge/CCF-A-red">
             <a href="https://arxiv.org/pdf/2303.15486" class="button-59">PDF</a>
@@ -457,6 +458,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li category="Generalization">
         <venue>ICML'25</venue><pt>EVA: An Embodied World Model for Future Video Anticipation</pt><br>
         <g>Xiaowei Chi, Hengyuan Zhang, Chun-Kai Fan, Xingqun Qi, </g><b>Rongyu Zhang</b><g>, Anthony Chen, Chi-min Chan, Wei Xue, Wenhan Luo, Shanghang Zhang, Yike Guo</g> <br />
+		International Conference on Machine Learning<br />
         <p>
 		<img src="https://img.shields.io/badge/CCF-A-red">
             <a href="https://arxiv.org/pdf/2405.16486" class="button-59">PDF</a>
@@ -467,6 +469,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li category="Efficiency">
         <venue>IJCAI'25</venue><pt>FBQuant: FeedBack Quantization for Large Language Models</pt><br>
         <g>Yijiang Liu, Hengyu Fang, Liulu He, </g><b>Rongyu Zhang</b><g>, Yichuan Bai, Yuan Du, Li Du</g><br />
+		International Joint Conference on Artifical Intelligence<br />
         <p>
 		<img src="https://img.shields.io/badge/CCF-A-red">
             <a href="https://arxiv.org/pdf/2501.16385" class="button-59">PDF</a>
@@ -476,6 +479,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li first_authored=true category="Efficiency">
         <venue>TMC'25</venue><pt>RepCaM++: Exploring Transparent Visual Prompt with Inference-time Re-parameterization for Neural Video Delivery</pt><br>
         <b>Rongyu Zhang</b><g>, Xize Duan, Jiaming Liu, Li Du, Yuan Du, Dan Wang, Shanghang Zhang, Fangxin Wang</g><br>
+		IEEE Transactions on Mobile Computing<br />
         <p>
 		<img src="https://img.shields.io/badge/CCF-A-red">
 		<a href="https://www.computer.org/csdl/journal/tm/5555/01/10949820/25DZuw4IHTy" class="button-59">PDF</a>
@@ -486,6 +490,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li category="Efficiency">
         <venue>AAAI'25</venue><pt>PAT: Pruning-Aware Tuning for Large Language Models</pt><br>
         <g>Yijiang Liu, Huanrui Yang, Youxin Chen, </g><b>Rongyu Zhang</b><g>, Miao Wang, Yuan Du, Li Du</g><br />
+		AAAI Conference on Artificial Intelligence<br />
         <p>
 		<img src="https://img.shields.io/badge/CCF-A-red">
             <a href="https://arxiv.org/abs/2006.04558" class="button-59">PDF</a>
@@ -496,6 +501,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li first_authored=true category="Generalization">
         <venue>TCSVT'25</venue><pt>BEVUDA++: Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection</pt><br>
         <b>Rongyu Zhang</b><g>, Jiaming Liu, Xiaoqi Li, Xiaowei Chi, Dan Wang, Li Du, Yuan Du, Shanghang Zhang</g><br>
+		IEEE Transactions on Circuits and Systems for Video Technology<br />
         <p>
 		<img src="https://img.shields.io/badge/CAS-Q1-red">
 		<a href="https://ieeexplore.ieee.org/document/10816404" class="button-59">PDF</a>
@@ -506,6 +512,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li first_authored=true category="Efficiency">
         <venue>AAAI‘24</venue><pt>Efficient Deweather Mixture-of-Experts with Uncertainty-aware Feature-wise Linear Modulation</pt><br>
 	<b>Rongyu Zhang</b><g>, Yulin Luo, Jiaming Liu, Huanrui Yang, Zhen Dong, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Yuan Du, Shanghang Zhang</g><br>
+		AAAI Conference on Artificial Intelligence<br />
         <p>
 	    <img src="https://img.shields.io/badge/CCF-A-red">
             <a href="https://ojs.aaai.org/index.php/AAAI/article/download/29622/31055" class="button-59">PDF</a>
@@ -516,6 +523,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li first_authored=true category="Efficiency">
         <venue>MM'24</venue><pt>VeCAF: Vision-language Collaborative Active Finetuning with Training Objective Awareness</pt><br>
         <b>Rongyu Zhang*</b><g>, Zefan Cai*, Huanrui Yang*, Zidong Liu, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Baobao Chang, Yuan Du, Li Du, Shanghang Zhang</g><br />
+		ACM International Conference on Multimedia<br />
         <p>
 		<img src="https://img.shields.io/badge/CCF-A-red">
             <a href="https://arxiv.org/pdf/2401.07853" class="button-59">PDF</a>
@@ -526,6 +534,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li first_authored=true category="Generalization">
 	<venue>TMC'24</venue><pt>Multi-level Personalized Federated Learning on Heterogeneous and Long-Tailed Data</pt><br>
 	<b>Rongyu Zhang</b><g>, Yun Chen, Chenrui Wu, Fangxin Wang, Bo Li</g><br>
+	IEEE Transactions on Mobile Computing<br />
 	<p>
 		<img src="https://img.shields.io/badge/CCF-A-red">
 		<a class="button-59" href="https://arxiv.org/pdf/2405.06413">PDF</a>
@@ -535,6 +544,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li first_authored=true category="Generalization">
         <venue>ICRA'24</venue><pt>BEVUDA: Multi-geometric Space Alignments for Domain Adaptive BEV 3D Object Detection</pt><br>
         <g>Jiaming Liu*, </g><b>Rongyu Zhang*</b><g>, Xiaowei Chi, Xiaoqi Li, Ming Lu, Yandong Guo, Shanghang Zhang</g><br />
+		International Conference on Robotics and Automation<br />
         <p>
 		<img src="https://img.shields.io/badge/CCF-B-blue">
             <a href="https://arxiv.org/pdf/2211.17126" class="button-59">PDF</a>
@@ -545,6 +555,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li first_authored=true category="Efficiency">
         <venue>Noss'23</venue><pt>RepCaM: Re-parameterization Content-aware Modulation for Neural Video Delivery</pt><br>
         <b>Rongyu Zhang*</b><g>, Lixuan Du*, Jiaming Liu*, Congcong Song, Fangxin Wang, Xiaoqi Li, Ming Lu, Yandong Guo, Shanghang Zhang</g><br />
+		ACM Network and Operating System Support for Digital Audio and Video<br />
         <p>
 		<img src="https://img.shields.io/badge/CCF-B-blue">
             <a href="https://dl.acm.org/doi/pdf/10.1145/3592473.3592567" class="button-59">PDF</a>
@@ -556,6 +567,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li first_authored=true category="Efficiency">
         <venue>ICME'23</venue><pt>Cluster-driven GNN-based Federated Recommendation System with Biased Message Dropout</pt><br>
         <b>Rongyu Zhang*</b><g>, Yun Chen*, Chenrui Wu, Fangxin Wang</g><br />
+		IEEE International Conference on Multimedia and Expo.<br />
         <p>
 		<img src="https://img.shields.io/badge/CCF-B-blue">
             <a href="https://ieeexplore.ieee.org/abstract/document/10219619" class="button-59">PDF</a>
@@ -565,6 +577,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li first_authored=true category="Efficiency">
         <venue>Netw'23</venue><pt>Optimizing Efficient Personalized Federated Learning with Hypernetworks at Edge</pt><br>
         <b>Rongyu Zhang</b><g>, Yun Chen, Chenrui Wu, Fangxin Wang, Jiangchuan Liu</g><br />
+		IEEE Network<br />
         <p>
 		<img src="https://img.shields.io/badge/CAS-Q3-green">
             <a href="https://arxiv.org/pdf/2211.17126" class="button-59">PDF</a>
@@ -574,6 +587,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li category="Generalization">
         <venue>CVPR'23</venue><pt>Cloud-Device Collaborative Adaptation to Continual Changing Environments in the Real-world</pt><br>
         <g>Yulu Gan, Mingjie Pan, </g><b>Rongyu Zhang</b><g>, Zijian Ling, Lingran Zhao, Jiaming Liu, Shanghang Zhang</g><br />
+		The IEEE/CVF Conference on Computer Vision and Pattern Recognition<br />
         <p>
 		<img src="https://img.shields.io/badge/CCF-A-red">
             <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Pan_Cloud-Device_Collaborative_Adaptation_to_Continual_Changing_Environments_in_the_Real-World_CVPR_2023_paper.pdf" class="button-59">PDF</a>
@@ -583,6 +597,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li category="Generalization">
         <venue>CVPR'23</venue><pt>BEV-SAN: Accurate BEV 3D Object Detection via Slice Attention Networks</pt><br>
         <g>Xiaowei Chi, Jiaming Liu, Ming Lu, </g><b>Rongyu Zhang</b><g>, Zhaoqing Wang, Yandong Guo, Shanghang Zhang</g><br />
+		The IEEE/CVF Conference on Computer Vision and Pattern Recognition<br />
         <p>
 		<img src="https://img.shields.io/badge/CCF-A-red">
             <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Chi_BEV-SAN_Accurate_BEV_3D_Object_Detection_via_Slice_Attention_Networks_CVPR_2023_paper.pdf" class="button-59">PDF</a>
@@ -593,6 +608,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
     <li category="Efficiency">
         <venue>IoTJ'23</venue><pt>FedAB: Truthful Federated Learning with Auction-based Combinatorial Multi-armed Bandit</pt><br>
         <g>Chenrui Wu, Yifei Zhu, </g><b>Rongyu Zhang</b><g>, Yun Chen, Fangxin Wang, Shuguang Cui</g><br />
+		IEEE Internet of Things Journal<br />
         <p>
 		<img src="https://img.shields.io/badge/CAS-Q2-blue">
             <a href="https://ieeexplore.ieee.org/abstract/document/10092911" class="button-59">PDF</a>
