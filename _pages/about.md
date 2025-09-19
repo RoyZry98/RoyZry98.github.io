@@ -329,6 +329,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 <div id="news" class="w3-container w3-margin-top-2 w3-cursive">
 	  <div style="height:200px; width:100%; overflow:auto;">
 	    <h4>📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me.</h4>
+		<p>[09.2025] 🎉 One paper <strong>Orochi</strong> was accepted by <strong>NeurlPS</strong> as Spotlight (CCF-A).</p>
 	    <p>[05.2025] 📕 I am selected for the “<strong>Endeavor Scholarship — Integrated Circuit Talent Development Program</strong>” of China Education Development Foundation (93 recipients nationwide).</p>
 	    <p>[05.2025] 🎉 One paper <strong>INIF</strong> was accepted by <strong>Nature Computational Science</strong> (CAS-Q1).</p>
 	    <p>[05.2025] 🎉 One paper <strong>UTMP</strong> was accepted by <strong>IEEE TMC</strong> (CCF-A) as first author.</p>
