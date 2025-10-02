@@ -435,6 +435,17 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
 
 
 <ul id="publications">
+    <li category="Generalization">
+        <venue>NIPS'25</venue><pt>Orochi: Versatile Biomedical Image Processor</pt>(Spotlight)<br>
+        <g>Gaole Dai, Chenghao Zhou, Yu Zhou, </g><b>Rongyu Zhang</b><g>, Yuan Zhang, Chengkai Hou, Tiejun Huang, Jianxu Chen, Shanghang Zhang</g> <br />
+		Nature Computational Science<br />
+        <p>
+		<img src="https://img.shields.io/badge/CCF-A-red">
+            <a href="http://arxiv.org/abs/2405.19012" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98/INIF-Pytorch" class="button-59">Code</a>
+	    <img src="https://img.shields.io/github/stars/RoyZry98/INIF-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
     <li category="Efficiency">
         <venue>NCS'24</venue><pt>Implicit Neural Image Field for Biological Microscopy Image Compression</pt><br>
         <g>Gaole Dai, </g><b>Rongyu Zhang*</b><g>, Cheng-Ching Tseng*, Qingpo Wuwu*, Shaokang Wan*, Ming Lu, Tiejun Huang, Yu Zhou, Ali Ata Tuz, Matthias Gunzer, Jianxu Chen, Shanghang Zhang</g> <br />
