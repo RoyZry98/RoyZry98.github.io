@@ -436,9 +436,9 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
 
 <ul id="publications">
     <li category="Generalization">
-        <venue>NIPS'25</venue><pt>Orochi: Versatile Biomedical Image Processor</pt>(Spotlight)<br>
+        <venue>NIPS'25</venue><pt>Orochi: Versatile Biomedical Image Processor</pt> (Spotlight)<br>
         <g>Gaole Dai, Chenghao Zhou, Yu Zhou, </g><b>Rongyu Zhang</b><g>, Yuan Zhang, Chengkai Hou, Tiejun Huang, Jianxu Chen, Shanghang Zhang</g> <br />
-		Nature Computational Science<br />
+		Neural Information Processing Systems <br />
         <p>
 		<img src="https://img.shields.io/badge/CCF-A-red">
             <a href="http://arxiv.org/abs/2405.19012" class="button-59">PDF</a>
