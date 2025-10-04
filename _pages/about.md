@@ -722,7 +722,15 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
 <span class='anchor' id='talks'></span>
 
 # 🎤 Talks
-- 'Research on Key Technologies for Improving the Performance and Efficiency of On-device Models Based on Mixture-of-Experts' @ The Chinese University of Hong Kong, Shenzhen, invited by Prof. Fangxin Wang (2025.08.05)
+- 'Research on Key Technologies for Improving the Performance and Efficiency of On-device Models Based on Mixture-of-Experts' @ The Chinese University of Hong Kong, Shenzhen, invited by Prof. Fangxin Wang (2025.08.05) [Slides](assets/cuhksz_talk.pptx)
+
+<br>
+
+<span class='anchor' id='teaching'></span>
+
+# 🧑‍🏫 Teaching
+Teaching Assistant at PolyU
+- COMP 6704: Advanced Machine Learning
 
 <br>
 
