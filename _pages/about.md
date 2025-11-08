@@ -373,6 +373,28 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMC'2025</div><img src='images/tmc_repcam.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI'2026</div><img src='images/moase.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Decomposing the Neural: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation**
+
+- **Rongyu Zhang**, Aosong Cheng, Yulin Luo, Gaole Dai, Huanrui Yang, Jiaming Liu, Ran Xu, Li Du, Dan Wang, Yuan Du
+- The AAAI Conference on Artificial Intelligence <br><strong>(AAAI|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2024.
+- [[Paper]](https://arxiv.org/pdf/2405.16486) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/MoASE-Pytorch?style=social)](https://github.com/RoyZry98/MoASE-Pytorch)<font color="red">[Oral Presentation]</font>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI'2026</div><img src='images/mole.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation**
+
+- **Rongyu Zhang**, Menghang Dong, Yuan Zhang, Liang Heng, Xiaowei Chi, Gaole Dai, Li Du, Dan Wang, Yuan Du, Shanghang Zhang
+- The AAAI Conference on Artificial Intelligence <br><strong>(AAAI|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2026.
+- [[Paper]](https://arxiv.org/abs/2503.20384) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/MoLe-VLA-Pytorch?style=social)](https://github.com/RoyZry98/MoLe-VLA-Pytorch)
+</div>
+</div>
+
 **RepCaM++: Exploring Transparent Visual Prompt with Inference-time Re-parameterization for Neural Video Delivery**
 
 - **Rongyu Zhang**, Xize Duan, Jiaming Liu, Li Du, Yuan Du, Dan Wang, Shanghang Zhang, Fangxin Wang
@@ -392,17 +414,6 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMC'2024</div><img src='images/mupfl.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Multi-level Personalized Federated Learning on Heterogeneous and Long-Tailed Data**
-
-- **Rongyu Zhang**, Yun Chen, Chenrui Wu, Fangxin Wang, Bo Li
-- IEEE Transactions on Mobile Computing <br><strong>(TMC|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2024.
-- [[Paper]](https://arxiv.org/pdf/2405.06413) [[Code]](https://github.com/RoyZry98)
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI'2024</div><img src='images/aaai.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 	
@@ -411,17 +422,6 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 - **Rongyu Zhang**, Yulin Luo, Jiaming Liu, Huanrui Yang, Zhen Dong, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Yuan Du, Shanghang Zhang
 - The AAAI Conference on Artificial Intelligence <br><strong>(AAAI|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2024.
 - [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/download/29622/31055) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/MoFME-Pytorch?style=social)](https://github.com/RoyZry98/MoFME-Pytorch)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM'2024</div><img src='images/mm.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**VeCAF: Vision-language Collaborative Active Finetuning with Training Objective Awareness**
-
-- **Rongyu Zhang**, Zefan Cai, Huanrui Yang, Zidong Liu, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Baobao Chang, Yuan Du, Li Du, Shanghang Zhang
-- ACM International Conference on Multimedia <br><strong>(MM|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2024.
-- [[Paper]](https://arxiv.org/pdf/2401.07853) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/VeCAF-Pytorch?style=social)](https://github.com/RoyZry98/VeCAF-Pytorch)
 </div>
 </div>
 
