@@ -437,17 +437,18 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
 
 <ul id="publications">
 		<li first_authored=true category="Generalization">
-        <venue>arXiv'24</venue><pt>Decomposing the Neural: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation</pt> (Oral)<br>
+        <venue>AAAI'26</venue><pt>Decomposing the Neural: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation</pt><br>
         <b>Rongyu Zhang*</b><g>, Aosong Cheng*, Yulin Luo*, Gaole Dai, Huanrui Yang, Jiaming Liu, Ran Xu, Li Du, Dan Wang, Yuan Du</g> <br />
         <p>
 			<img src="https://img.shields.io/badge/CCF-A-red">
             <a href="https://arxiv.org/pdf/2405.16486" class="button-59">PDF</a>
             <a href="https://github.com/RoyZry98/MoASE-Pytorch" class="button-59">Code</a>
 	    <img src="https://img.shields.io/github/stars/RoyZry98/MoASE-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+		<font color="red">[Oral Presentation]</font>
         </p>
     </li>
     <li first_authored=true category="Efficiency">
-        <venue>arXiv'25</venue><pt>MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation</pt><br>
+        <venue>AAAI'26</venue><pt>MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation</pt><br>
         <b>Rongyu Zhang*</b><g>, Menghang Dong*, Yuan Zhang*, Liang Heng, Xiaowei Chi, Gaole Dai, Li Du, Dan Wang, Yuan Du, Shanghang Zhang</g> <br />
         <p>
 			<img src="https://img.shields.io/badge/CCF-A-red">
@@ -457,7 +458,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
         </p>
     </li>
     <li category="Generalization">
-        <venue>NIPS'25</venue><pt>Orochi: Versatile Biomedical Image Processor</pt> (Spotlight)<br>
+        <venue>NIPS'25</venue><pt>Orochi: Versatile Biomedical Image Processor</pt><br>
         <g>Gaole Dai, Chenghao Zhou, Yu Zhou, </g><b>Rongyu Zhang</b><g>, Yuan Zhang, Chengkai Hou, Tiejun Huang, Jianxu Chen, Shanghang Zhang</g> <br />
 		Neural Information Processing Systems <br />
         <p>
@@ -465,6 +466,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
             <a href="http://arxiv.org/abs/2405.19012" class="button-59">PDF</a>
             <a href="https://github.com/RoyZry98/INIF-Pytorch" class="button-59">Code</a>
 	    <img src="https://img.shields.io/github/stars/RoyZry98/INIF-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+		<font color="red">[Spotlight]</font>
         </p>
     </li>
     <li category="Efficiency">
