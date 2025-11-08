@@ -296,7 +296,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
       <li><strong>First</strong> CAST “<strong>Young Talent Support Project Doctoral Special Program</strong>”</li>
       <li>CEDF “<strong>Endeavor Scholarship — Integrated Circuit Talent Program</strong>”</li>
       <li><a href="https://scholar.google.com/citations?user=rRcc9eoAAAAJ&hl=zh-CN" target="_blank">
-  <img src="https://img.shields.io/badge/Google%20Scholar-677%20Citations-9cf?logo=Google%20Scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar Citations">
+  <img src="https://img.shields.io/badge/Google%20Scholar-681%20Citations-9cf?logo=Google%20Scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar Citations">
 </a></li>
 	<li><a href="https://github.com/RoyZry98" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-Stars%20311-9cf?logo=GitHub&labelColor=f6f6f6&color=EC707D&logoColor=000000&style=flat" alt="GitHub Stars">
@@ -329,6 +329,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 <div id="news" class="w3-container w3-margin-top-2 w3-cursive">
 	  <div style="height:200px; width:100%; overflow:auto;">
 	    <h4>📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me.</h4>
+		<p>[11.2025] 🎉 Two paper <strong>MoASE</strong> and <strong>MoLe-VLA</strong> were accepted by <strong>AAAI</strong> as Oral and Poster, respectively (CCF-A).</p>
 		<p>[09.2025] 🎉 One paper <strong>Orochi</strong> was accepted by <strong>NeurlPS</strong> as Spotlight (CCF-A).</p>
 	    <p>[05.2025] 📕 I am selected for the “<strong>Endeavor Scholarship — Integrated Circuit Talent Development Program</strong>” of China Education Development Foundation (93 recipients nationwide).</p>
 	    <p>[05.2025] 🎉 One paper <strong>INIF</strong> was accepted by <strong>Nature Computational Science</strong> (CAS-Q1).</p>
@@ -435,6 +436,26 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
 
 
 <ul id="publications">
+		<li first_authored=true category="Generalization">
+        <venue>arXiv'24</venue><pt>Decomposing the Neural: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation</pt> (Oral)<br>
+        <b>Rongyu Zhang*</b><g>, Aosong Cheng*, Yulin Luo*, Gaole Dai, Huanrui Yang, Jiaming Liu, Ran Xu, Li Du, Dan Wang, Yuan Du</g> <br />
+        <p>
+			<img src="https://img.shields.io/badge/CCF-A-red">
+            <a href="https://arxiv.org/pdf/2405.16486" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98/MoASE-Pytorch" class="button-59">Code</a>
+	    <img src="https://img.shields.io/github/stars/RoyZry98/MoASE-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
+    <li first_authored=true category="Efficiency">
+        <venue>arXiv'25</venue><pt>MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation</pt><br>
+        <b>Rongyu Zhang*</b><g>, Menghang Dong*, Yuan Zhang*, Liang Heng, Xiaowei Chi, Gaole Dai, Li Du, Dan Wang, Yuan Du, Shanghang Zhang</g> <br />
+        <p>
+			<img src="https://img.shields.io/badge/CCF-A-red">
+            <a href="http://arxiv.org/abs/2503.20384" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98/MoLe-VLA-Pytorch" class="button-59">Code</a>
+	    <img src="https://img.shields.io/github/stars/RoyZry98/MoLe-VLA-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
     <li category="Generalization">
         <venue>NIPS'25</venue><pt>Orochi: Versatile Biomedical Image Processor</pt> (Spotlight)<br>
         <g>Gaole Dai, Chenghao Zhou, Yu Zhou, </g><b>Rongyu Zhang</b><g>, Yuan Zhang, Chengkai Hou, Tiejun Huang, Jianxu Chen, Shanghang Zhang</g> <br />
@@ -628,30 +649,12 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, 
         </p>
     </li>
     <li first_authored=true category="Efficiency">
-        <venue1>arXiv'25</venue1><pt>MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation</pt><br>
-        <b>Rongyu Zhang*</b><g>, Menghang Dong*, Yuan Zhang*, Liang Heng, Xiaowei Chi, Gaole Dai, Li Du, Dan Wang, Yuan Du, Shanghang Zhang</g> <br />
-        <p>
-            <a href="http://arxiv.org/abs/2503.20384" class="button-59">PDF</a>
-            <a href="https://github.com/RoyZry98/MoLe-VLA-Pytorch" class="button-59">Code</a>
-	    <img src="https://img.shields.io/github/stars/RoyZry98/MoLe-VLA-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
-        </p>
-    </li>
-    <li first_authored=true category="Efficiency">
         <venue1>arXiv'25</venue1><pt>T-REX: Mixture-of-Rank-One-Experts with semantic-aware Intuition for Multi-task Large Language Model Finetuning</pt><br>
         <b>Rongyu Zhang*</b><g>, Yijiang Liu*, Huanrui Yang*, Shenli Zheng, Chongkang Tan, Dan Wang, Yuan Du, Li Du, Shanghang Zhang</g> <br />
         <p>
             <a href="https://arxiv.org/pdf/2404.08985" class="button-59">PDF</a>
              <a href="https://github.com/RoyZry98/T-REX-Pytorch" class="button-59">Code</a>
 	    <img src="https://img.shields.io/github/stars/RoyZry98/T-REX-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
-        </p>
-    </li>
-    <li first_authored=true category="Generalization">
-        <venue1>arXiv'24</venue1><pt>Decomposing the Neural: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation</pt><br>
-        <b>Rongyu Zhang*</b><g>, Aosong Cheng*, Yulin Luo*, Gaole Dai, Huanrui Yang, Jiaming Liu, Ran Xu, Li Du, Yuan Du, Yanbing Jiang, Shanghang Zhang</g> <br />
-        <p>
-            <a href="https://arxiv.org/pdf/2405.16486" class="button-59">PDF</a>
-            <a href="https://github.com/RoyZry98/MoASE-Pytorch" class="button-59">Code</a>
-	    <img src="https://img.shields.io/github/stars/RoyZry98/MoASE-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
         </p>
     </li>
     <li first_authored=true category="Generalization">
