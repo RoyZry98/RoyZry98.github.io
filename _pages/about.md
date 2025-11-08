@@ -376,7 +376,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 **Decomposing the Neural: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation**
 
 - **Rongyu Zhang**, Aosong Cheng, Yulin Luo, Gaole Dai, Huanrui Yang, Jiaming Liu, Ran Xu, Li Du, Dan Wang, Yuan Du
-- The AAAI Conference on Artificial Intelligence <br><strong>(AAAI|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2024.
+- The AAAI Conference on Artificial Intelligence <br><strong>(AAAI|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2026.
 - [[Paper]](https://arxiv.org/pdf/2405.16486) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/MoASE-Pytorch?style=social)](https://github.com/RoyZry98/MoASE-Pytorch)<font color="red">[Oral Presentation]</font>
 </div>
 </div>
@@ -426,7 +426,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 
 ## 📚 Full publications
 *: Equal Contribution. <br>
-CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 1, <venue>ACM MM</venue>x 1, <venue>TMC</venue>x 3, <venue>TCSVT</venue>x 1 <br><br>
+CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, <venue>TMC</venue>x 3, <venue>TCSVT</venue>x 1 <br><br>
 
 <button class="filter" type="button" onclick="filterPub('All')" style="--color: #000; --border: #000">All</button>&nbsp;
 <button class="filter" type="button" onclick="filterPub('First-authored')">First author</button>&nbsp;
