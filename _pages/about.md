@@ -314,6 +314,17 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
   </div>
 </div>
 
+<div class="highlight-blocks">
+  <div class="highlight-block">
+    <h3>🔬 AI Researcher</h3>
+    <ul>
+      <li>Research focus on <strong>efficient</strong> and <strong>generalization</strong> learning</li>
+      <li>Efficiency: Dynamic Neural Network</li>
+      <li>Multimodal Generalization: Embodied AI including Robotics and Autonomous Driving</li>
+    </ul>
+  </div>
+</div>
+
 <br>
 
 # 🎓 Educations
