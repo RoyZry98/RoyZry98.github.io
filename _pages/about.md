@@ -438,6 +438,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
 		<li first_authored=true category="Generalization">
         <venue>AAAI'26</venue><pt>Decomposing the Neural: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation</pt><br>
         <b>Rongyu Zhang*</b><g>, Aosong Cheng*, Yulin Luo*, Gaole Dai, Huanrui Yang, Jiaming Liu, Ran Xu, Li Du, Dan Wang, Yuan Du</g> <br />
+	AAAI Conference on Artificial Intelligence<br />
         <p>
 			<img src="https://img.shields.io/badge/CCF-A-red">
             <a href="https://arxiv.org/pdf/2405.16486" class="button-59">PDF</a>
@@ -449,6 +450,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
     <li first_authored=true category="Efficiency">
         <venue>AAAI'26</venue><pt>MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation</pt><br>
         <b>Rongyu Zhang*</b><g>, Menghang Dong*, Yuan Zhang*, Liang Heng, Xiaowei Chi, Gaole Dai, Li Du, Dan Wang, Yuan Du, Shanghang Zhang</g> <br />
+	AAAI Conference on Artificial Intelligence<br />
         <p>
 			<img src="https://img.shields.io/badge/CCF-A-red">
             <a href="http://arxiv.org/abs/2503.20384" class="button-59">PDF</a>
