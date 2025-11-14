@@ -475,9 +475,8 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
 		Neural Information Processing Systems <br />
         <p>
 		<img src="https://img.shields.io/badge/CCF-A-red">
-            <a href="http://arxiv.org/abs/2405.19012" class="button-59">PDF</a>
-            <a href="https://github.com/RoyZry98/INIF-Pytorch" class="button-59">Code</a>
-	    <img src="https://img.shields.io/github/stars/RoyZry98/INIF-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+            <a href="https://arxiv.org/pdf/2509.22583" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98" class="button-59">Code</a>
 		<font color="red">[Spotlight]</font>
         </p>
     </li>
