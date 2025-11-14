@@ -314,7 +314,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
   </div>
 </div>
 
-<div class="highlight-blocks">
+<!-- <div class="highlight-blocks">
   <div class="highlight-block">
     <h3>🔬 AI Researcher</h3>
     <ul>
@@ -323,7 +323,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
       <li>Multimodal Generalization: Embodied AI including Robotics and Autonomous Driving</li>
     </ul>
   </div>
-</div>
+</div> -->
 
 <br>
 
