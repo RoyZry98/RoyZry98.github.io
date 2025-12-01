@@ -412,14 +412,14 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMC'2025</div><img src='images/tmc_utmp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM'2024</div><img src='images/mm_vecaf.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Unimodal Training-Multimodal Prediction: Cross-modal Federated Learning with Hierarchical Aggregation**
+**VeCAF: Vision-language Collaborative Active Finetuning with Training Objective Awareness**
 
-- **Rongyu Zhang**, Xiaowei Chi, Wenyi Zhang, Guiliang Liu, Dan Wang, Fangxin Wang
-- IEEE Transactions on Mobile Computing <br><strong>(TMC|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2025.
-- [[Paper]](https://arxiv.org/pdf/2303.15486) [[Code]](https://github.com/RoyZry98)
+- **Rongyu Zhang**, Zefan Cai, Huanrui Yang, Zidong Liu, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Baobao Chang, Yuan Du, Li Du, Shanghang Zhang
+- ACM International Conference on Multimedia <br><strong>(MM|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2025.
+- [[Paper]](https://dl.acm.org/doi/abs/10.1145/3664647.3681135) [[Code]](https://github.com/RoyZry98/VeCAF-Pytorch)
 </div>
 </div>
 
