@@ -418,8 +418,8 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 **VeCAF: Vision-language Collaborative Active Finetuning with Training Objective Awareness**
 
 - **Rongyu Zhang**, Zefan Cai, Huanrui Yang, Zidong Liu, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Baobao Chang, Yuan Du, Li Du, Shanghang Zhang
-- ACM International Conference on Multimedia <br><strong>(MM|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2025.
-- [[Paper]](https://dl.acm.org/doi/abs/10.1145/3664647.3681135) [[Code]](https://github.com/RoyZry98/VeCAF-Pytorch)
+- ACM International Conference on Multimedia <br><strong>(MM|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2024.
+- [[Paper]](https://dl.acm.org/doi/abs/10.1145/3664647.3681135) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/VeCAF-Pytorch?style=social)](https://github.com/RoyZry98/VeCAF-Pytorch)
 </div>
 </div>
 
