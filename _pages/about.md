@@ -475,7 +475,8 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
         <p>
 		<img src="https://img.shields.io/badge/CCF-A-red">
             <a href="https://arxiv.org/pdf/2509.22583" class="button-59">PDF</a>
-            <a href="https://github.com/RoyZry98" class="button-59">Code</a>
+            <a href="https://github.com/daviddaiiiii/Orochi-Versatile-Biomedical-Image-Processor" class="button-59">Code</a>
+	    <img src="https://img.shields.io/github/stars/daviddaiiiii/Orochi-Versatile-Biomedical-Image-Processor?style=social" class="star-badge" alt="GitHub Stars">
 		<font color="red">[Spotlight]</font>
         </p>
     </li>
@@ -514,7 +515,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
     <li category="Efficiency">
         <venue>IJCAI'25</venue><pt>FBQuant: FeedBack Quantization for Large Language Models</pt><br>
         <g>Yijiang Liu, Hengyu Fang, Liulu He, </g><b>Rongyu Zhang</b><g>, Yichuan Bai, Yuan Du, Li Du</g><br />
-		International Joint Conference on Artifical Intelligence<br />
+		International Joint Conference on Artificial Intelligence<br />
         <p>
 		<img src="https://img.shields.io/badge/CCF-A-red">
             <a href="https://arxiv.org/pdf/2501.16385" class="button-59">PDF</a>
