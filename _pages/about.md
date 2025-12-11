@@ -276,7 +276,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 👤 Biography
-Rongyu is a third-year dual Ph.D. candidate at **Nanjing University** and **The Hong Kong Polytechnic University**, where he is co-supervised by [Prof. Yuan Du](https://iscl.nju.edu.cn/42925/list.htm) and [Prof. Dan Wang](https://wangdan.people.ust.hk/). He is also a long-term visiting student at **Peking University** under the supervision of [Prof. Shanghang Zhang](https://www.shanghangzhang.com). Previously, he received the M.Phil. degree from **The Chinese University of Hong Kong, Shenzhen**, supervised by [Prof. Fangxin Wang](https://mypage.cuhk.edu.cn/academics/wangfangxin/), the B.Mang. and B.Eng. degree from the joint program of **Beijing University of Posts and Telecommunications** and **Queen Mary University of London**. He has published over 20 papers in top-tier CCF-A and CAS-Q1 international conferences and journals such as **Nature Computational Science**, **NeurIPS**, **ICML**, **CVPR**, **AAAI**, **TMC**, and **TCSVT**, etc.
+Rongyu is a third-year dual Ph.D. candidate at **Nanjing University** and **The Hong Kong Polytechnic University**, where he is co-supervised by [Prof. Yuan Du](https://iscl.nju.edu.cn/42925/list.htm) and [Prof. Dan Wang](https://wangdan.people.ust.hk/). He is also a long-term visiting student at **Peking University** under the supervision of [Prof. Shanghang Zhang](https://www.shanghangzhang.com). Previously, he received the M.Phil. degree from **The Chinese University of Hong Kong, Shenzhen**, supervised by [Prof. Fangxin Wang](https://mypage.cuhk.edu.cn/academics/wangfangxin/), the B.Mang. and B.Eng. degree from the joint program of **Beijing University of Posts and Telecommunications** and **Queen Mary University of London**. He has published over 10 papers in top-tier CCF-A and CAS-Q1 international conferences and journals such as **Nature Computational Science**, **NeurIPS**, **ICML**, **CVPR**, **AAAI**, **TMC**, and **TCSVT**, etc.
 
 Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 
@@ -293,7 +293,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
   <div class="highlight-block">
     <h3>✍️ Given Credits</h3>
     <ul>
-      <li><strong>NSFC</strong> “<strong>Youth Student Basic Research Program (Ph.D.)</strong>”</li>
+      <li><strong>NSFC</strong> <strong>Youth Student Basic Research Program (Ph.D. Candidate)</strong></li>
       <li><strong>CAST</strong> “<strong>Young Talent Support Project Doctoral Special Program</strong>”</li>
       <li><a href="https://scholar.google.com/citations?user=rRcc9eoAAAAJ&hl=zh-CN" target="_blank">
   <img src="https://img.shields.io/badge/Google%20Scholar-342%20Citations-9cf?logo=Google%20Scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar Citations">
@@ -713,9 +713,9 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
           </div>
           <div class="article-metadata">
             <p>
-              <strong class="highlight-text">Lead PI ▪️</strong>
+              <strong class="highlight-text">Lead PI •</strong>
               <span class="middot-divider-big"></span>
-              <span class="nowrap">300,000¥ ▪️</span>
+              <span class="nowrap">300,000¥ •</span>
               <span class="middot-divider-big"></span>
               January 2026 - December 2027
             </p>
@@ -735,9 +735,9 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
           </div>
           <div class="article-metadata">
             <p>
-              <strong class="highlight-text">Awardee ▪️</strong>
+              <strong class="highlight-text">Awardee •</strong>
               <span class="middot-divider-big"></span>
-              <span class="nowrap">40,000¥ ▪️</span>
+              <span class="nowrap">40,000¥ •</span>
               <span class="middot-divider-big"></span>
               January 2025 - December 2026
             </p>
@@ -757,9 +757,9 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
           </div>
           <div class="article-metadata">
             <p>
-              <strong class="highlight-text">Awardee ▪️</strong>
+              <strong class="highlight-text">Awardee •</strong>
               <span class="middot-divider-big"></span>
-              <span class="nowrap">100,000¥ ▪️</span>
+              <span class="nowrap">100,000¥ •</span>
               <span class="middot-divider-big"></span>
               May 2025
             </p>
@@ -779,9 +779,9 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
           </div>
           <div class="article-metadata">
             <p>
-              <strong class="highlight-text">PI Lead ▪️</strong>
+              <strong class="highlight-text">PI Lead •</strong>
               <span class="middot-divider-big"></span>
-              <span class="nowrap">15,000¥ ▪️</span>
+              <span class="nowrap">15,000¥ •</span>
               <span class="middot-divider-big"></span>
               May 2024 - May 2025
             </p>
@@ -844,7 +844,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
 
 # 🧑‍🏫 Teaching
 Teaching Assistant at PolyU
-- COMP 6704: Advanced Machine Learning
+- COMP 6704: Advanced Machine Learning (Semester one 2025 - 2026)
 
 <br>
 
