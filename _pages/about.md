@@ -339,6 +339,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 <div id="news" class="w3-container w3-margin-top-2 w3-cursive">
 	  <div style="height:200px; width:100%; overflow:auto;">
 	    <h4>📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me.</h4>
+		<p>[12.2025] 📕 I am selected for the 2025 “<strong>Youth Student Basic Research Program (Ph.D. Candidate)</strong>” of National Natural Science Foundation of China (NSFC) (around 900 recipients nationwide)</p>
 		<p>[11.2025] 🎉 Two paper <strong>MoASE</strong> and <strong>MoLe-VLA</strong> were accepted by <strong>AAAI</strong> as <strong style="color: red;">Oral</strong> and Poster, respectively (CCF-A).</p>
 		<p>[09.2025] 🎉 One paper <strong>Orochi</strong> was accepted by <strong>NeurlPS</strong> as Spotlight (CCF-A).</p>
 	    <p>[05.2025] 📕 I am selected for the “<strong>Endeavor Scholarship — Integrated Circuit Talent Development Program</strong>” of China Education Development Foundation (93 recipients nationwide).</p>
@@ -695,12 +696,16 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
 <span class='anchor' id='honors-and-awards'></span>
 
 # 🥇 Honors and Awards
+Lead PI Project:
+- *(2025.05)*: &nbsp;The third "Youth Student Basic Research Program (Ph.D. Candidate): Edge–cloud collaborative generalization and compression mechanisms for multimodal large models" with 300,000¥, National Natural Science Foundation of China (国家自然科学基金委青年学生基础研究项目（博士研究生）：多模态大模型端云协同泛化压缩机制研究)
+- *(2025.05)*: &nbsp;The “Endeavor Scholarship — Integrated Circuit Talent Development Program” with 100,000¥  (93 recipients nationwide), China Education Development Foundation (中国教育发展基金会“奋进奖学金—集成电路人才培养”项目；全国93人入选)
+- *(2025.01)*: &nbsp;The First Session “Young Talent Support Project Doctoral Special Program” with 40,000¥ (3,226 recipients nationwide), China Association for Science and Technology (首届中国科协“青年人才托举工程博士生专项”计划；全国3,226人入选)
+- *(2024.05)*: &nbsp;Jiangsu Province Graduate Research and Practical Innovation Project “Mixture-of-Activation-Sparsity-Experts for Continuous Test-time Adaptation” with 15,000¥, Jiangsu Provincial Department of Education (江苏省"研究生科研与实践创新"计划)
+
+Awards:
 - *(2025.09)*: &nbsp;Hong Kong Post-Graduate Scholarship (HKPGS) with 18,840¥/month, The Hong Kong Polytechnic University
-- *(2025.05)*: &nbsp;The “Endeavor Scholarship — Integrated Circuit Talent Development Program (93 recipients nationwide)” with 100,000¥, China Education Development Foundation (中国教育发展基金会“奋进奖学金—集成电路人才培养”项目；全国93人入选)
-- *(2025.01)*: &nbsp;The First Session “Young Talent Support Project Doctoral Special Program (3,226 recipients nationwide)” with 40,000¥, China Association for Science and Technology (首届中国科协“青年人才托举工程博士生专项”计划；全国3,226人入选)
 - *(2024.12)*: &nbsp;Outstanding Ph.D. Candidate with 2,000¥/year, Nanjing University
 - *(2024.12)*: &nbsp;"Bank of Jiangsu" Scholarship with 5,000¥, Nanjing University
-- *(2024.05)*: &nbsp;Jiangsu Province Graduate Research and Practical Innovation Project “Mixture-of-Activation-Sparsity-Experts for Continuous Test-time Adaptation” with 15,000¥, Jiangsu Provincial Department of Education (江苏省"研究生科研与实践创新"计划)
 - *(2023.10)*: &nbsp;The 2nd place of the SHIFT Challenge 2023 - Continuous Test-time Adaptation for Semantic Segmentation in the challenges of VCL Workshop with 2,000$, International Conference on Computer Vision
 
 <br>
