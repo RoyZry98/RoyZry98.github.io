@@ -807,20 +807,20 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
 
 # 💼 Services
 #### Journal reviewer
-- IEEE Transactions on Mobile Computing (TMC)
-- IEEE Transactions on Computers (TC)
-- IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
-- IEEE Transactions on Dependable and Secure Computing  (TDSC)
-- IEEE Internet of Things Journal (IoTJ)
-- IEEE Transactions on Communications (TCOM)
-- IEEE Network Magazine (Network)
+- **IEEE Transactions on Mobile Computing** (TMC)
+- **IEEE Transactions on Computers** (TC)
+- **IEEE Transactions on Neural Networks and Learning Systems** (TNNLS)
+- **IEEE Transactions on Dependable and Secure Computing**  (TDSC)
+- **IEEE Internet of Things Journal** (IoTJ)
+- **IEEE Transactions on Communications** (TCOM)
+- **IEEE Network Magazine** (Network)
 
 #### Conference reviewer
-- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025
-- ACM International Conference on Multimedia (MM) 2024, 2025
-- IEEE/CVF International Conference on Computer Vision (ICCV) 2023, 2025
-- Annual Conference on Neural Information Processing Systems (NeurIPS) 2025
-- The Fortieth AAAI Conference on Artificial Intelligence (AAAI) 2026
+- **IEEE/CVF Conference on Computer Vision and Pattern Recognition** (CVPR) 2025
+- **ACM International Conference on Multimedia** (MM) 2024, 2025
+- **IEEE/CVF International Conference on Computer Vision** (ICCV) 2023, 2025
+- **Annual Conference on Neural Information Processing Systems** (NeurIPS) 2025
+- **The Fortieth AAAI Conference on Artificial Intelligence** (AAAI) 2026
 
 <br>
 
@@ -836,15 +836,15 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
 <span class='anchor' id='talks'></span>
 
 # 🎤 Talks
-- 'Research on Key Technologies for Improving the Performance and Efficiency of On-device Models Based on Mixture-of-Experts' @ The Chinese University of Hong Kong, Shenzhen, invited by Prof. Fangxin Wang (2025.08.05) [Slides](assets/cuhksz_talk.pptx)
+- **'Research on Key Technologies for Improving the Performance and Efficiency of On-device Models Based on Mixture-of-Experts'** @ The Chinese University of Hong Kong, Shenzhen, invited by Prof. Fangxin Wang (2025.08.05) [Slides](assets/cuhksz_talk.pptx)
 
 <br>
 
 <span class='anchor' id='teaching'></span>
 
-# 🧑‍🏫 Teaching
-Teaching Assistant at PolyU
-- COMP 6704: Advanced Machine Learning (Semester one 2025 - 2026)
+# 🧑‍🏫 Teaching  
+**Teaching Assistant at PolyU**
+- **COMP 6704: Advanced Machine Learning** (Semester one 2025 - 2026)
 
 <br>
 
