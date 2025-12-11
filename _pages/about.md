@@ -796,10 +796,10 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
 <br>
 
 # 🥇 Honors and Awards
-- *(2025.09)*: &nbsp;Hong Kong Post-Graduate Scholarship (HKPGS) with 18,840¥/month, The Hong Kong Polytechnic University
-- *(2024.12)*: &nbsp;Outstanding Ph.D. Candidate with 2,000¥/year, Nanjing University
-- *(2024.12)*: &nbsp;"Bank of Jiangsu" Scholarship with 5,000¥, Nanjing University
-- *(2023.10)*: &nbsp;The 2nd place of the SHIFT Challenge 2023 - Continuous Test-time Adaptation for Semantic Segmentation in the challenges of VCL Workshop with 2,000$, International Conference on Computer Vision
+- *(2025.09)*: &nbsp;<strong>Hong Kong Post-Graduate Scholarship (HKPGS)</strong> with 19,920¥/month, The Hong Kong Polytechnic University
+- *(2024.12)*: &nbsp;<strong>Outstanding Ph.D. Candidate</strong> with 5,000¥/year, Nanjing University
+- *(2024.12)*: &nbsp;<strong>"Bank of Jiangsu" Scholarship</strong> with 5,000¥, Nanjing University
+- *(2023.10)*: &nbsp;<strong>The 2nd place of the SHIFT Challenge 2023 - Continuous Test-time Adaptation for Semantic Segmentation in the challenges of VCL Workshop</strong> with 2,000$, International Conference on Computer Vision
 
 <br>
 
