@@ -710,23 +710,16 @@ Awards:
 
 <br> -->
 
-<span class="anchor" id="honors-and-awards"></span>
+<span class="anchor" id="grants-and-projects"></span>
+# 💰 Grants and Projects
 <div class="row">
   <div class="col-12 col-lg-8">
-    <h2 class="section-title">🥇 Honors and Awards</h2>
 
     <div class="description">
       <ul class="ul-edu fa-ul mb-0">
-        <!-- 分组标题 -->
-        <li style="margin-bottom:8px;">
-          <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
-          <strong class="highlight-text">Lead PI Project</strong>
-        </li>
-
         <!-- 条目 1 -->
         <li>
           <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
-          <span class="time-prefix">(2025.05)</span>
           <strong class="highlight-text">NSFC Youth Student Basic Research Program (Ph.D. Candidate):</strong>
           “Edge–cloud collaborative generalization and compression mechanisms for multimodal large models”
           <div class="article-metadata">
@@ -737,11 +730,11 @@ Awards:
           </div>
           <div class="article-metadata">
             <p>
-              <strong class="highlight-text">Lead PI</strong>
+              <strong class="highlight-text">Lead PI ▪️</strong>
               <span class="middot-divider-big"></span>
-              <span class="nowrap">300,000¥</span>
+              <span class="nowrap">300,000¥ ▪️</span>
               <span class="middot-divider-big"></span>
-              National Natural Science Foundation of China
+              January 2026 - December 2027
             </p>
           </div>
         </li>
@@ -749,22 +742,21 @@ Awards:
         <!-- 条目 2 -->
         <li>
           <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
-          <span class="time-prefix">(2025.05)</span>
-          <strong class="highlight-text">Endeavor Scholarship — Integrated Circuit Talent Development Program</strong>
+          <strong class="highlight-text">CEDF “Endeavor Scholarship — Integrated Circuit Talent Development” Program</strong>
           <i> (93 recipients nationwide)</i>
           <div class="article-metadata">
             <p>
-              <strong class="highlight-text">中国教育发展基金会“奋进奖学金—集成电路人才培养”项目：</strong>
-              全国93人入选
+              <strong class="highlight-text">中国教育发展基金会“奋进奖学金—集成电路人才培养”项目</strong>
+              （全国93人入选）
             </p>
           </div>
           <div class="article-metadata">
             <p>
-              <strong class="highlight-text">Awardee</strong>
+              <strong class="highlight-text">Awardee ▪️</strong>
               <span class="middot-divider-big"></span>
-              <span class="nowrap">100,000¥</span>
+              <span class="nowrap">100,000¥ ▪️</span>
               <span class="middot-divider-big"></span>
-              China Education Development Foundation
+              May 2025
             </p>
           </div>
         </li>
@@ -772,22 +764,21 @@ Awards:
         <!-- 条目 3 -->
         <li>
           <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
-          <span class="time-prefix">(2025.01)</span>
-          <strong class="highlight-text">Young Talent Support Project — Doctoral Special Program (First Session)</strong>
+          <strong class="highlight-text">CAST Young Talent Support Project — Doctoral Special Program</strong>
           <i> (3,226 recipients nationwide)</i>
           <div class="article-metadata">
             <p>
-              <strong class="highlight-text">首届中国科协“青年人才托举工程博士生专项”计划：</strong>
-              全国3,226人入选
+              <strong class="highlight-text">中国科协青年人才托举工程博士生专项</strong>
+              （全国3,226人入选）
             </p>
           </div>
           <div class="article-metadata">
             <p>
-              <strong class="highlight-text">Awardee</strong>
+              <strong class="highlight-text">Awardee ▪️</strong>
               <span class="middot-divider-big"></span>
-              <span class="nowrap">40,000¥</span>
+              <span class="nowrap">40,000¥ ▪️</span>
               <span class="middot-divider-big"></span>
-              China Association for Science and Technology
+              January 2025 - December 2026
             </p>
           </div>
         </li>
@@ -795,22 +786,21 @@ Awards:
         <!-- 条目 4 -->
         <li>
           <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
-          <span class="time-prefix">(2024.05)</span>
           <strong class="highlight-text">Jiangsu Province Graduate Research and Practical Innovation Project:</strong>
           “Mixture-of-Activation-Sparsity-Experts for Continuous Test-time Adaptation”
           <div class="article-metadata">
             <p>
               <strong class="highlight-text">江苏省“研究生科研与实践创新”计划：</strong>
-              项目名称：连续测试时自适应的激活稀疏专家混合模型
+              连续测试时自适应的激活稀疏专家混合模型
             </p>
           </div>
           <div class="article-metadata">
             <p>
-              <strong class="highlight-text">PI/Team Lead</strong>
+              <strong class="highlight-text">PI Lead ▪️</strong>
               <span class="middot-divider-big"></span>
-              <span class="nowrap">15,000¥</span>
+              <span class="nowrap">15,000¥ ▪️</span>
               <span class="middot-divider-big"></span>
-              Jiangsu Provincial Department of Education
+              May 2024 - May 2025
             </p>
           </div>
         </li>
@@ -819,6 +809,14 @@ Awards:
 
   </div>
 </div>
+
+# 🥇 Honors and Awards
+- *(2025.09)*: &nbsp;Hong Kong Post-Graduate Scholarship (HKPGS) with 18,840¥/month, The Hong Kong Polytechnic University
+- *(2024.12)*: &nbsp;Outstanding Ph.D. Candidate with 2,000¥/year, Nanjing University
+- *(2024.12)*: &nbsp;"Bank of Jiangsu" Scholarship with 5,000¥, Nanjing University
+- *(2023.10)*: &nbsp;The 2nd place of the SHIFT Challenge 2023 - Continuous Test-time Adaptation for Semantic Segmentation in the challenges of VCL Workshop with 2,000$, International Conference on Computer Vision
+
+<br>
 
 <span class='anchor' id='services'></span>
 
