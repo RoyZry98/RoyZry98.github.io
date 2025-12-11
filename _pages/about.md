@@ -693,23 +693,6 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
   
 <br>
 
-<!-- <span class='anchor' id='honors-and-awards'></span>
-
-# 🥇 Honors and Awards
-Lead PI Project:
-- *(2025.05)*: &nbsp;The third "Youth Student Basic Research Program (Ph.D. Candidate): Edge–cloud collaborative generalization and compression mechanisms for multimodal large models" with 300,000¥, National Natural Science Foundation of China (国家自然科学基金委青年学生基础研究项目（博士研究生）：多模态大模型端云协同泛化压缩机制研究)
-- *(2025.05)*: &nbsp;The “Endeavor Scholarship — Integrated Circuit Talent Development Program” with 100,000¥  (93 recipients nationwide), China Education Development Foundation (中国教育发展基金会“奋进奖学金—集成电路人才培养”项目；全国93人入选)
-- *(2025.01)*: &nbsp;The First Session “Young Talent Support Project Doctoral Special Program” with 40,000¥ (3,226 recipients nationwide), China Association for Science and Technology (首届中国科协“青年人才托举工程博士生专项”计划；全国3,226人入选)
-- *(2024.05)*: &nbsp;Jiangsu Province Graduate Research and Practical Innovation Project “Mixture-of-Activation-Sparsity-Experts for Continuous Test-time Adaptation” with 15,000¥, Jiangsu Provincial Department of Education (江苏省"研究生科研与实践创新"计划)
-
-Awards:
-- *(2025.09)*: &nbsp;Hong Kong Post-Graduate Scholarship (HKPGS) with 18,840¥/month, The Hong Kong Polytechnic University
-- *(2024.12)*: &nbsp;Outstanding Ph.D. Candidate with 2,000¥/year, Nanjing University
-- *(2024.12)*: &nbsp;"Bank of Jiangsu" Scholarship with 5,000¥, Nanjing University
-- *(2023.10)*: &nbsp;The 2nd place of the SHIFT Challenge 2023 - Continuous Test-time Adaptation for Semantic Segmentation in the challenges of VCL Workshop with 2,000$, International Conference on Computer Vision
-
-<br> -->
-
 <span class="anchor" id="grants-and-projects"></span>
 # 💰 Grants and Projects
 <div class="row">
@@ -742,34 +725,12 @@ Awards:
         <!-- 条目 2 -->
         <li>
           <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
-          <strong class="highlight-text">CEDF “Endeavor Scholarship — Integrated Circuit Talent Development” Program</strong>
-          <i> (93 recipients nationwide)</i>
-          <div class="article-metadata">
-            <p>
-              <strong class="highlight-text">中国教育发展基金会“奋进奖学金—集成电路人才培养”项目</strong>
-              （全国93人入选）
-            </p>
-          </div>
-          <div class="article-metadata">
-            <p>
-              <strong class="highlight-text">Awardee ▪️</strong>
-              <span class="middot-divider-big"></span>
-              <span class="nowrap">100,000¥ ▪️</span>
-              <span class="middot-divider-big"></span>
-              May 2025
-            </p>
-          </div>
-        </li>
-
-        <!-- 条目 3 -->
-        <li>
-          <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
           <strong class="highlight-text">CAST Young Talent Support Project — Doctoral Special Program</strong>
-          <i> (3,226 recipients nationwide)</i>
+          <i>(3,226 recipients nationwide)</i>
           <div class="article-metadata">
             <p>
               <strong class="highlight-text">中国科协青年人才托举工程博士生专项</strong>
-              （全国3,226人入选）
+          （全国3,226人入选）
             </p>
           </div>
           <div class="article-metadata">
@@ -779,6 +740,28 @@ Awards:
               <span class="nowrap">40,000¥ ▪️</span>
               <span class="middot-divider-big"></span>
               January 2025 - December 2026
+            </p>
+          </div>
+        </li>
+		
+        <!-- 条目 3 -->
+        <li>
+          <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
+          <strong class="highlight-text">CEDF “Endeavor Scholarship — Integrated Circuit Talent Development” Program</strong>
+          <i>(93 recipients nationwide)</i>
+          <div class="article-metadata">
+            <p>
+              <strong class="highlight-text">中国教育发展基金会“奋进奖学金—集成电路人才培养”项目</strong>
+          （全国93人入选）
+            </p>
+          </div>
+          <div class="article-metadata">
+            <p>
+              <strong class="highlight-text">Awardee ▪️</strong>
+              <span class="middot-divider-big"></span>
+              <span class="nowrap">100,000¥ ▪️</span>
+              <span class="middot-divider-big"></span>
+              May 2025
             </p>
           </div>
         </li>
@@ -809,6 +792,8 @@ Awards:
 
   </div>
 </div>
+
+<br>
 
 # 🥇 Honors and Awards
 - *(2025.09)*: &nbsp;Hong Kong Post-Graduate Scholarship (HKPGS) with 18,840¥/month, The Hong Kong Polytechnic University
