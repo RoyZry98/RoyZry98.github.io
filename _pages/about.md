@@ -339,17 +339,17 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 <div id="news" class="w3-container w3-margin-top-2 w3-cursive">
 	  <div style="height:200px; width:100%; overflow:auto;">
 	    <h4>📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me.</h4>
-		<p>[12.2025] 📕 I am selected for the 2025 “<strong>Youth Student Basic Research Program (Ph.D. Candidate)</strong>” of <strong>National Natural Science Foundation of China (NSFC)</strong> (around 900 recipients nationwide)</p>
+		<p>[12.2025] 📕 I am selected for the 2025 <strong>National Natural Science Foundation of China (NSFC)</strong> <strong>Youth Student Basic Research Program (Ph.D. Candidate)</strong> (around 900 recipients nationwide)</p>
 		<p>[11.2025] 🎉 Two paper <strong>MoASE</strong> and <strong>MoLe-VLA</strong> were accepted by <strong>AAAI</strong> as <strong style="color: red;">Oral</strong> and Poster, respectively (CCF-A).</p>
 		<p>[09.2025] 🎉 One paper <strong>Orochi</strong> was accepted by <strong>NeurlPS</strong> as Spotlight (CCF-A).</p>
-	    <p>[05.2025] 📕 I am selected for the “<strong>Endeavor Scholarship — Integrated Circuit Talent Development Program</strong>” of <strong>China Education Development Foundation</strong> (93 recipients nationwide).</p>
+	    <p>[05.2025] 📕 I am selected for the <strong>China Education Development Foundation "Endeavor Scholarship — Integrated Circuit Talent Development" Program</strong> (93 recipients nationwide).</p>
 	    <p>[05.2025] 🎉 One paper <strong>INIF</strong> was accepted by <strong>Nature Computational Science</strong> (CAS-Q1).</p>
 	    <p>[05.2025] 🎉 One paper <strong>UTMP</strong> was accepted by <strong>IEEE TMC</strong> (CCF-A) as first author.</p>
 	    <p>[05.2025] 🎉 One paper <strong>EVA</strong> was accepted by <strong>ICML 2025</strong> (CCF-A).</p>
 	    <p>[04.2025] 🎉 One paper <strong>FBQuant</strong> was accepted by <strong>IJCAI 2025</strong> (CCF-A).</p>
 	    <p>[04.2025] 🎉 One paper <strong>RepCaM++</strong> was accepted by <strong>IEEE TMC</strong> (CCF-A) as first author.</p>
 	    <p>[03.2025] 💻 <strong>PAT</strong> (AAAI'25) has been applied to Samsung’s on-device applications for smartphones and TVs.</p>
-	    <p>[01.2025] 📕 I am selected for the First session “<strong>Young Talent Support Project Doctoral Special Program</strong>” of <strong>China Association for Science and Technology</strong> (3,226 recipients nationwide)</p>
+	    <p>[01.2025] 📕 I am selected for the <strong>China Association for Science and Technology (CAST) Young Talent Support Project Doctoral Special Program</strong> (3,226 recipients nationwide)</p>
 	    <p>[12.2024] 🎉 One paper <strong>BEVUDA++</strong> was accepted by <strong>IEEE TCSVT</strong> (CAS-Q1) as first author.</p>
 	    <p>[12.2024] 🎉 One paper <strong>PAT</strong> was accepted by <strong>AAAI 2025</strong> (CCF-A).</p>
 	    <p>[12.2024] 🏅 I was named <strong>"Outstanding Ph.D. Candidate"</strong> by NJU.</p>
@@ -704,7 +704,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
         <li>
           <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
           <strong class="highlight-text">NSFC Youth Student Basic Research Program (Ph.D. Candidate):</strong>
-          “Edge–cloud collaborative generalization and compression mechanisms for multimodal large models”
+          “Edge–cloud collaborative generalization and compression mechanisms for multimodal large language models”
           <div class="article-metadata">
             <p>
               <strong class="highlight-text">国家自然科学基金委青年学生基础研究项目（博士研究生）：</strong>
