@@ -779,7 +779,7 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
           </div>
           <div class="article-metadata">
             <p>
-              <strong class="highlight-text">PI Lead •</strong>
+              <strong class="highlight-text">Lead PI •</strong>
               <span class="middot-divider-big"></span>
               <span class="nowrap">15,000¥ •</span>
               <span class="middot-divider-big"></span>
