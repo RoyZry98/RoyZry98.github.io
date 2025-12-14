@@ -276,7 +276,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 👤 Biography
-Rongyu is a third-year dual Ph.D. candidate at **Nanjing University** and **The Hong Kong Polytechnic University**, where he is co-supervised by [Prof. Yuan Du](https://iscl.nju.edu.cn/42925/list.htm) and [Prof. Dan Wang](https://wangdan.people.ust.hk/). He is also a long-term visiting student at **Peking University** under the supervision of [Prof. Shanghang Zhang](https://www.shanghangzhang.com). Previously, he received the M.Phil. degree from **The Chinese University of Hong Kong, Shenzhen**, supervised by [Prof. Fangxin Wang](https://mypage.cuhk.edu.cn/academics/wangfangxin/), the B.Mang. and B.Eng. degree from the joint program of **Beijing University of Posts and Telecommunications** and **Queen Mary University of London**. He has published over 10 papers in top-tier CCF-A and CAS-Q1 international conferences and journals such as **Nature Computational Science**, **NeurIPS**, **ICML**, **CVPR**, **AAAI**, **TMC**, and **TCSVT**, etc.
+Rongyu is a third-year dual Ph.D. candidate at **Nanjing University** and **The Hong Kong Polytechnic University**, where he is co-supervised by [Prof. Yuan Du](https://iscl.nju.edu.cn/42925/list.htm) and [Prof. Dan Wang](https://wangdan.people.ust.hk/). He is also a long-term visiting student at **Peking University** under the supervision of [Prof. Shanghang Zhang](https://www.shanghangzhang.com). Previously, he received the M.Phil. degree from **The Chinese University of Hong Kong, Shenzhen**, supervised by [Prof. Fangxin Wang](https://mypage.cuhk.edu.cn/academics/wangfangxin/), and the Bachelor degree from the **Beijing University of Posts and Telecommunications**. He has published over 10 papers in top-tier CCF-A and CAS-Q1 international conferences and journals such as **Nature Computational Science**, **NeurIPS**, **ICML**, **CVPR**, **AAAI**, **TMC**, and **TCSVT**, etc.
 
 Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 
@@ -330,8 +330,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 - <img src="images/polyu_.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle"> **The Hong Kong Polytechnic University** (2023.09-Present) Dual Ph.D. in Computing Science
 - <img src="images/nju_.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle"> **Nanjing University** (2023.09-Present) Dual Ph.D. in Electrical Science and Technology 
 - <img src="images/cuhk_.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle"> **The Chinese University of Hong Kong, Shenzhen** (2021.09-2023.03) M.Phil. in Computer and Information Engineering
-- <img src="images/bupt_.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle"> **Beijing University of Posts and Telecommunications** (2017.09-2021.06) Dual B.Mang. in E-Commerce Engineering with Law
-- <img src="images/qmul_.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle"> **Queen Mary University of London** (2017.09-2021.06) Dual B.Eng. in Electrical Engineering and Computer Sciences
+- <img src="images/bupt_.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle"> **Beijing University of Posts and Telecommunications** (2017.09-2021.06) B.Eng. in Electrical Engineering and Computer Sciences
 
 <br>
 
@@ -339,7 +338,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 <div id="news" class="w3-container w3-margin-top-2 w3-cursive">
 	  <div style="height:200px; width:100%; overflow:auto;">
 	    <h4>📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me.</h4>
-		<p>[12.2025] 📕 I am selected for the 2025 <strong>National Natural Science Foundation of China (NSFC)</strong> <strong>Youth Student Basic Research Program (Ph.D. Candidate)</strong> (around 900 recipients nationwide)</p>
+		<p>[12.2025] 📕 I am selected for the 2025 <strong>National Natural Science Foundation of China (NSFC)</strong> <strong>Youth Student Basic Research Program (Ph.D. Candidate)</strong></p>
 		<p>[11.2025] 🎉 Two paper <strong>MoASE</strong> and <strong>MoLe-VLA</strong> were accepted by <strong>AAAI</strong> as <strong style="color: red;">Oral</strong> and Poster, respectively (CCF-A).</p>
 		<p>[09.2025] 🎉 One paper <strong>Orochi</strong> was accepted by <strong>NeurlPS</strong> as Spotlight (CCF-A).</p>
 	    <p>[05.2025] 📕 I am selected for the <strong>China Education Development Foundation "Endeavor Scholarship — Integrated Circuit Talent Development" Program</strong> (93 recipients nationwide).</p>
@@ -349,7 +348,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 	    <p>[04.2025] 🎉 One paper <strong>FBQuant</strong> was accepted by <strong>IJCAI 2025</strong> (CCF-A).</p>
 	    <p>[04.2025] 🎉 One paper <strong>RepCaM++</strong> was accepted by <strong>IEEE TMC</strong> (CCF-A) as first author.</p>
 	    <p>[03.2025] 💻 <strong>PAT</strong> (AAAI'25) has been applied to Samsung’s on-device applications for smartphones and TVs.</p>
-	    <p>[01.2025] 📕 I am selected for the <strong>China Association for Science and Technology (CAST) Young Talent Support Project Doctoral Special Program</strong> (3,226 recipients nationwide)</p>
+	    <p>[01.2025] 📕 I am selected for the <strong>China Association for Science and Technology (CAST) Young Talent Support Project Doctoral Special Program</strong></p>
 	    <p>[12.2024] 🎉 One paper <strong>BEVUDA++</strong> was accepted by <strong>IEEE TCSVT</strong> (CAS-Q1) as first author.</p>
 	    <p>[12.2024] 🎉 One paper <strong>PAT</strong> was accepted by <strong>AAAI 2025</strong> (CCF-A).</p>
 	    <p>[12.2024] 🏅 I was named <strong>"Outstanding Ph.D. Candidate"</strong> by NJU.</p>
@@ -726,11 +725,9 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
         <li>
           <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
           <strong class="highlight-text">CAST Young Talent Support Project — Doctoral Special Program</strong>
-          <i>(3,226 recipients nationwide)</i>
           <div class="article-metadata">
             <p>
               <strong class="highlight-text">中国科协青年人才托举工程博士生专项</strong>
-          （全国3,226人入选）
             </p>
           </div>
           <div class="article-metadata">
