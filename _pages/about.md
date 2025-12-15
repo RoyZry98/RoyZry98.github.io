@@ -318,7 +318,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
   <div class="highlight-block">
     <h3>🗺️ Research Path</h3>
     <div style="text-align: center;">
-      <img src="images/path.png" alt="Research Focus Image" style="width:85%; height:auto; display: inline-block;">
+      <img src="images/path.png" alt="Research Focus Image" style="width:75%; height:auto; display: inline-block;">
     </div>
   </div>
 </div>
