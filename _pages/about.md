@@ -491,12 +491,126 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
     cursor: pointer;
     user-select: none;
   }
-  .show-more-btn:hover {
-    background: #f9fafb;
-  }
-	
-  .star-badge { height: 20px; vertical-align: middle; }
 </style>
+
+<script>
+  // 说明：
+  // - 保持你的 DOM 结构不变：前5条在主列表，其后在折叠区（id="pub-collapsible"）内；
+  // - Show more 按钮 id="pub-toggle"，所在 li 有 class="show-more-bar"；
+  // - 本脚本仅通过 display 和 wrapper.expanded 控制显示，不移动节点。
+  (function () {
+    var wrapper = document.getElementById('pub-collapsible'); // 折叠容器
+    var btn = document.getElementById('pub-toggle');          // Show more 按钮
+    var icon = btn ? btn.querySelector('svg') : null;
+
+    // 所有可展示的论文条目：主列表的 li（排除占位和按钮）+ 折叠区内部 li
+    var topLis = Array.from(document.querySelectorAll('#publications > li'))
+      .filter(function (li) {
+        return !li.classList.contains('collapsible-holder') &&
+               !li.classList.contains('show-more-bar');
+      });
+    var bottomLis = Array.from(
+      document.querySelectorAll('#pub-collapsible .collapsible-inner > ul > li')
+    );
+
+    var state = {
+      mode: 'All',
+      expanded: false
+    };
+
+    function setExpanded(expanded) {
+      state.expanded = expanded;
+      if (wrapper) {
+        if (expanded) {
+          wrapper.classList.add('expanded');
+        } else {
+          wrapper.classList.remove('expanded');
+        }
+      }
+      if (btn) {
+        setBtnText(expanded ? 'Show less' : 'Show more');
+        if (icon) icon.style.transform = expanded ? 'rotate(180deg)' : 'rotate(0deg)';
+      }
+      render(); // 每次展开状态变化后重渲染，确保第6条之后的显示正确
+    }
+
+    function setBtnText(text) {
+      var tn = Array.from(btn.childNodes).find(function (n) { return n.nodeType === 3; });
+      if (tn) tn.nodeValue = text + ' ';
+      else btn.insertBefore(document.createTextNode(text + ' '), btn.firstChild);
+    }
+
+    function buildMatcher(mode) {
+      if (mode === 'All') return function () { return true; };
+      if (mode === 'First-authored') {
+        return function (li) {
+          var v = li.getAttribute('first_authored');
+          return v === '' || v === 'true' || v === true || v === 'True';
+        };
+      }
+      // 分类匹配
+      return function (li) {
+        return (li.getAttribute('category') || '').toLowerCase() === mode.toLowerCase();
+      };
+    }
+
+    // 返回当前筛选模式下匹配的 li（按文档顺序：主列表随后折叠区）
+    function getMatchedLis() {
+      var matcher = buildMatcher(state.mode);
+      var merged = topLis.concat(bottomLis);
+      return merged.filter(matcher);
+    }
+
+    // 渲染规则：
+    // - 先隐藏所有 li；
+    // - 匹配结果中的前 5 条显示；
+    // - 匹配结果中的第 6 条及之后：expanded=true 显示，否则隐藏；
+    // - 当匹配结果 <=5 时，隐藏 show-more 区域；否则显示。
+    function render() {
+      var matched = getMatchedLis();
+
+      // 隐藏全部
+      topLis.forEach(function (li) { li.style.display = 'none'; });
+      bottomLis.forEach(function (li) { li.style.display = 'none'; });
+
+      // 显示匹配结果
+      matched.forEach(function (li, idx) {
+        if (idx < 5) {
+          li.style.display = '';
+        } else {
+          li.style.display = state.expanded ? '' : 'none';
+        }
+      });
+
+      // 控制 Show more 区域显隐（当结果不超过 5 条时隐藏）
+      var bar = document.querySelector('#publications > li.show-more-bar');
+      if (bar) {
+        bar.style.display = matched.length > 5 ? '' : 'none';
+      }
+    }
+
+    // 绑定按钮点击：仅切换 expanded 状态，其他逻辑保持
+    if (btn) {
+      btn.addEventListener('click', function () {
+        var matched = getMatchedLis();
+        if (matched.length <= 5) return; // 无需展开
+        setExpanded(!state.expanded);
+      });
+    }
+
+    // 对外的过滤函数：按钮 onclick 调用
+    window.filterPub = function (mode) {
+      state.mode = mode;
+      // 切换筛选时回到折叠状态
+      setExpanded(false);
+      render();
+    };
+
+    // 初始渲染
+    setExpanded(false);
+    render();
+  })();
+</script>
 
 <ul id="publications">
   <!-- 前5篇：保持可见，原始结构不变 -->
@@ -786,33 +900,6 @@ CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, 
   </li>
 </ul>
 
-<script>
-  (function () {
-    var wrapper = document.getElementById('pub-collapsible');
-    var btn = document.getElementById('pub-toggle');
-    var icon = btn.querySelector('svg');
-
-    function setExpanded(expanded) {
-      if (expanded) {
-        wrapper.classList.add('expanded');
-        btn.firstChild.nodeValue = 'Show less';
-        icon.style.transform = 'rotate(180deg)';
-      } else {
-        wrapper.classList.remove('expanded');
-        btn.firstChild.nodeValue = 'Show more';
-        icon.style.transform = 'rotate(0deg)';
-      }
-    }
-
-    // 初始为折叠
-    setExpanded(false);
-
-    btn.addEventListener('click', function () {
-      var isExpanded = wrapper.classList.contains('expanded');
-      setExpanded(!isExpanded);
-    });
-  })();
-</script>
   
 <br>
 
