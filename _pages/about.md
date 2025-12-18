@@ -691,7 +691,108 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
   </li>
 </ul>
 
-<div style="margin-top: 8px;">
+<!-- 你的 <ul id="publications"> 列表各项 li ... -->
+
+<!-- Show more / less 控制条（放在 publications 列表的最后一个 li 后） -->
+<li class="show-more-bar" style="border-bottom:none; list-style: none; margin-top: 8px;">
+  <button type="button" class="show-more-btn" id="pub-toggle" style="display:none; background:transparent; border:none; cursor:pointer; font: inherit; color: inherit; padding: 8px 0;">
+    <span class="toggle-text">Show more</span>
+    <svg class="toggle-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" style="vertical-align: middle; margin-left: 6px; transform:rotate(0deg); transition:transform .2s ease;">
+      <path d="M8 10l4 4 4-4" stroke="#374151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+</li>
+</ul>
+
+<script>
+  // Configuration: number always visible
+  const VISIBLE_COUNT = 5;
+
+  // State
+  let currentFilter = 'All';
+  let isExpanded = false;
+
+  function matchesFilter(li, filter) {
+    if (filter === 'All') return true;
+    if (filter === 'First-authored') {
+      const v = li.getAttribute('first_authored');
+      return v === 'true' || v === true;
+    }
+    return (li.getAttribute('category') || '').toLowerCase() === filter.toLowerCase();
+  }
+
+  function getAllItems() {
+    const list = document.getElementById('publications');
+    // 只选普通论文项，不包含控制条
+    return Array.from(list.querySelectorAll(':scope > li'))
+      .filter(li => !li.classList.contains('show-more-bar'));
+  }
+
+  function applyVisibility() {
+    const items = getAllItems();
+    const btn = document.getElementById('pub-toggle');
+    const textEl = btn?.querySelector('.toggle-text');
+    const iconEl = btn?.querySelector('.toggle-icon');
+
+    const filtered = items.filter(li => matchesFilter(li, currentFilter));
+
+    // 先全部隐藏
+    items.forEach(li => { li.style.display = 'none'; });
+
+    if (filtered.length === 0) {
+      if (btn) btn.style.display = 'none';
+      return;
+    }
+
+    const head = filtered.slice(0, VISIBLE_COUNT);
+    const tail = filtered.slice(VISIBLE_COUNT);
+
+    head.forEach(li => { li.style.display = ''; });
+    if (isExpanded) {
+      tail.forEach(li => { li.style.display = ''; });
+    } else {
+      tail.forEach(li => { li.style.display = 'none'; });
+    }
+
+    if (!btn) return;
+
+    if (filtered.length > VISIBLE_COUNT) {
+      btn.style.display = '';
+      if (textEl) textEl.textContent = isExpanded ? 'Show less' : 'Show more';
+      if (iconEl) {
+        iconEl.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
+      }
+    } else {
+      btn.style.display = 'none';
+    }
+  }
+
+  // 供按钮调用的筛选函数（保持你的按钮 onclick=filterPub('...') 可用）
+  function filterPub(filterName) {
+    currentFilter = filterName;
+    isExpanded = false; // 切换筛选时重置折叠
+    applyVisibility();
+  }
+
+  // 绑定展开/收起
+  (function initToggle() {
+    const btn = document.getElementById('pub-toggle');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      isExpanded = !isExpanded;
+      applyVisibility();
+    });
+  })();
+
+  // 初始渲染（若非在 DOMContentLoaded 中注入也能工作）
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', applyVisibility);
+  } else {
+    applyVisibility();
+  }
+</script>
+
+<!-- <div style="margin-top: 8px;">
   <button id="toggleMoreBtn" class="button-59" type="button">Show more</button>
 </div>
 
@@ -770,7 +871,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
   document.addEventListener('DOMContentLoaded', function () {
     applyVisibility();
   });
-</script>
+</script> -->
   
 <br>
 
