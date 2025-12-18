@@ -434,471 +434,359 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 </div>
 </div>
 
-## 📚 Full publications
+<!-- Buttons and header can stay as-is -->
+📚 Full publications
 *: Equal Contribution. <br>
 CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, <venue>TMC</venue>x 3, <venue>TCSVT</venue>x 1 <br><br>
 
-<button class="filter" type="button" onclick="filterPub('All')" style="--color: #000; --border: #000">All</button>&nbsp;
-<button class="filter" type="button" onclick="filterPub('First-authored')">First author</button>&nbsp;
-<button class="filter" type="button" onclick="filterPub('Efficiency')">Efficiency</button>&nbsp;
-<button class="filter" type="button" onclick="filterPub('Generalization')">Generalization</button>&nbsp;
+<button class="filter" type="button" onclick="filterPub('All')" style="--color: #000; --border: #000">All</button>
+<button class="filter" type="button" onclick="filterPub('First-authored')">First author</button>
+<button class="filter" type="button" onclick="filterPub('Efficiency')">Efficiency</button>
+<button class="filter" type="button" onclick="filterPub('Generalization')">Generalization</button>
 
-<style>
-  /* 基础：去除默认列表样式并设置间距 */
-  #publications {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  #publications > li {
-    padding: .75rem 0;
-    border-bottom: 1px solid #f1f5f9;
-  }
-  #publications > li:last-child {
-    border-bottom: none;
-  }
-
-  /* 折叠区过渡动画容器 */
-  .collapsible-wrapper {
-    display: grid;
-    grid-template-rows: 0fr; /* 折叠时高度为 0 */
-    transition: grid-template-rows .25s ease;
-  }
-  .collapsible-wrapper.expanded {
-    grid-template-rows: 1fr; /* 展开时占满内容高度 */
-  }
-  .collapsible-inner {
-    overflow: hidden; /* 配合 grid 裁剪内容 */
-  }
-
-  /* Show more / Show less 按钮区域 */
-  .show-more-bar {
-    display: flex;
-    justify-content: center;
-    margin-top: .5rem;
-  }
-  .show-more-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: .4rem;
-    padding: .45rem .8rem;
-    font-weight: 600;
-    font-size: .95rem;
-    color: #111827;
-    background: #fff;
-    border: 1px solid #e5e7eb;
-    border-radius: .5rem;
-    cursor: pointer;
-    user-select: none;
-  }
-</style>
-
-<script>
-  // 说明：
-  // - 保持你的 DOM 结构不变：前5条在主列表，其后在折叠区（id="pub-collapsible"）内；
-  // - Show more 按钮 id="pub-toggle"，所在 li 有 class="show-more-bar"；
-  // - 本脚本仅通过 display 和 wrapper.expanded 控制显示，不移动节点。
-  (function () {
-    var wrapper = document.getElementById('pub-collapsible'); // 折叠容器
-    var btn = document.getElementById('pub-toggle');          // Show more 按钮
-    var icon = btn ? btn.querySelector('svg') : null;
-
-    // 所有可展示的论文条目：主列表的 li（排除占位和按钮）+ 折叠区内部 li
-    var topLis = Array.from(document.querySelectorAll('#publications > li'))
-      .filter(function (li) {
-        return !li.classList.contains('collapsible-holder') &&
-               !li.classList.contains('show-more-bar');
-      });
-    var bottomLis = Array.from(
-      document.querySelectorAll('#pub-collapsible .collapsible-inner > ul > li')
-    );
-
-    var state = {
-      mode: 'All',
-      expanded: false
-    };
-
-    function setExpanded(expanded) {
-      state.expanded = expanded;
-      if (wrapper) {
-        if (expanded) {
-          wrapper.classList.add('expanded');
-        } else {
-          wrapper.classList.remove('expanded');
-        }
-      }
-      if (btn) {
-        setBtnText(expanded ? 'Show less' : 'Show more');
-        if (icon) icon.style.transform = expanded ? 'rotate(180deg)' : 'rotate(0deg)';
-      }
-      render(); // 每次展开状态变化后重渲染，确保第6条之后的显示正确
-    }
-
-    function setBtnText(text) {
-      var tn = Array.from(btn.childNodes).find(function (n) { return n.nodeType === 3; });
-      if (tn) tn.nodeValue = text + ' ';
-      else btn.insertBefore(document.createTextNode(text + ' '), btn.firstChild);
-    }
-
-    function buildMatcher(mode) {
-      if (mode === 'All') return function () { return true; };
-      if (mode === 'First-authored') {
-        return function (li) {
-          var v = li.getAttribute('first_authored');
-          return v === '' || v === 'true' || v === true || v === 'True';
-        };
-      }
-      // 分类匹配
-      return function (li) {
-        return (li.getAttribute('category') || '').toLowerCase() === mode.toLowerCase();
-      };
-    }
-
-    // 返回当前筛选模式下匹配的 li（按文档顺序：主列表随后折叠区）
-    function getMatchedLis() {
-      var matcher = buildMatcher(state.mode);
-      var merged = topLis.concat(bottomLis);
-      return merged.filter(matcher);
-    }
-
-    // 渲染规则：
-    // - 先隐藏所有 li；
-    // - 匹配结果中的前 5 条显示；
-    // - 匹配结果中的第 6 条及之后：expanded=true 显示，否则隐藏；
-    // - 当匹配结果 <=5 时，隐藏 show-more 区域；否则显示。
-    function render() {
-      var matched = getMatchedLis();
-
-      // 隐藏全部
-      topLis.forEach(function (li) { li.style.display = 'none'; });
-      bottomLis.forEach(function (li) { li.style.display = 'none'; });
-
-      // 显示匹配结果
-      matched.forEach(function (li, idx) {
-        if (idx < 5) {
-          li.style.display = '';
-        } else {
-          li.style.display = state.expanded ? '' : 'none';
-        }
-      });
-
-      // 控制 Show more 区域显隐（当结果不超过 5 条时隐藏）
-      var bar = document.querySelector('#publications > li.show-more-bar');
-      if (bar) {
-        bar.style.display = matched.length > 5 ? '' : 'none';
-      }
-    }
-
-    // 绑定按钮点击：仅切换 expanded 状态，其他逻辑保持
-    if (btn) {
-      btn.addEventListener('click', function () {
-        var matched = getMatchedLis();
-        if (matched.length <= 5) return; // 无需展开
-        setExpanded(!state.expanded);
-      });
-    }
-
-    // 对外的过滤函数：按钮 onclick 调用
-    window.filterPub = function (mode) {
-      state.mode = mode;
-      // 切换筛选时回到折叠状态
-      setExpanded(false);
-      render();
-    };
-
-    // 初始渲染
-    setExpanded(false);
-    render();
-  })();
-</script>
-
-<ul id="publications">
-  <!-- 前5篇：保持可见，原始结构不变 -->
-  <li first_authored=true category="Generalization">
-    <venue>AAAI'26</venue><pt>Decomposing the Neural: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation</pt><br>
-    <b>Rongyu Zhang*</b><g>, Aosong Cheng*, Yulin Luo*, Gaole Dai, Huanrui Yang, Jiaming Liu, Ran Xu, Li Du, Dan Wang, Yuan Du</g> <br />
-    AAAI Conference on Artificial Intelligence<br />
-    <p>
-      <img src="https://img.shields.io/badge/CCF-A-red">
-      <a href="https://arxiv.org/pdf/2405.16486" class="button-59">PDF</a>
-      <a href="https://github.com/RoyZry98/MoASE-Pytorch" class="button-59">Code</a>
-      <img src="https://img.shields.io/github/stars/RoyZry98/MoASE-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
-      <font color="red">[Oral Presentation]</font>
-    </p>
-  </li>
-
-  <li first_authored=true category="Efficiency">
-    <venue>AAAI'26</venue><pt>MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation</pt><br>
-    <b>Rongyu Zhang*</b><g>, Menghang Dong*, Yuan Zhang*, Liang Heng, Xiaowei Chi, Gaole Dai, Li Du, Dan Wang, Yuan Du, Shanghang Zhang</g> <br />
-    AAAI Conference on Artificial Intelligence<br />
-    <p>
-      <img src="https://img.shields.io/badge/CCF-A-red">
-      <a href="http://arxiv.org/abs/2503.20384" class="button-59">PDF</a>
-      <a href="https://github.com/RoyZry98/MoLe-VLA-Pytorch" class="button-59">Code</a>
-      <img src="https://img.shields.io/github/stars/RoyZry98/MoLe-VLA-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
-    </p>
-  </li>
-
-  <li category="Generalization">
-    <venue>NeurIPS'25</venue><pt>Orochi: Versatile Biomedical Image Processor</pt><br>
-    <g>Gaole Dai, Chenghao Zhou, Yu Zhou, </g><b>Rongyu Zhang</b><g>, Yuan Zhang, Chengkai Hou, Tiejun Huang, Jianxu Chen, Shanghang Zhang</g> <br />
-    Neural Information Processing Systems <br />
-    <p>
-      <img src="https://img.shields.io/badge/CCF-A-red">
-      <a href="https://arxiv.org/pdf/2509.22583" class="button-59">PDF</a>
-      <a href="https://github.com/daviddaiiiii/Orochi-Versatile-Biomedical-Image-Processor" class="button-59">Code</a>
-      <img src="https://img.shields.io/github/stars/daviddaiiiii/Orochi-Versatile-Biomedical-Image-Processor?style=social" class="star-badge" alt="GitHub Stars">
-      <font color="red">[Spotlight]</font>
-    </p>
-  </li>
-
-  <li first_authored=true category="Efficiency">
-    <venue>NCS'24</venue><pt>Implicit Neural Image Field for Biological Microscopy Image Compression</pt><br>
-    <g>Gaole Dai, </g><b>Rongyu Zhang*</b><g>, Cheng-Ching Tseng*, Qingpo Wuwu*, Shaokang Wan*, Ming Lu, Tiejun Huang, Yu Zhou, Ali Ata Tuz, Matthias Gunzer, Jianxu Chen, Shanghang Zhang</g> <br />
-    Nature Computational Science<br />
-    <p>
-      <img src="https://img.shields.io/badge/CAS-Q1-red">
-      <a href="http://arxiv.org/abs/2405.19012" class="button-59">PDF</a>
-      <a href="https://github.com/RoyZry98/INIF-Pytorch" class="button-59">Code</a>
-      <img src="https://img.shields.io/github/stars/RoyZry98/INIF-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
-    </p>
-  </li>
-
-  <li first_authored=true category="Generalization">
-    <venue>TMC'25</venue><pt>Unimodal Training-Multimodal Prediction: Cross-modal Federated Learning with Hierarchical Aggregation</pt><br>
-    <b>Rongyu Zhang</b><g>, Xiaowei Chi, Wenyi Zhang, Guiliang Liu, Dan Wang, Fangxin Wang</g> <br />
+<!-- Publications list (unchanged content; wrapped in a container to support collapse) -->
+<div id="pub-container" data-active-filter="All">
+  <ul id="publications">
+    <li first_authored=true category="Generalization">
+        <venue>AAAI'26</venue><pt>Decomposing the Neural: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation</pt><br>
+        <b>Rongyu Zhang*</b><g>, Aosong Cheng*, Yulin Luo*, Gaole Dai, Huanrui Yang, Jiaming Liu, Ran Xu, Li Du, Dan Wang, Yuan Du</g> <br />
+        AAAI Conference on Artificial Intelligence<br />
+        <p>
+            <img src="https://img.shields.io/badge/CCF-A-red">
+            <a href="https://arxiv.org/pdf/2405.16486" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98/MoASE-Pytorch" class="button-59">Code</a>
+            <img src="https://img.shields.io/github/stars/RoyZry98/MoASE-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+            <font color="red">[Oral Presentation]</font>
+        </p>
+    </li>
+    <li first_authored=true category="Efficiency">
+        <venue>AAAI'26</venue><pt>MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation</pt><br>
+        <b>Rongyu Zhang*</b><g>, Menghang Dong*, Yuan Zhang*, Liang Heng, Xiaowei Chi, Gaole Dai, Li Du, Dan Wang, Yuan Du, Shanghang Zhang</g> <br />
+        AAAI Conference on Artificial Intelligence<br />
+        <p>
+            <img src="https://img.shields.io/badge/CCF-A-red">
+            <a href="http://arxiv.org/abs/2503.20384" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98/MoLe-VLA-Pytorch" class="button-59">Code</a>
+            <img src="https://img.shields.io/github/stars/RoyZry98/MoLe-VLA-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
+    <li category="Generalization">
+        <venue>NIPS'25</venue><pt>Orochi: Versatile Biomedical Image Processor</pt><br>
+        <g>Gaole Dai, Chenghao Zhou, Yu Zhou, </g><b>Rongyu Zhang</b><g>, Yuan Zhang, Chengkai Hou, Tiejun Huang, Jianxu Chen, Shanghang Zhang</g> <br />
+        Neural Information Processing Systems <br />
+        <p>
+        <img src="https://img.shields.io/badge/CCF-A-red">
+            <a href="https://arxiv.org/pdf/2509.22583" class="button-59">PDF</a>
+            <a href="https://github.com/daviddaiiiii/Orochi-Versatile-Biomedical-Image-Processor" class="button-59">Code</a>
+            <img src="https://img.shields.io/github/stars/daviddaiiiii/Orochi-Versatile-Biomedical-Image-Processor?style=social" class="star-badge" alt="GitHub Stars">
+            <font color="red">[Spotlight]</font>
+        </p>
+    </li>
+    <li category="Efficiency">
+        <venue>NCS'24</venue><pt>Implicit Neural Image Field for Biological Microscopy Image Compression</pt><br>
+        <g>Gaole Dai, </g><b>Rongyu Zhang*</b><g>, Cheng-Ching Tseng*, Qingpo Wuwu*, Shaokang Wan*, Ming Lu, Tiejun Huang, Yu Zhou, Ali Ata Tuz, Matthias Gunzer, Jianxu Chen, Shanghang Zhang</g> <br />
+        Nature Computational Science<br />
+        <p>
+        <img src="https://img.shields.io/badge/CAS-Q1-red">
+            <a href="http://arxiv.org/abs/2405.19012" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98/INIF-Pytorch" class="button-59">Code</a>
+            <img src="https://img.shields.io/github/stars/RoyZry98/INIF-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
+    <li first_authored=true category="Generalization">
+        <venue>TMC'25</venue><pt>Unimodal Training-Multimodal Prediction: Cross-modal Federated Learning with Hierarchical Aggregation</pt><br>
+        <b>Rongyu Zhang</b><g>, Xiaowei Chi, Wenyi Zhang, Guiliang Liu, Dan Wang, Fangxin Wang</g> <br />
+        IEEE Transactions on Mobile Computing<br />
+        <p>
+            <img src="https://img.shields.io/badge/CCF-A-red">
+            <a href="https://arxiv.org/pdf/2303.15486" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98" class="button-59">Code</a>
+        </p>
+    </li>
+    <li category="Generalization">
+        <venue>ICML'25</venue><pt>EVA: An Embodied World Model for Future Video Anticipation</pt><br>
+        <g>Xiaowei Chi, Hengyuan Zhang, Chun-Kai Fan, Xingqun Qi, </g><b>Rongyu Zhang</b><g>, Anthony Chen, Chi-min Chan, Wei Xue, Wenhan Luo, Shanghang Zhang, Yike Guo</g> <br />
+        International Conference on Machine Learning<br />
+        <p>
+        <img src="https://img.shields.io/badge/CCF-A-red">
+            <a href="https://arxiv.org/pdf/2405.16486" class="button-59">PDF</a>
+            <a href="https://github.com/litwellchi/EmbodiedVideoAnticipator" class="button-59">Code</a>
+            <img src="https://img.shields.io/github/stars/litwellchi/EmbodiedVideoAnticipator?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
+    <li category="Efficiency">
+        <venue>IJCAI'25</venue><pt>FBQuant: FeedBack Quantization for Large Language Models</pt><br>
+        <g>Yijiang Liu, Hengyu Fang, Liulu He, </g><b>Rongyu Zhang</b><g>, Yichuan Bai, Yuan Du, Li Du</g><br />
+        International Joint Conference on Artificial Intelligence<br />
+        <p>
+        <img src="https://img.shields.io/badge/CCF-A-red">
+            <a href="https://arxiv.org/pdf/2501.16385" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98" class="button-59">Code</a>
+        </p>
+    </li>
+    <li first_authored=true category="Efficiency">
+        <venue>TMC'25</venue><pt>RepCaM++: Exploring Transparent Visual Prompt with Inference-time Re-parameterization for Neural Video Delivery</pt><br>
+        <b>Rongyu Zhang</b><g>, Xize Duan, Jiaming Liu, Li Du, Yuan Du, Dan Wang, Shanghang Zhang, Fangxin Wang</g><br>
+        IEEE Transactions on Mobile Computing<br />
+        <p>
+        <img src="https://img.shields.io/badge/CCF-A-red">
+        <a href="https://www.computer.org/csdl/journal/tm/5555/01/10949820/25DZuw4IHTy" class="button-59">PDF</a>
+        <a class="button-59" href="https://github.com/RoyZry98/RepCaM-Pytorch">Code</a>
+        <img src="https://img.shields.io/github/stars/RoyZry98/RepCaM-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
+    <li category="Efficiency">
+        <venue>AAAI'25</venue><pt>PAT: Pruning-Aware Tuning for Large Language Models</pt><br>
+        <g>Yijiang Liu, Huanrui Yang, Youxin Chen, </g><b>Rongyu Zhang</b><g>, Miao Wang, Yuan Du, Li Du</g><br />
+        AAAI Conference on Artificial Intelligence<br />
+        <p>
+        <img src="https://img.shields.io/badge/CCF-A-red">
+            <a href="https://arxiv.org/abs/2006.04558" class="button-59">PDF</a>
+            <a href="https://github.com/kriskrisliu/PAT" class="button-59">Code</a>
+            <img src="https://img.shields.io/github/stars/kriskrisliu/PAT?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
+    <li first_authored=true category="Generalization">
+        <venue>TCSVT'25</venue><pt>BEVUDA++: Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection</pt><br>
+        <b>Rongyu Zhang</b><g>, Jiaming Liu, Xiaoqi Li, Xiaowei Chi, Dan Wang, Li Du, Yuan Du, Shanghang Zhang</g><br>
+        IEEE Transactions on Circuits and Systems for Video Technology<br />
+        <p>
+        <img src="https://img.shields.io/badge/CAS-Q1-red">
+        <a href="https://ieeexplore.ieee.org/document/10816404" class="button-59">PDF</a>
+        <a class="button-59" href="https://github.com/liujiaming1996/BEVUDA">Code</a>
+        <img src="https://img.shields.io/github/stars/liujiaming1996/BEVUDA?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
+    <li first_authored=true category="Efficiency">
+        <venue>AAAI‘24</venue><pt>Efficient Deweather Mixture-of-Experts with Uncertainty-aware Feature-wise Linear Modulation</pt><br>
+        <b>Rongyu Zhang</b><g>, Yulin Luo, Jiaming Liu, Huanrui Yang, Zhen Dong, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Yuan Du, Shanghang Zhang</g><br>
+        AAAI Conference on Artificial Intelligence<br />
+        <p>
+            <img src="https://img.shields.io/badge/CCF-A-red">
+            <a href="https://ojs.aaai.org/index.php/AAAI/article/download/29622/31055" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98/MoFME-Pytorch" class="button-59">Code</a>
+            <img src="https://img.shields.io/github/stars/RoyZry98/MoFME-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
+    <li first_authored=true category="Efficiency">
+        <venue>MM'24</venue><pt>VeCAF: Vision-language Collaborative Active Finetuning with Training Objective Awareness</pt><br>
+        <b>Rongyu Zhang*</b><g>, Zefan Cai*, Huanrui Yang*, Zidong Liu, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Baobao Chang, Yuan Du, Li Du, Shanghang Zhang</g><br />
+        ACM International Conference on Multimedia<br />
+        <p>
+        <img src="https://img.shields.io/badge/CCF-A-red">
+            <a href="https://arxiv.org/pdf/2401.07853" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98/VeCAF-Pytorch" class="button-59">Code</a>
+            <img src="https://img.shields.io/github/stars/RoyZry98/VeCAF-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
+    <li first_authored=true category="Generalization">
+    <venue>TMC'24</venue><pt>Multi-level Personalized Federated Learning on Heterogeneous and Long-Tailed Data</pt><br>
+    <b>Rongyu Zhang</b><g>, Yun Chen, Chenrui Wu, Fangxin Wang, Bo Li</g><br>
     IEEE Transactions on Mobile Computing<br />
     <p>
-      <img src="https://img.shields.io/badge/CCF-A-red">
-      <a href="https://arxiv.org/pdf/2303.15486" class="button-59">PDF</a>
-      <a href="https://github.com/RoyZry98" class="button-59">Code</a>
+        <img src="https://img.shields.io/badge/CCF-A-red">
+        <a class="button-59" href="https://arxiv.org/pdf/2405.06413">PDF</a>
+        <a class="button-59" href="https://github.com/RoyZry98">Code</a>
     </p>
-  </li>
+    </li>
+    <li first_authored=true category="Generalization">
+        <venue>ICRA'24</venue><pt>BEVUDA: Multi-geometric Space Alignments for Domain Adaptive BEV 3D Object Detection</pt><br />
+        <g>Jiaming Liu*, </g><b>Rongyu Zhang*</b><g>, Xiaowei Chi, Xiaoqi Li, Ming Lu, Yandong Guo, Shanghang Zhang</g><br />
+        International Conference on Robotics and Automation<br />
+        <p>
+        <img src="https://img.shields.io/badge/CCF-B-blue">
+            <a href="https://arxiv.org/pdf/2211.17126" class="button-59">PDF</a>
+            <a class="button-59" href="https://github.com/liujiaming1996/BEVUDA">Code</a>
+            <img src="https://img.shields.io/github/stars/liujiaming1996/BEVUDA?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
+    <li first_authored=true category="Efficiency">
+        <venue>Noss'23</venue><pt>RepCaM: Re-parameterization Content-aware Modulation for Neural Video Delivery</pt><br>
+        <b>Rongyu Zhang*</b><g>, Lixuan Du*, Jiaming Liu*, Congcong Song, Fangxin Wang, Xiaoqi Li, Ming Lu, Yandong Guo, Shanghang Zhang</g><br />
+        ACM Network and Operating System Support for Digital Audio and Video<br />
+        <p>
+        <img src="https://img.shields.io/badge/CCF-B-blue">
+            <a href="https://dl.acm.org/doi/pdf/10.1145/3592473.3592567" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98/RepCaM-Pytorch" class="button-59">Code</a>
+            <img src="https://img.shields.io/github/stars/RoyZry98/RepCaM-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+            <font color="red">[Oral Presentation]</font>
+        </p>
+    </li>
+    <li first_authored=true category="Efficiency">
+        <venue>ICME'23</venue><pt>Cluster-driven GNN-based Federated Recommendation System with Biased Message Dropout</pt><br>
+        <b>Rongyu Zhang*</b><g>, Yun Chen*, Chenrui Wu, Fangxin Wang</g><br />
+        IEEE International Conference on Multimedia and Expo.<br />
+        <p>
+        <img src="https://img.shields.io/badge/CCF-B-blue">
+            <a href="https://ieeexplore.ieee.org/abstract/document/10219619" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98" class="button-59">Code</a>
+        </p>
+    </li>
+    <li first_authored=true category="Efficiency">
+        <venue>Netw'23</venue><pt>Optimizing Efficient Personalized Federated Learning with Hypernetworks at Edge</pt><br>
+        <b>Rongyu Zhang</b><g>, Yun Chen, Chenrui Wu, Fangxin Wang, Jiangchuan Liu</g><br />
+        IEEE Network<br />
+        <p>
+        <img src="https://img.shields.io/badge/CAS-Q3-green">
+            <a href="https://arxiv.org/pdf/2211.17126" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98" class="button-59">Code</a>
+        </p>
+    </li>
+    <li category="Generalization">
+        <venue>CVPR'23</venue><pt>Cloud-Device Collaborative Adaptation to Continual Changing Environments in the Real-world</pt><br>
+        <g>Yulu Gan, Mingjie Pan, </g><b>Rongyu Zhang</b><g>, Zijian Ling, Lingran Zhao, Jiaming Liu, Shanghang Zhang</g><br />
+        The IEEE/CVF Conference on Computer Vision and Pattern Recognition<br />
+        <p>
+        <img src="https://img.shields.io/badge/CCF-A-red">
+            <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Pan_Cloud-Device_Collaborative_Adaptation_to_Continual_Changing_Environments_in_the_Real-World_CVPR_2023_paper.pdf" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98" class="button-59">Code</a>
+        </p>
+    </li>
+    <li category="Generalization">
+        <venue>CVPR'23</venue><pt>BEV-SAN: Accurate BEV 3D Object Detection via Slice Attention Networks</pt><br>
+        <g>Xiaowei Chi, Jiaming Liu, Ming Lu, </g><b>Rongyu Zhang</b><g>, Zhaoqing Wang, Yandong Guo, Shanghang Zhang</g><br />
+        The IEEE/CVF Conference on Computer Vision and Pattern Recognition<br />
+        <p>
+        <img src="https://img.shields.io/badge/CCF-A-red">
+            <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Chi_BEV-SAN_Accurate_BEV_3D_Object_Detection_via_Slice_Attention_Networks_CVPR_2023_paper.pdf" class="button-59">PDF</a>
+            <a href="https://github.com/litwellchi/BEV-SAN" class="button-59">Code</a>
+            <img src="https://img.shields.io/github/stars/litwellchi/BEV-SAN?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
+    <li category="Efficiency">
+        <venue>IoTJ'23</venue><pt>FedAB: Truthful Federated Learning with Auction-based Combinatorial Multi-armed Bandit</pt><br>
+        <g>Chenrui Wu, Yifei Zhu, </g><b>Rongyu Zhang</b><g>, Yun Chen, Fangxin Wang, Shuguang Cui</g><br />
+        IEEE Internet of Things Journal<br />
+        <p>
+        <img src="https://img.shields.io/badge/CAS-Q2-blue">
+            <a href="https://ieeexplore.ieee.org/abstract/document/10092911" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98" class="button-59">Code</a>
+        </p>
+    </li>
+    <li first_authored=true category="Efficiency">
+        <venue1>arXiv'25</venue1><pt>T-REX: Mixture-of-Rank-One-Experts with semantic-aware Intuition for Multi-task Large Language Model Finetuning</pt><br>
+        <b>Rongyu Zhang*</b><g>, Yijiang Liu*, Huanrui Yang*, Shenli Zheng, Chongkang Tan, Dan Wang, Yuan Du, Li Du, Shanghang Zhang</g> <br />
+        <p>
+            <a href="https://arxiv.org/pdf/2404.08985" class="button-59">PDF</a>
+            <a href="https://github.com/RoyZry98/T-REX-Pytorch" class="button-59">Code</a>
+            <img src="https://img.shields.io/github/stars/RoyZry98/T-REX-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
+    <li first_authored=true category="Generalization">
+        <venue1>arXiv'24</venue1><pt>M2Chat: Empowering VLM for Multimodal LLM Interleaved Text-Image Generation</pt><br>
+        <g>Xiaowei Chi*, </g><b>Rongyu Zhang*</b><g>, Zhengkai Jiang, Yijiang Liu, Yatian Wang, Xingqun Qi, Wenhan Luo, Peng Gao, Shanghang Zhang, Qifeng Liu, Yike Guo</g> <br />
+        <p>
+            <a href="https://arxiv.org/pdf/2311.17963" class="button-59">PDF</a>
+            <a href="https://github.com/litwellchi/M2Chat" class="button-59">Code</a>
+            <img src="https://img.shields.io/github/stars/litwellchi/M2Chat?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
+    <li category="Generalization">
+        <venue1>arXiv'24</venue1><pt>ViML: A Video, Music, Language Unified Dataset for Understanding and Generation</pt><br>
+        <g>Xiaowei Chi, Aosong Chen, Pengjun Fang, Yatian Wang, Zeyue Tian, Yingqing He, Zhaoyang Liu, Xingqun Qi, </g><b>Rongyu Zhang</b><g>, Mengfei Li, Jiahao Pan, Yanbing Jiang, Wei Xue, Wenhan Luo, Qifeng Chen, Shanghang Zhang, Qifeng Liu, Yike Guo</g> <br />
+        <p>
+            <a href="https://arxiv.org/pdf/2407.20962" class="button-59">PDF</a>
+            <a href="https://github.com/litwellchi/MMTrail" class="button-59">Code</a>
+            <img src="https://img.shields.io/github/stars/litwellchi/MMTrail?style=social" class="star-badge" alt="GitHub Stars">
+        </p>
+    </li>
+  </ul>
 
-  <!-- 折叠区：第6篇开始的内容全部放到这里 -->
-  <li class="collapsible-holder" style="border-bottom:none; padding:0;">
-    <div class="collapsible-wrapper" id="pub-collapsible">
-      <div class="collapsible-inner">
-        <ul style="list-style:none; padding:0; margin:0;">
-          <li category="Generalization">
-            <venue>ICML'25</venue><pt>EVA: An Embodied World Model for Future Video Anticipation</pt><br>
-            <g>Xiaowei Chi, Hengyuan Zhang, Chun-Kai Fan, Xingqun Qi, </g><b>Rongyu Zhang</b><g>, Anthony Chen, Chi-min Chan, Wei Xue, Wenhan Luo, Shanghang Zhang, Yike Guo</g> <br />
-            International Conference on Machine Learning<br />
-            <p>
-              <img src="https://img.shields.io/badge/CCF-A-red">
-              <a href="https://arxiv.org/pdf/2405.16486" class="button-59">PDF</a>
-              <a href="https://github.com/litwellchi/EmbodiedVideoAnticipator" class="button-59">Code</a>
-              <img src="https://img.shields.io/github/stars/litwellchi/EmbodiedVideoAnticipator?style=social" class="star-badge" alt="GitHub Stars">
-            </p>
-          </li>
+  <!-- Toggle button -->
+  <button id="show-more-btn" type="button" style="margin-top: 8px;">Show more</button>
+</div>
 
-          <li category="Efficiency">
-            <venue>IJCAI'25</venue><pt>FBQuant: FeedBack Quantization for Large Language Models</pt><br>
-            <g>Yijiang Liu, Hengyu Fang, Liulu He, </g><b>Rongyu Zhang</b><g>, Yichuan Bai, Yuan Du, Li Du</g><br />
-            International Joint Conference on Artificial Intelligence<br />
-            <p>
-              <img src="https://img.shields.io/badge/CCF-A-red">
-              <a href="https://arxiv.org/pdf/2501.16385" class="button-59">PDF</a>
-              <a href="https://github.com/RoyZry98" class="button-59">Code</a>
-            </p>
-          </li>
+<!-- Minimal styles to hide/show beyond the first 5 items when collapsed -->
+<style>
+  #pub-container[data-collapsed="true"] #publications > li:nth-child(n+6) {
+    display: none;
+  }
+  /* Keep spacing consistent when hidden */
+  #publications { margin: 0; padding-left: 1rem; }
+</style>
 
-          <li first_authored=true category="Efficiency">
-            <venue>TMC'25</venue><pt>RepCaM++: Exploring Transparent Visual Prompt with Inference-time Re-parameterization for Neural Video Delivery</pt><br>
-            <b>Rongyu Zhang</b><g>, Xize Duan, Jiaming Liu, Li Du, Yuan Du, Dan Wang, Shanghang Zhang, Fangxin Wang</g><br>
-            IEEE Transactions on Mobile Computing<br />
-            <p>
-              <img src="https://img.shields.io/badge/CCF-A-red">
-              <a href="https://www.computer.org/csdl/journal/tm/5555/01/10949820/25DZuw4IHTy" class="button-59">PDF</a>
-              <a class="button-59" href="https://github.com/RoyZry98/RepCaM-Pytorch">Code</a>
-              <img src="https://img.shields.io/github/stars/RoyZry98/RepCaM-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
-            </p>
-          </li>
+<!-- Behavior: collapse/expand + keep filter compatibility -->
+<script>
+  const pubContainer = document.getElementById('pub-container');
+  const pubsUl = document.getElementById('publications');
+  const showMoreBtn = document.getElementById('show-more-btn');
 
-          <li category="Efficiency">
-            <venue>AAAI'25</venue><pt>PAT: Pruning-Aware Tuning for Large Language Models</pt><br>
-            <g>Yijiang Liu, Huanrui Yang, Youxin Chen, </g><b>Rongyu Zhang</b><g>, Miao Wang, Yuan Du, Li Du</g><br />
-            AAAI Conference on Artificial Intelligence<br />
-            <p>
-              <img src="https://img.shields.io/badge/CCF-A-red">
-              <a href="https://arxiv.org/abs/2006.04558" class="button-59">PDF</a>
-              <a href="https://github.com/kriskrisliu/PAT" class="button-59">Code</a>
-              <img src="https://img.shields.io/github/stars/kriskrisliu/PAT?style=social" class="star-badge" alt="GitHub Stars">
-            </p>
-          </li>
+  // Initialize collapsed by default
+  function setCollapsed(collapsed) {
+    pubContainer.setAttribute('data-collapsed', collapsed ? 'true' : 'false');
+    showMoreBtn.textContent = collapsed ? 'Show more' : 'Show less';
+  }
 
-          <li first_authored=true category="Generalization">
-            <venue>TCSVT'25</venue><pt>BEVUDA++: Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection</pt><br>
-            <b>Rongyu Zhang</b><g>, Jiaming Liu, Xiaoqi Li, Xiaowei Chi, Dan Wang, Li Du, Yuan Du, Shanghang Zhang</g><br>
-            IEEE Transactions on Circuits and Systems for Video Technology<br />
-            <p>
-              <img src="https://img.shields.io/badge/CAS-Q1-red">
-              <a href="https://ieeexplore.ieee.org/document/10816404" class="button-59">PDF</a>
-              <a class="button-59" href="https://github.com/liujiaming1996/BEVUDA">Code</a>
-              <img src="https://img.shields.io/github/stars/liujiaming1996/BEVUDA?style=social" class="star-badge" alt="GitHub Stars">
-            </p>
-          </li>
+  setCollapsed(true);
 
-          <li first_authored=true category="Efficiency">
-            <venue>AAAI‘24</venue><pt>Efficient Deweather Mixture-of-Experts with Uncertainty-aware Feature-wise Linear Modulation</pt><br>
-            <b>Rongyu Zhang</b><g>, Yulin Luo, Jiaming Liu, Huanrui Yang, Zhen Dong, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Yuan Du, Shanghang Zhang</g><br>
-            AAAI Conference on Artificial Intelligence<br />
-            <p>
-              <img src="https://img.shields.io/badge/CCF-A-red">
-              <a href="https://ojs.aaai.org/index.php/AAAI/article/download/29622/31055" class="button-59">PDF</a>
-              <a href="https://github.com/RoyZry98/MoFME-Pytorch" class="button-59">Code</a>
-              <img src="https://img.shields.io/github/stars/RoyZry98/MoFME-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
-            </p>
-          </li>
+  // Toggle button
+  showMoreBtn.addEventListener('click', () => {
+    const isCollapsed = pubContainer.getAttribute('data-collapsed') === 'true';
+    setCollapsed(!isCollapsed);
+  });
 
-          <li first_authored=true category="Efficiency">
-            <venue>MM'24</venue><pt>VeCAF: Vision-language Collaborative Active Finetuning with Training Objective Awareness</pt><br>
-            <b>Rongyu Zhang*</b><g>, Zefan Cai*, Huanrui Yang*, Zidong Liu, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Baobao Chang, Yuan Du, Li Du, Shanghang Zhang</g><br />
-            ACM International Conference on Multimedia<br />
-            <p>
-              <img src="https://img.shields.io/badge/CCF-A-red">
-              <a href="https://arxiv.org/pdf/2401.07853" class="button-59">PDF</a>
-              <a href="https://github.com/RoyZry98/VeCAF-Pytorch" class="button-59">Code</a>
-              <img src="https://img.shields.io/github/stars/RoyZry98/VeCAF-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
-            </p>
-          </li>
+  // Filtering logic: show/hide items and maintain first 5 visible in collapsed mode
+  function applyFilter(filter) {
+    const items = Array.from(pubsUl.children);
+    // Save active filter for reference
+    pubContainer.setAttribute('data-active-filter', filter);
 
-          <li first_authored=true category="Generalization">
-            <venue>TMC'24</venue><pt>Multi-level Personalized Federated Learning on Heterogeneous and Long-Tailed Data</pt><br>
-            <b>Rongyu Zhang</b><g>, Yun Chen, Chenrui Wu, Fangxin Wang, Bo Li</g><br>
-            IEEE Transactions on Mobile Computing<br />
-            <p>
-              <img src="https://img.shields.io/badge/CCF-A-red">
-              <a class="button-59" href="https://arxiv.org/pdf/2405.06413">PDF</a>
-              <a class="button-59" href="https://github.com/RoyZry98">Code</a>
-            </p>
-          </li>
+    items.forEach(li => {
+      li.style.display = ''; // reset
+      const isFirstAuth = (li.getAttribute('first_authored') === 'true');
+      const category = li.getAttribute('category') || '';
+      let visible = true;
 
-          <li first_authored=true category="Generalization">
-            <venue>ICRA'24</venue><pt>BEVUDA: Multi-geometric Space Alignments for Domain Adaptive BEV 3D Object Detection</pt><br>
-            <g>Jiaming Liu*, </g><b>Rongyu Zhang*</b><g>, Xiaowei Chi, Xiaoqi Li, Ming Lu, Yandong Guo, Shanghang Zhang</g><br />
-            International Conference on Robotics and Automation<br />
-            <p>
-              <img src="https://img.shields.io/badge/CCF-B-blue">
-              <a href="https://arxiv.org/pdf/2211.17126" class="button-59">PDF</a>
-              <a class="button-59" href="https://github.com/liujiaming1996/BEVUDA">Code</a>
-              <img src="https://img.shields.io/github/stars/liujiaming1996/BEVUDA?style=social" class="star-badge" alt="GitHub Stars">
-            </p>
-          </li>
+      if (filter === 'First-authored') visible = isFirstAuth;
+      else if (filter === 'Efficiency') visible = category === 'Efficiency';
+      else if (filter === 'Generalization') visible = category === 'Generalization';
+      else visible = true; // 'All'
 
-          <li first_authored=true category="Efficiency">
-            <venue>Noss'23</venue><pt>RepCaM: Re-parameterization Content-aware Modulation for Neural Video Delivery</pt><br>
-            <b>Rongyu Zhang*</b><g>, Lixuan Du*, Jiaming Liu*, Congcong Song, Fangxin Wang, Xiaoqi Li, Ming Lu, Yandong Guo, Shanghang Zhang</g><br />
-            ACM Network and Operating System Support for Digital Audio and Video<br />
-            <p>
-              <img src="https://img.shields.io/badge/CCF-B-blue">
-              <a href="https://dl.acm.org/doi/pdf/10.1145/3592473.3592567" class="button-59">PDF</a>
-              <a href="https://github.com/RoyZry98/RepCaM-Pytorch" class="button-59">Code</a>
-              <img src="https://img.shields.io/github/stars/RoyZry98/RepCaM-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
-              <font color="red">[Oral Presentation]</font>
-            </p>
-          </li>
+      li.dataset.matchesFilter = visible ? '1' : '0';
+      li.style.display = visible ? '' : 'none';
+    });
 
-          <li first_authored=true category="Efficiency">
-            <venue>ICME'23</venue><pt>Cluster-driven GNN-based Federated Recommendation System with Biased Message Dropout</pt><br>
-            <b>Rongyu Zhang*</b><g>, Yun Chen*, Chenrui Wu, Fangxin Wang</g><br />
-            IEEE International Conference on Multimedia and Expo.<br />
-            <p>
-              <img src="https://img.shields.io/badge/CCF-B-blue">
-              <a href="https://ieeexplore.ieee.org/abstract/document/10219619" class="button-59">PDF</a>
-              <a href="https://github.com/RoyZry98" class="button-59">Code</a>
-            </p>
-          </li>
+    // After filtering, if collapsed, ensure only first 5 matching remain visible
+    enforceCollapsedView();
+  }
 
-          <li first_authored=true category="Efficiency">
-            <venue>Netw'23</venue><pt>Optimizing Efficient Personalized Federated Learning with Hypernetworks at Edge</pt><br>
-            <b>Rongyu Zhang</b><g>, Yun Chen, Chenrui Wu, Fangxin Wang, Jiangchuan Liu</g><br />
-            IEEE Network<br />
-            <p>
-              <img src="https://img.shields.io/badge/CAS-Q3-green">
-              <a href="https://arxiv.org/pdf/2211.17126" class="button-59">PDF</a>
-              <a href="https://github.com/RoyZry98" class="button-59">Code</a>
-            </p>
-          </li>
+  function enforceCollapsedView() {
+    const isCollapsed = pubContainer.getAttribute('data-collapsed') === 'true';
+    const items = Array.from(pubsUl.children).filter(li => li.dataset.matchesFilter !== '0');
 
-          <li category="Generalization">
-            <venue>CVPR'23</venue><pt>Cloud-Device Collaborative Adaptation to Continual Changing Environments in the Real-world</pt><br>
-            <g>Yulu Gan, Mingjie Pan, </g><b>Rongyu Zhang</b><g>, Zijian Ling, Lingran Zhao, Jiaming Liu, Shanghang Zhang</g><br />
-            The IEEE/CVF Conference on Computer Vision and Pattern Recognition<br />
-            <p>
-              <img src="https://img.shields.io/badge/CCF-A-red">
-              <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Pan_Cloud-Device_Collaborative_Adaptation_to_Continual_Changing_Environments_in_the_Real-World_CVPR_2023_paper.pdf" class="button-59">PDF</a>
-              <a href="https://github.com/RoyZry98" class="button-59">Code</a>
-            </p>
-          </li>
+    if (isCollapsed) {
+      let shown = 0;
+      items.forEach(li => {
+        if (shown < 5) {
+          li.style.display = ''; // show
+          shown++;
+        } else {
+          li.style.display = 'none';
+        }
+      });
+    } else {
+      // Expanded: show all matching items
+      items.forEach(li => {
+        li.style.display = '';
+      });
+    }
 
-          <li category="Generalization">
-            <venue>CVPR'23</venue><pt>BEV-SAN: Accurate BEV 3D Object Detection via Slice Attention Networks</pt><br>
-            <g>Xiaowei Chi, Jiaming Liu, Ming Lu, </g><b>Rongyu Zhang</b><g>, Zhaoqing Wang, Yandong Guo, Shanghang Zhang</g><br />
-            The IEEE/CVF Conference on Computer Vision and Pattern Recognition<br />
-            <p>
-              <img src="https://img.shields.io/badge/CCF-A-red">
-              <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Chi_BEV-SAN_Accurate_BEV_3D_Object_Detection_via_Slice_Attention_Networks_CVPR_2023_paper.pdf" class="button-59">PDF</a>
-              <a href="https://github.com/litwellchi/BEV-SAN" class="button-59">Code</a>
-              <img src="https://img.shields.io/github/stars/litwellchi/BEV-SAN?style=social" class="star-badge" alt="GitHub Stars">
-            </p>
-          </li>
+    // Update button visibility: hide if 5 or fewer match
+    if (items.length <= 5) {
+      showMoreBtn.style.display = 'none';
+    } else {
+      showMoreBtn.style.display = '';
+    }
+  }
 
-          <li category="Efficiency">
-            <venue>IoTJ'23</venue><pt>FedAB: Truthful Federated Learning with Auction-based Combinatorial Multi-armed Bandit</pt><br>
-            <g>Chenrui Wu, Yifei Zhu, </g><b>Rongyu Zhang</b><g>, Yun Chen, Fangxin Wang, Shuguang Cui</g><br />
-            IEEE Internet of Things Journal<br />
-            <p>
-              <img src="https://img.shields.io/badge/CAS-Q2-blue">
-              <a href="https://ieeexplore.ieee.org/abstract/document/10092911" class="button-59">PDF</a>
-              <a href="https://github.com/RoyZry98" class="button-59">Code</a>
-            </p>
-          </li>
+  // Expose filter function globally to work with your existing buttons
+  window.filterPub = function(filter) {
+    applyFilter(filter);
+  };
 
-          <li first_authored=true category="Efficiency">
-            <venue1>arXiv'25</venue1><pt>T-REX: Mixture-of-Rank-One-Experts with semantic-aware Intuition for Multi-task Large Language Model Finetuning</pt><br>
-            <b>Rongyu Zhang*</b><g>, Yijiang Liu*, Huanrui Yang*, Shenli Zheng, Chongkang Tan, Dan Wang, Yuan Du, Li Du, Shanghang Zhang</g> <br />
-            <p>
-              <a href="https://arxiv.org/pdf/2404.08985" class="button-59">PDF</a>
-              <a href="https://github.com/RoyZry98/T-REX-Pytorch" class="button-59">Code</a>
-              <img src="https://img.shields.io/github/stars/RoyZry98/T-REX-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
-            </p>
-          </li>
-
-          <li first_authored=true category="Generalization">
-            <venue1>arXiv'24</venue1><pt>M2Chat: Empowering VLM for Multimodal LLM Interleaved Text-Image Generation</pt><br>
-            <g>Xiaowei Chi*, </g><b>Rongyu Zhang*</b><g>, Zhengkai Jiang, Yijiang Liu, Yatian Wang, Xingqun Qi, Wenhan Luo, Peng Gao, Shanghang Zhang, Qifeng Liu, Yike Guo</g> <br />
-            <p>
-              <a href="https://arxiv.org/pdf/2311.17963" class="button-59">PDF</a>
-              <a href="https://github.com/litwellchi/M2Chat" class="button-59">Code</a>
-              <img src="https://img.shields.io/github/stars/litwellchi/M2Chat?style=social" class="star-badge" alt="GitHub Stars">
-            </p>
-          </li>
-
-          <li category="Generalization">
-            <venue1>arXiv'24</venue1><pt>ViML: A Video, Music, Language Unified Dataset for Understanding and Generation</pt><br>
-            <g>Xiaowei Chi, Aosong Chen, Pengjun Fang, Yatian Wang, Zeyue Tian, Yingqing He, Zhaoyang Liu, Xingqun Qi, </g><b>Rongyu Zhang</b><g>, Mengfei Li, Jiahao Pan, Yanbing Jiang, Wei Xue, Wenhan Luo, Qifeng Chen, Shanghang Zhang, Qifeng Liu, Yike Guo</g> <br />
-            <p>
-              <a href="https://arxiv.org/pdf/2407.20962" class="button-59">PDF</a>
-              <a href="https://github.com/litwellchi/MMTrail" class="button-59">Code</a>
-              <img src="https://img.shields.io/github/stars/litwellchi/MMTrail?style=social" class="star-badge" alt="GitHub Stars">
-            </p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </li>
-
-  <!-- Show more / less 控制条 -->
-  <li class="show-more-bar" style="border-bottom:none;">
-    <button type="button" class="show-more-btn" id="pub-toggle">
-      Show more
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="transform:rotate(0deg); transition:transform .2s ease;">
-        <path d="M8 10l4 4 4-4" stroke="#374151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    </button>
-  </li>
-</ul>
+  // Initial pass to mark all as matching and set correct button visibility
+  applyFilter('All');
+</script>
 
   
 <br>
