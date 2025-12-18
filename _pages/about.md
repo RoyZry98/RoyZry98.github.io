@@ -984,10 +984,10 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 
 # 💼 Services
 #### Journal reviewer
-- TMC | TC | TNNLS | TDSC | TCOM | IoTJ | Network
+- **TMC** \| **TC** \| **TNNLS** \| **TDSC** \| **TCOM** \| **IoTJ** \| **Network Magazine**
 
 #### Conference reviewer
-- CVPR 2025 | ACMMM 2024, 2025 | ICCV 2023, 2025 | NeurIPS 2025 | AAAI 2026
+- **CVPR** 2025 \| **ACMMM** 2024 2025 \| **ICCV** 2023, 2025 \| **NeurIPS** 2025 \| **AAAI** 2026
 
 <br>
 
