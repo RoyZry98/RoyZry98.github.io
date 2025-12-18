@@ -689,9 +689,6 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
       <img src="https://img.shields.io/github/stars/litwellchi/MMTrail?style=social" class="star-badge" alt="GitHub Stars">
     </p>
   </li>
-</ul>
-
-<!-- 你的 <ul id="publications"> 列表各项 li ... -->
 
 <!-- Show more / less 控制条（放在 publications 列表的最后一个 li 后） -->
 <li class="show-more-bar" style="border-bottom:none; list-style: none; margin-top: 8px;">
