@@ -482,7 +482,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
     </p>
   </li>
   <li category="Efficiency">
-    <venue>NCS'24</venue><pt>Implicit Neural Image Field for Biological Microscopy Image Compression</pt><br>
+    <venue>NCS'25</venue><pt>Implicit Neural Image Field for Biological Microscopy Image Compression</pt><br>
     <g>Gaole Dai, </g><b>Rongyu Zhang*</b><g>, Cheng-Ching Tseng*, Qingpo Wuwu*, Shaokang Wan*, Ming Lu, Tiejun Huang, Yu Zhou, Ali Ata Tuz, Matthias Gunzer, Jianxu Chen, Shanghang Zhang</g> <br />
     Nature Computational Science<br />
     <p>
