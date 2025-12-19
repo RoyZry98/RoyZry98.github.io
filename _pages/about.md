@@ -296,10 +296,10 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
       <li><strong>NSFC</strong> Youth Student Basic Research Program (Ph.D. Candidate)</li>
       <li><strong>CAST</strong> Young Talent Support Project Doctoral Special Program</li>
       <li><a href="https://scholar.google.com/citations?user=rRcc9eoAAAAJ&hl=zh-CN" target="_blank">
-  <img src="https://img.shields.io/badge/Google%20Scholar-348%20Citations-9cf?logo=Google%20Scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar Citations">
+  <img src="https://img.shields.io/badge/Google%20Scholar-352%20Citations-9cf?logo=Google%20Scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar Citations">
 </a></li>
 	<li><a href="https://github.com/RoyZry98" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-Stars%20327-9cf?logo=GitHub&labelColor=f6f6f6&color=EC707D&logoColor=000000&style=flat" alt="GitHub Stars">
+  <img src="https://img.shields.io/badge/GitHub-Stars%20325-9cf?logo=GitHub&labelColor=f6f6f6&color=EC707D&logoColor=000000&style=flat" alt="GitHub Stars">
 </a></li>
     </ul>
   </div>
@@ -788,92 +788,11 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
     applyVisibility();
   }
 </script>
-
-<!-- <div style="margin-top: 8px;">
-  <button id="toggleMoreBtn" class="button-59" type="button">Show more</button>
-</div>
-
-<script>
-  // Configuration: number always visible
-  const VISIBLE_COUNT = 5;
-
-  // Current filter state
-  let currentFilter = 'All';
-  let isExpanded = false;
-
-  function matchesFilter(li, filter) {
-    if (filter === 'All') return true;
-    if (filter === 'First-authored') {
-      return (li.getAttribute('first_authored') === 'true') || (li.getAttribute('first_authored') === true);
-    }
-    // Use category attribute for Efficiency / Generalization
-    return (li.getAttribute('category') || '').toLowerCase() === filter.toLowerCase();
-  }
-
-  function applyVisibility() {
-    const list = document.getElementById('publications');
-    const items = Array.from(list.querySelectorAll('li'));
-    // Compute filtered items
-    const filtered = items.filter(li => matchesFilter(li, currentFilter));
-    // Reset all to hidden first
-    items.forEach(li => { li.style.display = 'none'; li.classList.remove('hidden-by-collapse'); });
-
-    if (filtered.length === 0) {
-      // nothing matches
-      document.getElementById('toggleMoreBtn').style.display = 'none';
-      return;
-    }
-
-    // Determine which to show
-    const head = filtered.slice(0, VISIBLE_COUNT);
-    const tail = filtered.slice(VISIBLE_COUNT);
-
-    head.forEach(li => { li.style.display = ''; });
-
-    if (isExpanded) {
-      tail.forEach(li => { li.style.display = ''; });
-    } else {
-      tail.forEach(li => { li.style.display = 'none'; li.classList.add('hidden-by-collapse'); });
-    }
-
-    // Toggle button text and visibility
-    const btn = document.getElementById('toggleMoreBtn');
-    if (filtered.length > VISIBLE_COUNT) {
-      btn.style.display = '';
-      btn.textContent = isExpanded ? 'Show less' : 'Show more';
-    } else {
-      btn.style.display = 'none';
-    }
-  }
-
-  function filterPub(filterName) {
-    currentFilter = filterName;
-    // On filter change, collapse back to default
-    isExpanded = false;
-    applyVisibility();
-    // Optionally update active button styles if you have CSS hooks
-    // document.querySelectorAll('.filter').forEach(b => b.classList.toggle('active', b.textContent.trim() === (filterName === 'All' ? 'All' : filterName)));
-  }
-
-  // Toggle button handler
-  (function initToggle() {
-    const btn = document.getElementById('toggleMoreBtn');
-    btn.addEventListener('click', function () {
-      isExpanded = !isExpanded;
-      applyVisibility();
-    });
-  })();
-
-  // Initial render
-  document.addEventListener('DOMContentLoaded', function () {
-    applyVisibility();
-  });
-</script> -->
   
 <br>
 
-<span class="anchor" id="grants-and-projects"></span>
-# 💰 Grants and Projects
+<span class="anchor" id="grants"></span>
+# 💰 Grants
 <div class="row">
   <div class="col-12 col-lg-8">
 
@@ -972,11 +891,12 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 
 <br>
 
-# 🥇 Honors and Awards
+<span class='anchor' id='awards'></span>
+# 🥇 Awards
 - *(2025.09)*: &nbsp;<strong>Hong Kong Post-Graduate Scholarship (HKPGS)</strong> with 19,920¥/month, The Hong Kong Polytechnic University
 - *(2024.12)*: &nbsp;<strong>Outstanding Ph.D. Candidate</strong> with 5,000¥/year, Nanjing University
 - *(2024.12)*: &nbsp;<strong>"Bank of Jiangsu" Scholarship</strong> with 5,000¥, Nanjing University
-- *(2023.10)*: &nbsp;<strong>The Silver place of the SHIFT Challenge 2023 - Continuous Test-time Adaptation for Semantic Segmentation in the challenges of VCL Workshop</strong> with 2,000$, International Conference on Computer Vision
+- *(2023.10)*: &nbsp;<strong>The silver place of the SHIFT Challenge 2023 - Continuous Test-time Adaptation for Semantic Segmentation in the challenges of VCL Workshop</strong> with 2,000$, International Conference on Computer Vision
 
 <br>
 
