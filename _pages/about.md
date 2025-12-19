@@ -437,7 +437,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 <div class="pub-controls">
   <p>📚 Full publications
   *: Equal Contribution. <br>
-  CCF-A/CAS-Q1 as First-author: <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, <venue>TMC</venue>x 3, <venue>TCSVT</venue>x 1 <br><br></p>
+  CCF-A/CAS-Q1 as (Co-)First-author: <venue>NCS</venue>x 1, <venue>AAAI</venue>x 3, <venue>ACM MM</venue>x 1, <venue>TMC</venue>x 3, <venue>TCSVT</venue>x 1 <br><br></p>
 
   <button class="filter" type="button" onclick="filterPub('All')" style="--color: #000; --border: #000">All</button>
   <button class="filter" type="button" onclick="filterPub('First-authored')">First author</button>
