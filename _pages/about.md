@@ -408,7 +408,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 
 - **Rongyu Zhang**, Xize Duan, Jiaming Liu, Li Du, Yuan Du, Dan Wang, Shanghang Zhang, Fangxin Wang
 - IEEE Transactions on Mobile Computing <br><strong>(TMC|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2025.
-- [[Paper]](https://www.computer.org/csdl/journal/tm/5555/01/10949820/25DZuw4IHTy) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/RepCaM-Pytorch?style=social)](https://github.com/RoyZry98/RepCaM-Pytorch)
+- [[Paper]](https://ieeexplore.ieee.org/abstract/document/10949820) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/RepCaM-Pytorch?style=social)](https://github.com/RoyZry98/RepCaM-Pytorch)
 </div>
 </div>
 
@@ -529,7 +529,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
     IEEE Transactions on Mobile Computing<br />
     <p>
       <img src="https://img.shields.io/badge/CCF-A-red">
-      <a href="https://www.computer.org/csdl/journal/tm/5555/01/10949820/25DZuw4IHTy" class="button-59">PDF</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/10949820" class="button-59">PDF</a>
       <a class="button-59" href="https://github.com/RoyZry98/RepCaM-Pytorch">Code</a>
       <img src="https://img.shields.io/github/stars/RoyZry98/RepCaM-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
     </p>
