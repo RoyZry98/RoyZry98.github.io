@@ -338,6 +338,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 <div id="news" class="w3-container w3-margin-top-2 w3-cursive">
 	  <div style="height:200px; width:100%; overflow:auto;">
 	    <h4>📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me.</h4>
+		<p>[01.2026] 🎉 One paper <strong>SpikeGen</strong> was accepted by <strong>ICLR</strong> as co-first author.</p>
 		<p>[12.2025] 📕 I am selected for the 2025 <strong>National Natural Science Foundation of China (NSFC)</strong> <strong>Youth Student Basic Research Program (Ph.D. Candidate)</strong></p>
 		<p>[11.2025] 🎉 Two paper <strong>MoASE</strong> and <strong>MoLe-VLA</strong> were accepted by <strong>AAAI</strong> as <strong style="color: red;">Oral</strong> and Poster, respectively (CCF-A).</p>
 		<p>[09.2025] 🎉 One paper <strong>Orochi</strong> was accepted by <strong>NeurlPS</strong> as <strong style="color: red;">Spotlight</strong> (CCF-A).</p>
@@ -447,6 +448,17 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 
 <ul id="publications">
   <li first_authored=true category="Generalization">
+    <venue>ICLR'26</venue><pt>SpikeGen: Decoupled “Rods and Cones” Visual Representation Processing with Latent Generative Framework</pt><br>
+    <g>Gaole Dai*, Menghang Dong*, </g><b>Rongyu Zhang*</b><g>, Ruichuan An, Tiejun Huang, Shanghang Zhang</g> <br />
+    International Conference on Learning Representations<br />
+    <p>
+      <img src="https://img.shields.io/badge/CAAI-A-red">
+      <a href="https://arxiv.org/pdf/2505.18049" class="button-59">PDF</a>
+      <a href="https://github.com/zhenwuweihe/SpikeGen" class="button-59">Code</a>
+      <img src="https://img.shields.io/github/stars/zhenwuweihe/SpikeGen?style=social" class="star-badge" alt="GitHub Stars">
+    </p>
+  </li>
+  <li first_authored=true category="Generalization">
     <venue>AAAI'26</venue><pt>Decomposing the Neural: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation</pt><br>
     <b>Rongyu Zhang*</b><g>, Aosong Cheng*, Yulin Luo*, Gaole Dai, Huanrui Yang, Jiaming Liu, Ran Xu, Li Du, Dan Wang, Yuan Du</g> <br />
     AAAI Conference on Artificial Intelligence<br />
@@ -481,7 +493,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
       <font color="red">[Spotlight]</font>
     </p>
   </li>
-  <li category="Efficiency">
+  <li first_authored=true category="Efficiency">
     <venue>NCS'25</venue><pt>Implicit Neural Image Field for Biological Microscopy Image Compression</pt><br>
     <g>Gaole Dai, </g><b>Rongyu Zhang*</b><g>, Cheng-Ching Tseng*, Qingpo Wuwu*, Shaokang Wan*, Ming Lu, Tiejun Huang, Yu Zhou, Ali Ata Tuz, Matthias Gunzer, Jianxu Chen, Shanghang Zhang</g> <br />
     Nature Computational Science<br />
