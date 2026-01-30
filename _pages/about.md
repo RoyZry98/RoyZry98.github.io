@@ -532,7 +532,8 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
     <p>
       <img src="https://img.shields.io/badge/CCF-A-red">
       <a href="https://arxiv.org/pdf/2501.16385" class="button-59">PDF</a>
-      <a href="https://github.com/RoyZry98" class="button-59">Code</a>
+      <a href="https://github.com/kriskrisliu/FeedBackQuant" class="button-59">Code</a>
+	 <img src="https://img.shields.io/github/stars/kriskrisliu/FeedBackQuant?style=social" class="star-badge" alt="GitHub Stars">
     </p>
   </li>
   <li first_authored=true category="Efficiency">
