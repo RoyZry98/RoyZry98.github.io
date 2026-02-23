@@ -966,7 +966,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
     <ul>
 	<img src="images/friends.png" alt="friend Image" style="display: block; margin: auto; max-width: 100%; height: auto;">
       <br>
-	    <li>My closest academic friends: <a href='https://liujiaming1996.github.io/'>Jiaming Liu</a>, <a href='https://scholar.google.com/citations?user=SgeV4NkAAAAJ&hl=zh-CN&oi=ao'>Yulin Luo</a>, <a href='https://gumpest.github.io/'>Yuan Zhang</a>, and <a href='https://scholar.google.com/citations?user=2Of6xZUAAAAJ&hl=zh-CN'>Gaole Dai</a> from PKU; <a href='https://scholar.google.com/citations?hl=zh-CN&user=Vl1X_-sAAAAJ'>Xiaowei Chi</a> from HKUST; <a href='https://www.liuyijiang.com/'>Yijiang Liu</a> from NJU; <a href='https://wuchenrui.github.io/'>Chenrui Wu</a> from ZJU&SFU; <a href='https://yilijin.github.io/'>Yili Jin</a> and <a href='https://slyfooox666.github.io/Kaiyuan_Hu/'>Kaiyuan Hu</a> from McGill.</li>
+	    <li>My closest academic friends: <a href='https://liujiaming1996.github.io/'>Jiaming Liu</a>, <a href='https://scholar.google.com/citations?user=SgeV4NkAAAAJ&hl=zh-CN&oi=ao'>Yulin Luo</a>, <a href='https://gumpest.github.io/'>Yuan Zhang</a>, and <a href='https://daviddaiiiii.github.io/'>Gaole Dai</a> from PKU; <a href='https://scholar.google.com/citations?hl=zh-CN&user=Vl1X_-sAAAAJ'>Xiaowei Chi</a> from HKUST; <a href='https://www.liuyijiang.com/'>Yijiang Liu</a> from NJU; <a href='https://wuchenrui.github.io/'>Chenrui Wu</a> from ZJU&SFU; <a href='https://yilijin.github.io/'>Yili Jin</a> and <a href='https://slyfooox666.github.io/Kaiyuan_Hu/'>Kaiyuan Hu</a> from McGill.</li>
     </ul>
   </div>
   
