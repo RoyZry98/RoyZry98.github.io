@@ -944,7 +944,8 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 
 # 🧑‍🏫 Teaching  
 **Teaching Assistant at PolyU**
-- **COMP 6704: Advanced Machine Learning** (Semester one 2025 - 2026)
+- **COMP 6704: ADVANCED MACHINE LEARNING** (Semester one 2025 - 2026)
+- **COMP 3512: LEGAL ASPECTS, PROFESSIONALISM AND ETHICS OF COMPUTING** (Semester two 2025 - 2026)
 
 <br>
 
