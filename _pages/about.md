@@ -296,7 +296,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
       <li><strong>NSFC</strong> Youth Student Basic Research Program (Ph.D. Candidate)</li>
       <li><strong>CAST</strong> Young Talent Support Project Doctoral Special Program</li>
       <li><a href="https://scholar.google.com/citations?user=rRcc9eoAAAAJ&hl=zh-CN" target="_blank">
-  <img src="https://img.shields.io/badge/Google%20Scholar-865%20Citations-9cf?logo=Google%20Scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar Citations">
+  <img src="https://img.shields.io/badge/Google%20Scholar-876%20Citations-9cf?logo=Google%20Scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar Citations">
 </a></li>
 	<li><a href="https://github.com/RoyZry98" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-Stars%20331-9cf?logo=GitHub&labelColor=f6f6f6&color=EC707D&logoColor=000000&style=flat" alt="GitHub Stars">
@@ -338,7 +338,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 <div id="news" class="w3-container w3-margin-top-2 w3-cursive">
 	  <div style="height:200px; width:100%; overflow:auto;">
 	    <h4>📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me.</h4>
-		<p>[01.2026] 🎉 One paper <strong>SpikeGen</strong> was accepted by <strong>ICLR 2026</strong> as co-first author.</p>
+		<p>[01.2026] 🎉 One paper <strong>SpikeGen</strong> was accepted by <strong>ICLR 2026</strong> (CCF-A) as co-first author.</p>
 		<p>[12.2025] 📕 I am selected for the 2025 <strong>National Natural Science Foundation of China (NSFC)</strong> <strong>Youth Student Basic Research Program (Ph.D. Candidate)</strong></p>
 		<p>[11.2025] 🎉 Two paper <strong>MoASE</strong> and <strong>MoLe-VLA</strong> were accepted by <strong>AAAI 2026</strong> as <strong style="color: red;">Oral</strong> and Poster, respectively (CCF-A).</p>
 		<p>[09.2025] 🎉 One paper <strong>Orochi</strong> was accepted by <strong>NeurlPS 2026</strong> as <strong style="color: red;">Spotlight</strong> (CCF-A).</p>
@@ -452,7 +452,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
     <g>Gaole Dai*, Menghang Dong*, </g><b>Rongyu Zhang*</b><g>, Ruichuan An, Tiejun Huang, Shanghang Zhang</g> <br />
     International Conference on Learning Representations<br />
     <p>
-      <img src="https://img.shields.io/badge/CAAI-A-red">
+      <img src="https://img.shields.io/badge/CCF-A-red">
       <a href="https://arxiv.org/pdf/2505.18049" class="button-59">PDF</a>
       <a href="https://github.com/zhenwuweihe/SpikeGen" class="button-59">Code</a>
       <img src="https://img.shields.io/github/stars/zhenwuweihe/SpikeGen?style=social" class="star-badge" alt="GitHub Stars">
