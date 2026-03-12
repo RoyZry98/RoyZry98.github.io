@@ -920,7 +920,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 - **T-MC** \| **T-C** \| **T-MM** \| **T-NNLS** \| **T-DSC** \| **T-COM** \| **T-CSVT** \| **IoT-J** \| **Network**
 
 #### Conference reviewer
-- **CVPR** 2025 \| **ACMMM** 2024 2025 \| **ICCV** 2023, 2025 \| **NeurIPS** 2025 \| **AAAI** 2026
+- **CVPR** 2025 2026 \| **ACMMM** 2024 2025 \| **ICCV** 2023, 2025 \| **NeurIPS** 2025 \| **AAAI** 2026 \| **ICML** 2026
 
 <br>
 
