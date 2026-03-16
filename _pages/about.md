@@ -294,9 +294,9 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
     <h3>✍️ Given Credits</h3>
     <ul>
       <li><strong>NSFC</strong> Youth Student Basic Research Program (Ph.D. Candidate)</li>
-      <li><strong>CAST</strong> Young Talent Support Project Doctoral Special Program</li>
+      <li><strong>CAST</strong> Young S&T Talents Support Doctoral Student Program</li>
       <li><a href="https://scholar.google.com/citations?user=rRcc9eoAAAAJ&hl=zh-CN" target="_blank">
-  <img src="https://img.shields.io/badge/Google%20Scholar-884%20Citations-9cf?logo=Google%20Scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar Citations">
+  <img src="https://img.shields.io/badge/Google%20Scholar-888%20Citations-9cf?logo=Google%20Scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar Citations">
 </a></li>
 	<li><a href="https://github.com/RoyZry98" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-Stars%20336-9cf?logo=GitHub&labelColor=f6f6f6&color=EC707D&logoColor=000000&style=flat" alt="GitHub Stars">
@@ -342,14 +342,14 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 		<p>[12.2025] 📕 I am selected for the 2025 <strong>National Natural Science Foundation of China (NSFC)</strong> <strong>Youth Student Basic Research Program (Ph.D. Candidate)</strong></p>
 		<p>[11.2025] 🎉 Two paper <strong>MoASE</strong> and <strong>MoLe-VLA</strong> were accepted by <strong>AAAI 2026</strong> as <strong style="color: red;">Oral</strong> and Poster, respectively (CCF-A).</p>
 		<p>[09.2025] 🎉 One paper <strong>Orochi</strong> was accepted by <strong>NeurlPS 2026</strong> as <strong style="color: red;">Spotlight</strong> (CCF-A).</p>
-	    <p>[05.2025] 📕 I am selected for the <strong>China Education Development Foundation "Endeavor Scholarship — Integrated Circuit Talent Development" Program</strong> (93 recipients nationwide).</p>
+	    <p>[05.2025] 📕 I am selected for the <strong>China Education Development Foundation (CEDF) "Endeavor Scholarship — Integrated Circuit Talent Development" Program</strong> (93 recipients nationwide).</p>
 	    <p>[05.2025] 🎉 One paper <strong>INIF</strong> was accepted by <strong>Nature Computational Science</strong> (CAS-Q1) as co-first author.</p>
 	    <p>[05.2025] 🎉 One paper <strong>UTMP</strong> was accepted by <strong>IEEE TMC</strong> (CCF-A) as first author.</p>
 	    <p>[05.2025] 🎉 One paper <strong>EVA</strong> was accepted by <strong>ICML 2025</strong> (CCF-A).</p>
 	    <p>[04.2025] 🎉 One paper <strong>FBQuant</strong> was accepted by <strong>IJCAI 2025</strong> (CCF-A).</p>
 	    <p>[04.2025] 🎉 One paper <strong>RepCaM++</strong> was accepted by <strong>IEEE TMC</strong> (CCF-A) as first author.</p>
 	    <p>[03.2025] 💻 <strong>PAT</strong> (AAAI'25) has been applied to Samsung’s on-device applications for smartphones and TVs.</p>
-	    <p>[01.2025] 📕 I am selected for the <strong>China Association for Science and Technology (CAST) Young Talent Support Project Doctoral Special Program</strong></p>
+	    <p>[01.2025] 📕 I am selected for the first <strong>Doctoral Student Program of the Young S&T Talents Support Project, China Association for Science and Technology (CAST)</strong></p>
 	    <p>[12.2024] 🎉 One paper <strong>BEVUDA++</strong> was accepted by <strong>IEEE TCSVT</strong> (CAS-Q1) as first author.</p>
 	    <p>[12.2024] 🎉 One paper <strong>PAT</strong> was accepted by <strong>AAAI 2025</strong> (CCF-A).</p>
 	    <p>[12.2024] 🏅 I was named <strong>"Outstanding Ph.D. Candidate"</strong> by NJU.</p>
@@ -836,7 +836,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
         <!-- 条目 2 -->
         <li>
           <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
-          <strong class="highlight-text">CAST Young Talent Support Project — Doctoral Special Program</strong>
+          <strong class="highlight-text">Doctoral Student Program of the Young S&T Talents Support Project, CAST</strong>
           <div class="article-metadata">
             <p>
               <strong class="highlight-text">中国科协青年人才托举工程博士生专项</strong>
