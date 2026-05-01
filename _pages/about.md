@@ -338,6 +338,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 <div id="news" class="w3-container w3-margin-top-2 w3-cursive">
 	  <div style="height:200px; width:100%; overflow:auto;">
 	    <h4>📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me.</h4>
+		<p>[05.2026] 🎉 One paper <strong>MWM</strong> was accepted by <strong>ICML 2026</strong> (CCF-A) as project leader.</p>
 		<p>[01.2026] 🎉 One paper <strong>SpikeGen</strong> was accepted by <strong>ICLR 2026</strong> (CCF-A) as co-first author.</p>
 		<p>[12.2025] 📕 I am selected for the 2025 <strong>National Natural Science Foundation of China (NSFC)</strong> <strong>Youth Student Basic Research Program (Ph.D. Candidate)</strong></p>
 		<p>[11.2025] 🎉 Two paper <strong>MoASE</strong> and <strong>MoLe-VLA</strong> were accepted by <strong>AAAI 2026</strong> as <strong style="color: red;">Oral</strong> and Poster, respectively (CCF-A).</p>
@@ -447,6 +448,17 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 </div>
 
 <ul id="publications">
+  <li first_authored=true category="Generalization">
+    <venue>ICML'26</venue><pt>Mask World Model: Predicting What Matters for Robust Robot Policy Learning</pt><br>
+    <g>Yunfan Lou*, Xiaowei Chi*, Xiaojie Zhang*, Zezhong Qian, Chengxuan Li, </g><b>Rongyu Zhang#</b><g>, Yaoxu Lyu, Guoyu Song, Chuyao Fu, Haoxuan Xu, Pengwei Wang, Shanghang Zhang</g> <br />
+    International Conference on Machine Learning<br />
+    <p>
+      <img src="https://img.shields.io/badge/CCF-A-red">
+      <a href="https://arxiv.org/pdf/2604.19683" class="button-59">PDF</a>
+      <a href="https://github.com/LYFCLOUDFAN/mask-world-model" class="button-59">Code</a>
+      <img src="https://img.shields.io/github/stars/LYFCLOUDFAN/mask-world-model?style=social" class="star-badge" alt="GitHub Stars">
+    </p>
+  </li>
   <li first_authored=true category="Generalization">
     <venue>ICLR'26</venue><pt>SpikeGen: Decoupled “Rods and Cones” Visual Representation Processing with Latent Generative Framework</pt><br>
     <g>Gaole Dai*, Menghang Dong*, </g><b>Rongyu Zhang*</b><g>, Ruichuan An, Tiejun Huang, Shanghang Zhang</g> <br />
