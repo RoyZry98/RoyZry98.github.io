@@ -409,7 +409,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 
 **Mask World Model: Predicting What Matters for Robust Robot Policy Learning**
 
-- Yunfan Lou*, Xiaowei Chi*, Xiaojie Zhang*, Zezhong Qian, Chengxuan Li, **Rongyu Zhang#**, Yaoxu Lyu, Guoyu Song, Chuyao Fu, Haoxuan Xu, Pengwei Wang, Shanghang Zhang
+- Yunfan Lou, Xiaowei Chi, Xiaojie Zhang, Zezhong Qian, Chengxuan Li, **Rongyu Zhang#**, Yaoxu Lyu, Guoyu Song, Chuyao Fu, Haoxuan Xu, Pengwei Wang, Shanghang Zhang
 - International Conference on Machine Learning<br><strong>(ICML|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2026.
 - [[Paper]](https://arxiv.org/pdf/2604.19683) [[Code] ![](https://img.shields.io/github/stars/LYFCLOUDFAN/mask-world-model?style=social)](https://github.com/LYFCLOUDFAN/mask-world-model)
 </div>
