@@ -404,6 +404,17 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML'2026</div><img src='images/mwm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Mask World Model: Predicting What Matters for Robust Robot Policy Learning**
+
+- Yunfan Lou*, Xiaowei Chi*, Xiaojie Zhang*, Zezhong Qian, Chengxuan Li, **Rongyu Zhang#**, Yaoxu Lyu, Guoyu Song, Chuyao Fu, Haoxuan Xu, Pengwei Wang, Shanghang Zhang
+- International Conference on Machine Learning<br><strong>(ICML|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2026.
+- [[Paper]](https://arxiv.org/pdf/2604.19683) [[Code] ![](https://img.shields.io/github/stars/LYFCLOUDFAN/mask-world-model?style=social)](https://github.com/LYFCLOUDFAN/mask-world-model)
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMC'2025</div><img src='images/tmc_repcam.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **RepCaM++: Exploring Transparent Visual Prompt with Inference-time Re-parameterization for Neural Video Delivery**
@@ -414,7 +425,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM'2024</div><img src='images/mm.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM'2024</div><img src='images/mm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **VeCAF: Vision-language Collaborative Active Finetuning with Training Objective Awareness**
@@ -423,7 +434,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 - ACM International Conference on Multimedia <br><strong>(MM|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2024.
 - [[Paper]](https://dl.acm.org/doi/abs/10.1145/3664647.3681135) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/VeCAF-Pytorch?style=social)](https://github.com/RoyZry98/VeCAF-Pytorch)
 </div>
-</div>
+</div> -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI'2024</div><img src='images/aaai.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
