@@ -296,7 +296,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
       <li><strong>NSFC</strong> Youth Student Basic Research Program (Ph.D. Candidate)</li>
       <li><strong>CAST</strong> Young S&T Talents Support Doctoral Student Program</li>
       <li><a href="https://scholar.google.com/citations?user=rRcc9eoAAAAJ&hl=zh-CN" target="_blank">
-  <img src="https://img.shields.io/badge/Google%20Scholar-547%20Citations-9cf?logo=Google%20Scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar Citations">
+  <img src="https://img.shields.io/badge/Google%20Scholar-552%20Citations-9cf?logo=Google%20Scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar Citations">
 </a></li>
 	<li><a href="https://github.com/RoyZry98" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-Stars%20345-9cf?logo=GitHub&labelColor=f6f6f6&color=EC707D&logoColor=000000&style=flat" alt="GitHub Stars">
@@ -415,13 +415,13 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMC'2025</div><img src='images/tmc_repcam.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMC'2025</div><img src='images/tmc_utmp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-**RepCaM++: Exploring Transparent Visual Prompt with Inference-time Re-parameterization for Neural Video Delivery**
+**Unimodal Training-Multimodal Prediction: Cross-modal Federated Learning with Hierarchical Aggregation**
 
-- **Rongyu Zhang**, Xize Duan, Jiaming Liu, Li Du, Yuan Du, Dan Wang, Shanghang Zhang, Fangxin Wang
+- **Rongyu Zhang**, Xiaowei Chi, Wenyi Zhang, Guiliang Liu, Wang Dan, Fangxin Wang
 - IEEE Transactions on Mobile Computing <br><strong>(TMC|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2025.
-- [[Paper]](https://ieeexplore.ieee.org/abstract/document/10949820) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/RepCaM-Pytorch?style=social)](https://github.com/RoyZry98/RepCaM-Pytorch)
+- [[Paper]](https://ieeexplore.ieee.org/abstract/document/10989558/) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/RepCaM-Pytorch?style=social)](https://github.com/RoyZry98/RepCaM-Pytorch)
 </div>
 </div>
 
