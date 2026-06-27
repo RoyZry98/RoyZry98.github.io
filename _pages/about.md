@@ -338,7 +338,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 <div id="news" class="w3-container w3-margin-top-2 w3-cursive">
 	  <div style="height:200px; width:100%; overflow:auto;">
 	    <h4>📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me.</h4>
-		<p>[12.2025] 📕 I am selected for the 2026 <strong>Nanjing University PhD Student Zhujian Program (铸剑计划)</strong>.</p>
+		<p>[06.2026] 📕 I am selected for the 2026 <strong>Nanjing University PhD Student Zhujian Program (铸剑计划)</strong>.</p>
 		<p>[05.2026] 🎉 One paper <strong>MWM</strong> was accepted by <strong>ICML 2026</strong> (CCF-A) as project leader.</p>
 		<p>[01.2026] 🎉 One paper <strong>SpikeGen</strong> was accepted by <strong>ICLR 2026</strong> (CCF-A) as co-first author.</p>
 		<p>[12.2025] 📕 I am selected for the 2025 <strong>National Natural Science Foundation of China (国家自然科学基金)</strong> <strong>Youth Student Basic Research Program (Ph.D. Candidate)</strong></p>
