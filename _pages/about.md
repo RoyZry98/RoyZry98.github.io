@@ -892,7 +892,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
               <span class="middot-divider-big"></span>
               <span class="nowrap">20,000¥ •</span>
               <span class="middot-divider-big"></span>
-              June 206
+              June 2026
             </p>
           </div>
         </li>
