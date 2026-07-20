@@ -959,8 +959,8 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
         on going
       </span>
 
-      <span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center; border-radius: 12px; background: #fff4e6; color: #b58b00;">
-        <i class="fas fa-microchip" aria-hidden="true" style="font-size: 20px;"></i>
+      <span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center; border-radius: 12px; background: #fdeaea; color: #b23b3b;">
+        <img src="images/cedf.png" alt="CEDF" style="width: 50px; height: auto; max-height: 100%; display: block; object-fit: contain;">
       </span>
 
       <strong class="highlight-text">CEDF “Endeavor Scholarship - Integrated Circuit Talent Development” Program</strong>
@@ -999,7 +999,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
         completed
       </span>
 
-      <span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center; border-radius: 12px; background: #fdeaea; color: #b23b3b;">
+      <span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center; border-radius: 12px; background: #fff4e6; color: #b58b00;">
         <i class="fas fa-flask" aria-hidden="true" style="font-size: 20px;"></i>
       </span>
 
