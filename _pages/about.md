@@ -834,115 +834,182 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 <div class="row">
   <div class="col-12 col-lg-8">
 
-    <div class="description">
-      <ul class="ul-edu fa-ul mb-0">
-        <!-- 条目 1 -->
-        <li>
-          <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
-          <strong class="highlight-text">NSFC Youth Student Basic Research Program (Ph.D. Candidate):</strong>
-          “Edge–cloud collaborative generalization and compression mechanisms for multimodal large language models”
-          <div class="article-metadata">
-            <p>
-              <strong class="highlight-text">国家自然科学基金委青年学生基础研究项目（博士研究生）：</strong>
-              多模态大模型端云协同泛化压缩机制研究
-            </p>
-          </div>
-          <div class="article-metadata">
-            <p>
-              <strong class="highlight-text">Lead PI •</strong>
-              <span class="middot-divider-big"></span>
-              <span class="nowrap">300,000¥ •</span>
-              <span class="middot-divider-big"></span>
-              January 2026 - December 2027
-            </p>
-          </div>
-        </li>
+<div class="description">
+  <ul class="ul-edu fa-ul mb-0">
 
-        <!-- 条目 2 -->
-        <li>
-          <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
-          <strong class="highlight-text">Doctoral Student Program of the Young S&T Talents Support Project, CAST</strong>
-          <div class="article-metadata">
-            <p>
-              <strong class="highlight-text">中国科协青年人才托举工程博士生专项</strong>
-            </p>
-          </div>
-          <div class="article-metadata">
-            <p>
-              <strong class="highlight-text">Awardee •</strong>
-              <span class="middot-divider-big"></span>
-              <span class="nowrap">40,000¥ •</span>
-              <span class="middot-divider-big"></span>
-              January 2025 - December 2026
-            </p>
-          </div>
-        </li>
-		
-        <!-- 条目 3 -->
-        <li>
-          <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
-          <strong class="highlight-text">Nanjing University PhD Student Zhujian Program</strong>
-          <div class="article-metadata">
-            <p>
-              <strong class="highlight-text">南京大学博士研究生“铸剑计划”</strong>
-            </p>
-          </div>
-          <div class="article-metadata">
-            <p>
-              <strong class="highlight-text">Awardee •</strong>
-              <span class="middot-divider-big"></span>
-              <span class="nowrap">20,000¥ •</span>
-              <span class="middot-divider-big"></span>
-              June 2026
-            </p>
-          </div>
-        </li>
-
-        <!-- 条目 3 -->
-        <li>
-          <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
-          <strong class="highlight-text">CEDF “Endeavor Scholarship — Integrated Circuit Talent Development” Program</strong>
-          <i>(93 recipients nationwide)</i>
-          <div class="article-metadata">
-            <p>
-              <strong class="highlight-text">中国教育发展基金会“奋进奖学金—集成电路人才培养”项目</strong>
-          （全国93人入选）
-            </p>
-          </div>
-          <div class="article-metadata">
-            <p>
-              <strong class="highlight-text">Awardee •</strong>
-              <span class="middot-divider-big"></span>
-              <span class="nowrap">100,000¥ •</span>
-              <span class="middot-divider-big"></span>
-              May 2025
-            </p>
-          </div>
-        </li>
-
-        <!-- 条目 4 -->
-        <li>
-          <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
-          <strong class="highlight-text">Jiangsu Province Graduate Research and Practical Innovation Project:</strong>
-          “Mixture-of-Activation-Sparsity-Experts for Continuous Test-time Adaptation”
-          <div class="article-metadata">
-            <p>
-              <strong class="highlight-text">江苏省“研究生科研与实践创新”计划：</strong>
-              连续测试时自适应的激活稀疏专家混合模型
-            </p>
-          </div>
-          <div class="article-metadata">
-            <p>
-              <strong class="highlight-text">Lead PI •</strong>
-              <span class="middot-divider-big"></span>
-              <span class="nowrap">15,000¥ •</span>
-              <span class="middot-divider-big"></span>
-              May 2024 - May 2025
-            </p>
-          </div>
-        </li>
-      </ul>
-    </div>
+	    <!-- 条目 1 -->
+	    <li class="highlight-block" style="position: relative; padding-right: 120px; margin-bottom: 18px;">
+	      <span style="position: absolute; top: 12px; right: 16px; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 600; color: #237a45; background: #e7f6ec; border: 1px solid #bfe8cc; white-space: nowrap;">on going</span>
+	
+	      <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
+	      <strong class="highlight-text">NSFC Youth Student Basic Research Program (Ph.D. Candidate):</strong>
+	      “Edge-cloud collaborative generalization and compression mechanisms for multimodal large language models”
+	
+	      <div class="article-metadata">
+	        <p>
+	          <strong class="highlight-text">国家自然科学基金委青年学生基础研究项目（博士研究生）：</strong>
+	          多模态大模型端云协同泛化压缩机制研究
+	        </p>
+	      </div>
+	
+	      <div class="article-metadata">
+	        <p>
+	          <span class="nowrap">
+	            <i class="fas fa-user-tie" aria-hidden="true" style="margin-right: 5px; color: #4f6f8f;"></i>
+	            <strong class="highlight-text">Lead PI</strong>
+	          </span>
+	          <span style="margin: 0 10px; color: #999;">|</span>
+	          <span class="nowrap">
+	            <i class="fas fa-coins" aria-hidden="true" style="margin-right: 5px; color: #b58b00;"></i>
+	            300,000¥
+	          </span>
+	          <span style="margin: 0 10px; color: #999;">|</span>
+	          <span class="nowrap">
+	            <i class="fas fa-calendar-alt" aria-hidden="true" style="margin-right: 5px; color: #6a7f5a;"></i>
+	            January 2026 - December 2027
+	          </span>
+	        </p>
+	      </div>
+	    </li>
+	
+	    <!-- 条目 2 -->
+	    <li class="highlight-block" style="position: relative; padding-right: 120px; margin-bottom: 18px;">
+	      <span style="position: absolute; top: 12px; right: 16px; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 600; color: #237a45; background: #e7f6ec; border: 1px solid #bfe8cc; white-space: nowrap;">on going</span>
+	
+	      <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
+	      <strong class="highlight-text">Doctoral Student Program of the Young S&amp;T Talents Support Project, CAST</strong>
+	
+	      <div class="article-metadata">
+	        <p>
+	          <strong class="highlight-text">中国科协青年人才托举工程博士生专项</strong>
+	        </p>
+	      </div>
+	
+	      <div class="article-metadata">
+	        <p>
+	          <span class="nowrap">
+	            <i class="fas fa-award" aria-hidden="true" style="margin-right: 5px; color: #8b6fbd;"></i>
+	            <strong class="highlight-text">Awardee</strong>
+	          </span>
+	          <span style="margin: 0 10px; color: #999;">|</span>
+	          <span class="nowrap">
+	            <i class="fas fa-coins" aria-hidden="true" style="margin-right: 5px; color: #b58b00;"></i>
+	            40,000¥
+	          </span>
+	          <span style="margin: 0 10px; color: #999;">|</span>
+	          <span class="nowrap">
+	            <i class="fas fa-calendar-alt" aria-hidden="true" style="margin-right: 5px; color: #6a7f5a;"></i>
+	            January 2025 - December 2026
+	          </span>
+	        </p>
+	      </div>
+	    </li>
+	
+	    <!-- 条目 3 -->
+	    <li class="highlight-block" style="position: relative; padding-right: 120px; margin-bottom: 18px;">
+	      <span style="position: absolute; top: 12px; right: 16px; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 600; color: #237a45; background: #e7f6ec; border: 1px solid #bfe8cc; white-space: nowrap;">on going</span>
+	
+	      <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
+	      <strong class="highlight-text">Nanjing University PhD Student Zhujian Program</strong>
+	
+	      <div class="article-metadata">
+	        <p>
+	          <strong class="highlight-text">南京大学博士研究生“铸剑计划”</strong>
+	        </p>
+	      </div>
+	
+	      <div class="article-metadata">
+	        <p>
+	          <span class="nowrap">
+	            <i class="fas fa-award" aria-hidden="true" style="margin-right: 5px; color: #8b6fbd;"></i>
+	            <strong class="highlight-text">Awardee</strong>
+	          </span>
+	          <span style="margin: 0 10px; color: #999;">|</span>
+	          <span class="nowrap">
+	            <i class="fas fa-coins" aria-hidden="true" style="margin-right: 5px; color: #b58b00;"></i>
+	            20,000¥
+	          </span>
+	          <span style="margin: 0 10px; color: #999;">|</span>
+	          <span class="nowrap">
+	            <i class="fas fa-calendar-day" aria-hidden="true" style="margin-right: 5px; color: #6a7f5a;"></i>
+	            June 2026
+	          </span>
+	        </p>
+	      </div>
+	    </li>
+	
+	    <!-- 条目 4 -->
+	    <li class="highlight-block" style="position: relative; padding-right: 120px; margin-bottom: 18px;">
+	      <span style="position: absolute; top: 12px; right: 16px; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 600; color: #237a45; background: #e7f6ec; border: 1px solid #bfe8cc; white-space: nowrap;">on going</span>
+	
+	      <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
+	      <strong class="highlight-text">CEDF “Endeavor Scholarship - Integrated Circuit Talent Development” Program</strong>
+	      <i>(93 recipients nationwide)</i>
+	
+	      <div class="article-metadata">
+	        <p>
+	          <strong class="highlight-text">中国教育发展基金会“奋进奖学金—集成电路人才培养”项目</strong>
+	          （全国93人入选）
+	        </p>
+	      </div>
+	
+	      <div class="article-metadata">
+	        <p>
+	          <span class="nowrap">
+	            <i class="fas fa-award" aria-hidden="true" style="margin-right: 5px; color: #8b6fbd;"></i>
+	            <strong class="highlight-text">Awardee</strong>
+	          </span>
+	          <span style="margin: 0 10px; color: #999;">|</span>
+	          <span class="nowrap">
+	            <i class="fas fa-coins" aria-hidden="true" style="margin-right: 5px; color: #b58b00;"></i>
+	            100,000¥
+	          </span>
+	          <span style="margin: 0 10px; color: #999;">|</span>
+	          <span class="nowrap">
+	            <i class="fas fa-calendar-day" aria-hidden="true" style="margin-right: 5px; color: #6a7f5a;"></i>
+	            May 2025
+	          </span>
+	        </p>
+	      </div>
+	    </li>
+	
+	    <!-- 条目 5 -->
+	    <li class="highlight-block" style="position: relative; padding-right: 120px; margin-bottom: 18px;">
+	      <span style="position: absolute; top: 12px; right: 16px; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 600; color: #b23b3b; background: #fdeaea; border: 1px solid #f5c2c2; white-space: nowrap;">completed</span>
+	
+	      <i class="fa-li fas fa-clipboard-list" aria-hidden="true"></i>
+	      <strong class="highlight-text">Jiangsu Province Graduate Research and Practical Innovation Project:</strong>
+	      “Mixture-of-Activation-Sparsity-Experts for Continuous Test-time Adaptation”
+	
+	      <div class="article-metadata">
+	        <p>
+	          <strong class="highlight-text">江苏省“研究生科研与实践创新”计划：</strong>
+	          连续测试时自适应的激活稀疏专家混合模型
+	        </p>
+	      </div>
+	
+	      <div class="article-metadata">
+	        <p>
+	          <span class="nowrap">
+	            <i class="fas fa-user-tie" aria-hidden="true" style="margin-right: 5px; color: #4f6f8f;"></i>
+	            <strong class="highlight-text">Lead PI</strong>
+	          </span>
+	          <span style="margin: 0 10px; color: #999;">|</span>
+	          <span class="nowrap">
+	            <i class="fas fa-coins" aria-hidden="true" style="margin-right: 5px; color: #b58b00;"></i>
+	            15,000¥
+	          </span>
+	          <span style="margin: 0 10px; color: #999;">|</span>
+	          <span class="nowrap">
+	            <i class="fas fa-calendar-check" aria-hidden="true" style="margin-right: 5px; color: #b23b3b;"></i>
+	            May 2024 - May 2025
+	          </span>
+	        </p>
+	      </div>
+	    </li>
+	
+	  </ul>
+	</div>
 
   </div>
 </div>
