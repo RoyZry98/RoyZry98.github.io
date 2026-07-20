@@ -955,8 +955,8 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 
     <!-- 条目 4 -->
     <li class="highlight-block" style="position: relative; padding: 16px 120px 16px 72px; margin-bottom: 18px;">
-      <span style="position: absolute; top: 12px; right: 16px; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 600; color: #237a45; background: #e7f6ec; border: 1px solid #bfe8cc; white-space: nowrap;">
-        on going
+      <span style="position: absolute; top: 12px; right: 16px; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 600; color: #b23b3b; background: #fdeaea; border: 1px solid #f5c2c2; white-space: nowrap;">
+        completed
       </span>
 
       <span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center;">
