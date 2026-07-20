@@ -293,9 +293,9 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
   <div class="highlight-block">
     <h3>✍️ Given Credits</h3>
     <ul>
-      <li><strong>NSFC</strong> Youth Student Basic Research Program (Ph.D. Candidate)</li>
-      <li><strong>CAST</strong> Young S&T Talents Support Doctoral Student Program</li>
-      <li><a href="https://scholar.google.com/citations?user=rRcc9eoAAAAJ&hl=zh-CN" target="_blank">
+		<li><img src="images/nsfc.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle"> <strong>NSFC</strong> Youth Student Basic Research Program (Ph.D. 		Candidate)</li>
+		<li><img src="images/cast.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle"> <strong>CAST</strong> Young S&T Talents Support Doctoral Student 		Program</li>
+      	<li><a href="https://scholar.google.com/citations?user=rRcc9eoAAAAJ&hl=zh-CN" target="_blank">
   <img src="https://img.shields.io/badge/Google%20Scholar-1069%20Citations-9cf?logo=Google%20Scholar&labelColor=f6f6f6&style=flat" alt="Google Scholar Citations">
 </a></li>
 	<li><a href="https://github.com/RoyZry98" target="_blank">
