@@ -843,9 +843,9 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
         on going
       </span>
 
-      <span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center; border-radius: 12px; background: #eef5ff; color: #4f6f8f;">
-        <i class="fas fa-microscope" aria-hidden="true" style="font-size: 20px;"></i>
-      </span>
+		<span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center; border-radius: 12px; background: #eef5ff;">
+		  <img src="images/nsfc.png" alt="NSFC" style="width: 30px; height: auto; max-height: 100%; display: block; object-fit: contain;">
+		</span>
 
       <strong class="highlight-text">NSFC Youth Student Basic Research Program (Ph.D. Candidate):</strong>
       “Edge-cloud collaborative generalization and compression mechanisms for multimodal large language models”
