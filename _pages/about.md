@@ -843,7 +843,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
         on going
       </span>
 
-		<span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center; border-radius: 12px; background: #eef5ff;">
+		<span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center;">
 		  <img src="images/nsfc.png" alt="NSFC" style="width: 50px; height: auto; max-height: 100%; display: block; object-fit: contain;">
 		</span>
 
@@ -883,7 +883,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
         on going
       </span>
 
-      <span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center; border-radius: 12px; background: #f0f5ee; color: #6a7f5a;">
+      <span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center;">
         <img src="images/cast.png" alt="CAST" style="width: 50px; height: auto; max-height: 100%; display: block; object-fit: contain;">
       </span>
 
@@ -921,7 +921,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
         on going
       </span>
 
-      <span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center; border-radius: 12px; background: #f4f0ff; color: #8b6fbd;">
+      <span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center;">
 		<img src="images/nju_.png" alt="NJU" style="width: 50px; height: auto; max-height: 100%; display: block; object-fit: contain;">
       </span>
 
@@ -959,7 +959,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
         on going
       </span>
 
-      <span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center; border-radius: 12px; background: #fdeaea; color: #b23b3b;">
+      <span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center;">
         <img src="images/cedf.png" alt="CEDF" style="width: 50px; height: auto; max-height: 100%; display: block; object-fit: contain;">
       </span>
 
