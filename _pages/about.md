@@ -339,6 +339,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 	  <div style="height:200px; width:100%; overflow:auto;">
 	    <h4>📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me.</h4>
 		<p>[07.2026] 🎉 One paper <strong>MoANT</strong> was accepted by <strong>CoLM 2026</strong> as first author.</p>  
+		<p>[07.2026] 🎉 One paper <strong>RoboBench</strong> was accepted by <strong>ECCV 2026</strong>.</p> 
 		<p>[06.2026] 📕 I am selected for the 2026 <strong>Nanjing University PhD Student Zhujian Program (铸剑计划)</strong>.</p>
 		<p>[05.2026] 🎉 One paper <strong>MWM</strong> was accepted by <strong>ICML 2026</strong> (CCF-A) as project leader.</p>
 		<p>[01.2026] 🎉 One paper <strong>SpikeGen</strong> was accepted by <strong>ICLR 2026</strong> (CCF-A) as co-first author.</p>
@@ -468,6 +469,15 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
       <a href="https://arxiv.org/pdf/2404.08985" class="button-59">PDF</a>
       <a href="https://github.com/RoyZry98/MoANT-Pytorch" class="button-59">Code</a>
       <img src="https://img.shields.io/github/stars/RoyZry98/MoANT-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+    </p>
+  </li>
+  <li category="Generalization">
+    <venue>ECCV'26</venue><pt>Robobench: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models as Embodied Brain</pt><br>
+    <g>Yulin Luo, Chun-Kai Fan, Menghang Dong, Jiayu Shi, Mengdi Zhao, Bo-Wen Zhang, Cheng Chi, Jiaming Liu, Gaole Dai, </g><b>Rongyu Zhang</b><g>, Ruichuan An, Kun Wu, Zhengping Che, Shaoxuan Xie, Guocai Yao, Zhongxia Zhao, Pengwei Wang, Guang Liu, Zhongyuan Wang, Tiejun Huang, Shanghang Zhang </g> <br />
+    <p>
+      <a href="https://arxiv.org/pdf/2510.17801" class="button-59">PDF</a>
+      <a href="https://github.com/yulin-luo/RoboBench" class="button-59">Code</a>
+      <img src="https://img.shields.io/github/stars/yulin-luo/RoboBench?style=social" class="star-badge" alt="GitHub Stars">
     </p>
   </li>
   <li first_authored=true category="Generalization">
