@@ -475,6 +475,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
     <venue>ECCV'26</venue><pt>Robobench: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models as Embodied Brain</pt><br>
     <g>Yulin Luo, Chun-Kai Fan, Menghang Dong, Jiayu Shi, Mengdi Zhao, Bo-Wen Zhang, Cheng Chi, Jiaming Liu, Gaole Dai, </g><b>Rongyu Zhang</b><g>, Ruichuan An, Kun Wu, Zhengping Che, Shaoxuan Xie, Guocai Yao, Zhongxia Zhao, Pengwei Wang, Guang Liu, Zhongyuan Wang, Tiejun Huang, Shanghang Zhang </g> <br />
     <p>
+	  <img src="https://img.shields.io/badge/CCF-B-blue">
       <a href="https://arxiv.org/pdf/2510.17801" class="button-59">PDF</a>
       <a href="https://github.com/yulin-luo/RoboBench" class="button-59">Code</a>
       <img src="https://img.shields.io/github/stars/yulin-luo/RoboBench?style=social" class="star-badge" alt="GitHub Stars">
