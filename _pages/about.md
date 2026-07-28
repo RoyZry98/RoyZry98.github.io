@@ -340,7 +340,6 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 	    <h4>📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me.</h4>
 		<p>[07.2026] 🎉 One paper <strong>MoANT</strong> was accepted by <strong>CoLM 2026</strong> as first author.</p>  
 		<p>[07.2026] 🎉 One paper <strong>RoboBench</strong> was accepted by <strong>ECCV 2026</strong>.</p> 
-		<p>[06.2026] 📕 I am selected for the 2026 <strong>Nanjing University PhD Student Zhujian Program (铸剑计划)</strong>.</p>
 		<p>[05.2026] 🎉 One paper <strong>MWM</strong> was accepted by <strong>ICML 2026</strong> (CCF-A) as project leader.</p>
 		<p>[01.2026] 🎉 One paper <strong>SpikeGen</strong> was accepted by <strong>ICLR 2026</strong> (CCF-A) as co-first author.</p>
 		<p>[12.2025] 📕 I am selected for the 2025 <strong>National Natural Science Foundation of China (国家自然科学基金)</strong> <strong>Youth Student Basic Research Program (Ph.D. Candidate)</strong></p>
@@ -921,44 +920,6 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
           <span class="nowrap">
             <i class="fas fa-calendar-alt" aria-hidden="true" style="margin-right: 5px; color: #6a7f5a;"></i>
             January 2025 - December 2026
-          </span>
-        </p>
-      </div>
-    </li>
-
-    <!-- 条目 3 -->
-    <li class="highlight-block" style="position: relative; padding: 16px 120px 16px 72px; margin-bottom: 18px;">
-      <span style="position: absolute; top: 12px; right: 16px; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 600; color: #237a45; background: #e7f6ec; border: 1px solid #bfe8cc; white-space: nowrap;">
-        on going
-      </span>
-
-      <span style="position: absolute; left: 16px; top: 16px; bottom: 16px; width: 40px; display: flex; align-items: center; justify-content: center;">
-		<img src="images/nju_.png" alt="NJU" style="width: 50px; height: auto; max-height: 100%; display: block; object-fit: contain;">
-      </span>
-
-      <strong class="highlight-text">Nanjing University PhD Student Zhujian Program</strong>
-
-      <div class="article-metadata">
-        <p>
-          <strong class="highlight-text">南京大学博士研究生“铸剑计划”</strong>
-        </p>
-      </div>
-
-      <div class="article-metadata">
-        <p>
-          <span class="nowrap">
-            <i class="fas fa-award" aria-hidden="true" style="margin-right: 5px; color: #8b6fbd;"></i>
-            <strong class="highlight-text">Awardee</strong>
-          </span>
-          <span style="margin: 0 10px; color: #999;">|</span>
-          <span class="nowrap">
-            <i class="fas fa-coins" aria-hidden="true" style="margin-right: 5px; color: #b58b00;"></i>
-            20,000¥
-          </span>
-          <span style="margin: 0 10px; color: #999;">|</span>
-          <span class="nowrap">
-            <i class="fas fa-calendar-alt" aria-hidden="true" style="margin-right: 5px; color: #6a7f5a;"></i>
-            June 2026
           </span>
         </p>
       </div>
