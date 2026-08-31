@@ -384,13 +384,24 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 
 # 📝 Publications 
 ## 📒 Selected publications
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CoLM'2026</div><img src='images/moant.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+	
+**MoANT: Mixture-of-Rank-One-Experts with semantic-aware Intuition for Multi-task Large Language Model Finetuning**
+
+- **Rongyu Zhang**, Yijiang Liu*, Huanrui Yang*, Shenli Zheng, Dan Wang, Yuan Du, Li Du, Shanghang Zhang
+- The Third Annual Conference on Language Modeling <br><strong>(CoLM)</strong>, 2026.
+- [[Paper]](https://arxiv.org/pdf/2404.08985) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/MoANT-Pytorch?style=social)](https://github.com/RoyZry98/MoANT-Pytorch)
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI'2026</div><img src='images/moase.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Decomposing the Neural: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation**
 
 - **Rongyu Zhang**, Aosong Cheng, Yulin Luo, Gaole Dai, Huanrui Yang, Jiaming Liu, Ran Xu, Li Du, Dan Wang, Yuan Du
-- The AAAI Conference on Artificial Intelligence <br><strong>(AAAI|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2026.
+- The AAAI Conference on Artificial Intelligence <br><strong>(AAAI)</strong>, 2026.
 - [[Paper]](https://arxiv.org/pdf/2405.16486) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/MoASE-Pytorch?style=social)](https://github.com/RoyZry98/MoASE-Pytorch)<font color="red">[Oral Presentation]</font>
 </div>
 </div>
@@ -401,7 +412,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 **MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation**
 
 - **Rongyu Zhang**, Menghang Dong, Yuan Zhang, Liang Heng, Xiaowei Chi, Gaole Dai, Li Du, Dan Wang, Yuan Du, Shanghang Zhang
-- The AAAI Conference on Artificial Intelligence <br><strong>(AAAI|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2026.
+- The AAAI Conference on Artificial Intelligence <br><strong>(AAAI)</strong>, 2026.
 - [[Paper]](https://arxiv.org/abs/2503.20384) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/MoLe-VLA-Pytorch?style=social)](https://github.com/RoyZry98/MoLe-VLA-Pytorch)
 </div>
 </div>
@@ -412,7 +423,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 **Mask World Model: Predicting What Matters for Robust Robot Policy Learning**
 
 - Yunfan Lou, Xiaowei Chi, Xiaojie Zhang, Zezhong Qian, Chengxuan Li, **Rongyu Zhang#**, Yaoxu Lyu, Guoyu Song, Chuyao Fu, Haoxuan Xu, Pengwei Wang, Shanghang Zhang
-- International Conference on Machine Learning<br><strong>(ICML|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2026.
+- International Conference on Machine Learning<br><strong>(ICML)</strong>, 2026.
 - [[Paper]](https://arxiv.org/pdf/2604.19683) [[Code] ![](https://img.shields.io/github/stars/LYFCLOUDFAN/mask-world-model?style=social)](https://github.com/LYFCLOUDFAN/mask-world-model)
 </div>
 </div>
@@ -422,7 +433,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 **Unimodal Training-Multimodal Prediction: Cross-modal Federated Learning with Hierarchical Aggregation**
 
 - **Rongyu Zhang**, Xiaowei Chi, Wenyi Zhang, Guiliang Liu, Wang Dan, Fangxin Wang
-- IEEE Transactions on Mobile Computing <br><strong>(TMC|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2025.
+- IEEE Transactions on Mobile Computing <br><strong>(TMC)</strong>, 2025.
 - [[Paper]](https://ieeexplore.ieee.org/abstract/document/10989558/) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/RepCaM-Pytorch?style=social)](https://github.com/RoyZry98/RepCaM-Pytorch)
 </div>
 </div>
@@ -438,16 +449,6 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 </div>
 </div> -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI'2024</div><img src='images/aaai.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-	
-**Efficient Deweather Mixture-of-Experts with Uncertainty-aware Feature-wise Linear Modulation**
-
-- **Rongyu Zhang**, Yulin Luo, Jiaming Liu, Huanrui Yang, Zhen Dong, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Yuan Du, Shanghang Zhang
-- The AAAI Conference on Artificial Intelligence <br><strong>(AAAI|<img src="https://img.shields.io/badge/CCF-A-red">)</strong>, 2024.
-- [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/download/29622/31055) [[Code] ![](https://img.shields.io/github/stars/RoyZry98/MoFME-Pytorch?style=social)](https://github.com/RoyZry98/MoFME-Pytorch)
-</div>
-</div>
 
 <div class="pub-controls">
   <p>📚 Full publications
