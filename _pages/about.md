@@ -398,7 +398,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI'2026</div><img src='images/moase.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Decomposing the Neural: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation**
+**MoASE: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation**
 
 - **Rongyu Zhang**, Aosong Cheng, Yulin Luo, Gaole Dai, Huanrui Yang, Jiaming Liu, Ran Xu, Li Du, Dan Wang, Yuan Du
 - The AAAI Conference on Artificial Intelligence <br><strong>(AAAI)</strong>, 2026.
