@@ -684,7 +684,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
     <b>Rongyu Zhang</b><g>, Yun Chen, Chenrui Wu, Fangxin Wang, Jiangchuan Liu</g><br />
     IEEE Network<br />
     <p>
-      <img src="https://img.shields.io/badge/CAS-Q3-green">
+      <img src="https://img.shields.io/badge/CAS-Q1-red">
       <a href="https://arxiv.org/pdf/2211.17126" class="button-59">PDF</a>
       <a href="https://github.com/RoyZry98" class="button-59">Code</a>
     </p>
@@ -717,6 +717,14 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
     <p>
       <img src="https://img.shields.io/badge/CAS-Q2-blue">
       <a href="https://ieeexplore.ieee.org/abstract/document/10092911" class="button-59">PDF</a>
+      <a href="https://github.com/RoyZry98" class="button-59">Code</a>
+    </p>
+  </li>
+  <li first_authored=true category="Efficiency">
+    <venue1>arXiv'26</venue1><pt>RoboFL: Federated Expert Assembly for World Action Models</pt><br>
+    <b>Rongyu Zhang</b><g>, Ruizhi Fan, Yunfan Lou, Hengyu Fang, Shenli Zheng, Chenrui Wu, Yili Jin, Li Du, Dan Wang, Yuan Du, Shanghang Zhang</g> <br />
+    <p>
+      <a href="https://arxiv.org/abs/2609.34968" class="button-59">PDF</a>
       <a href="https://github.com/RoyZry98" class="button-59">Code</a>
     </p>
   </li>
