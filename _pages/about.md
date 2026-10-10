@@ -338,6 +338,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 <div id="news" class="w3-container w3-margin-top-2 w3-cursive">
 	  <div style="height:200px; width:100%; overflow:auto;">
 	    <h4>📌 We have several academic intern positions at HMI Lab (Peking University). We actively work on AI4Science and Embodied AI. If you like what we do, don't hesitate to contact me.</h4>
+		<p>[10.2026] 💰 I was awarded with the <strong>National Scholarship</strong> from NJU.</p>
 		<p>[07.2026] 🎉 One paper <strong>MoANT</strong> was accepted by <strong>CoLM 2026</strong> as first author.</p>  
 		<p>[07.2026] 🎉 One paper <strong>RoboBench</strong> was accepted by <strong>ECCV 2026</strong>.</p> 
 		<p>[05.2026] 🎉 One paper <strong>MWM</strong> was accepted by <strong>ICML 2026</strong> (CCF-A) as project leader.</p>
@@ -1024,6 +1025,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 
 <span class='anchor' id='awards'></span>
 # 🥇 Awards
+- *(2026.10)*: &nbsp;<strong>National Scholarship</strong> with 30,000¥, Nanjing University
 - *(2025.09)*: &nbsp;<strong>Hong Kong Post-Graduate Scholarship (HKPGS)</strong> with 19,920¥/month, The Hong Kong Polytechnic University
 - *(2024.12)*: &nbsp;<strong>Outstanding Ph.D. Candidate</strong> with 5,000¥/year, Nanjing University
 - *(2024.12)*: &nbsp;<strong>"Bank of Jiangsu" Scholarship</strong> with 5,000¥, Nanjing University
