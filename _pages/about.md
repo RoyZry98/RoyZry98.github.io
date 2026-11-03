@@ -723,10 +723,28 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
   </li>
   <li first_authored=true category="Efficiency">
     <venue1>arXiv'26</venue1><pt>RoboFL: Federated Expert Assembly for World Action Models</pt><br>
+    <b>Rongyu Zhang</b><g>, Aosong Cheng, Gaole Dai, Yulin Luo, Jiaming Liu, Li Du, Huanrui Yang, Dan Wang, Leyuan Fang, Yuan Du, Shanghang Zhang</g> <br />
+    <p>
+      <a href="https://arxiv.org/pdf/2605.17743" class="button-59">PDF</a>
+      <a href="https://github.com/RoyZry98/" class="button-59">Code</a>
+    </p>
+  </li>
+  <li first_authored=true category="Generalization">
+    <venue1>arXiv'26</venue1><pt>MoASE++: Mixture of Activation Sparsity Experts with Domain-Adaptive On-policy Distillation for Continual Test Time Adaptation</pt><br>
     <b>Rongyu Zhang</b><g>, Ruizhi Fan, Yunfan Lou, Hengyu Fang, Shenli Zheng, Chenrui Wu, Yili Jin, Li Du, Dan Wang, Yuan Du, Shanghang Zhang</g> <br />
     <p>
       <a href="https://arxiv.org/abs/2609.34968" class="button-59">PDF</a>
-      <a href="https://github.com/RoyZry98" class="button-59">Code</a>
+      <a href="https://github.com/RoyZry98/MoASE-Pytorch" class="button-59">Code</a>
+      <img src="https://img.shields.io/github/stars/RoyZry98/MoASE-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
+    </p>
+  </li>
+  <li first_authored=true category="Efficiency">
+    <venue1>arXiv'26</venue1><pt>Key-Embedded Privacy for Decentralized AI in Biomedical Omics</pt><br>
+    <b>Rongyu Zhang</b><g>, Hongyu Dong, Gaole Dai, Ziqi Qiao, Shenli Zheng, Yuan Zhang, Aosong Cheng, Xiaowei Chi, Jincai Luo, Pin Li, Li Du, Dan Wang, Yuan Du, Xudong Xing, Jianxu Chen, Shanghang Zhang</g> <br />
+    <p>
+      <a href="https://arxiv.org/abs/2603.28334" class="button-59">PDF</a>
+      <a href="https://github.com/RoyZry98/INFL-Pytorch" class="button-59">Code</a>
+      <img src="https://img.shields.io/github/stars/RoyZry98/INFL-Pytorch?style=social" class="star-badge" alt="GitHub Stars">
     </p>
   </li>
   <li first_authored=true category="Generalization">
