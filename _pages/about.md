@@ -1043,6 +1043,7 @@ Feel free to reach out, or learn more from [My CV](assets/curriculum_vitae.pdf).
 
 <span class='anchor' id='awards'></span>
 # 🥇 Awards
+- *(2026.1)*: &nbsp;<strong>First Prize of the 15th "Challenge Cup" Chinese College Students' Entrepreneurship Plan Competition</strong>, The Hong Kong Polytechnic University
 - *(2026.10)*: &nbsp;<strong>National Scholarship</strong> with 30,000¥, Nanjing University
 - *(2025.09)*: &nbsp;<strong>Hong Kong Post-Graduate Scholarship (HKPGS)</strong> with 19,920¥/month, The Hong Kong Polytechnic University
 - *(2024.12)*: &nbsp;<strong>Outstanding Ph.D. Candidate</strong> with 5,000¥/year, Nanjing University
